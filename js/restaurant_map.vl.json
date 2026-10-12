@@ -1,0 +1,59 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 600,
+  "title": "Restaurant Reviews Across Malaysian Cities",
+  "projection": {"type": "equalEarth"},
+  "layer": [
+    {
+      "data": {
+        "url": "js/geoBoundaries-MYS-ADM1_simplified.json",
+        "format": {
+          "type": "topojson",
+          "feature": "geoBoundaries-MYS-ADM1_simplified"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white"
+      }
+    },
+    {
+      "data": {
+        "url": "data/out/city_summary.csv"
+      },
+      "transform": [
+        {"filter": "datum.source === 'Google'"}
+      ],
+      "mark": {
+        "type": "circle",
+        "tooltip": {"content": "data"},
+        "opacity": 0.8,
+        "stroke": "white"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "n_reviews",
+          "type": "quantitative",
+          "title": "Number of reviews",
+          "scale": {"range": [50, 1800]}
+        },
+        "color": {
+          "field": "pct_5star",
+          "type": "quantitative",
+          "title": "Five-star reviews (%)",
+          "scale": {"scheme": "blues"}
+        }
+      }
+    }
+  ]
+}
