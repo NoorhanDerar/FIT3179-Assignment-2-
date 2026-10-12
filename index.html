@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What makes a restaurant highly rated in Malaysia?</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>What makes a restaurant highly rated in Malaysia?</h1>
+        <p>Your name · date</p>
+    </header>
+
+    <main>
+        <!-- Section 1: Original choropleth map -->
+        <section>
+            <h2>1. Where does money sit?</h2>
+            <p>
+                This choropleth map explores the geographical distribution
+                of income across Malaysia. Differences in colour help
+                highlight variations between areas.
+            </p>
+            <div id="income_map"></div>
+        </section>
+
+        <!-- Section 2: Restaurant proportional symbol map -->
+        <section>
+            <h2>2. Restaurant Reviews Across Malaysian Cities</h2>
+            <p>
+                This proportional symbol map explores restaurant reviews
+                across Malaysian cities using Google review data.
+                Circle size represents the number of reviews, while
+                colour represents the percentage of five-star reviews.
+                Larger circles indicate more reviews, and darker blue
+                circles indicate a higher percentage of five-star reviews.
+            </p>
+            <div id="restaurant_map"></div>
+        </section>
+
+        <!-- Add more sections for your other charts here -->
+    </main>
+
+    <footer>
+        <p>
+            Sources: OpenDOSM, geoBoundaries, and restaurant review datasets.
+        </p>
+    </footer>
+
+    <script>
+        // Section 1: Original choropleth map
+        vegaEmbed("#income_map", "js/choropleth_income.vl.json")
+            .catch(console.error);
+
+        // Section 2: Restaurant proportional symbol map
+        vegaEmbed("#restaurant_map", "js/restaurant_map.vl.json")
+            .catch(console.error);
+    </script>
+</body>
+</html>
