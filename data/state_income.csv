@@ -1,0 +1,17 @@
+geo_name,state,income_median_2024,income_mean_2024,population_2024_000,has_reviews,avg_rating,pct_1_2star,n_reviews,cities
+Johor,Johor,7712,9484,4184.4,yes,4.1,9.77,27670,Johor Bahru
+Kedah,Kedah,4895,5793,2217.1,yes,4.21,10.8,18011,Langkawi
+Kelantan,Kelantan,4083,5265,1887.9,no,,,,
+Malacca,Melaka,6891,8686,1046.7,yes,4.09,11.0,13682,Melaka
+Negeri Sembilan,Negeri Sembilan,5591,7305,1239.5,no,,,,
+Pahang,Pahang,4975,6066,1667.7,no,,,,
+Perak,Perak,4687,6173,2569.4,yes,4.05,11.07,24506,Ipoh
+Perlis,Perlis,4950,5996,296.8,no,,,,
+Penang,Pulau Pinang,7386,9152,1800.5,yes,4.22,8.25,31826,George Town
+Sabah,Sabah,4890,6498,3742.0,no,,,,
+Sarawak,Sarawak,5504,6947,2517.5,yes,4.12,8.77,28446,"Kuching, Miri"
+Selangor,Selangor,10726,13296,7362.7,yes,4.132,10.06,50497,"Petaling Jaya, Shah Alam"
+Terengganu,Terengganu,6627,7627,1231.5,no,,,,
+Kuala Lumpur,W.P. Kuala Lumpur,10802,13985,2067.5,yes,4.21,9.51,27382,Kuala Lumpur
+Labuan,W.P. Labuan,7383,8555,100.8,no,,,,
+Putrajaya,W.P. Putrajaya,10769,13846,120.3,no,,,,

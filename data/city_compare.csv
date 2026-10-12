@@ -1,0 +1,11 @@
+city,state,google_avg,tripadvisor_avg,gap,google_restaurants,tripadvisor_restaurants,small_sample
+Ipoh,Perak,4.05,4.07,0.02,102,143,Larger sample
+Johor Bahru,Johor,4.1,4.11,0.01,195,471,Larger sample
+Kuala Lumpur,W.P. Kuala Lumpur,4.21,4.22,0.01,116,790,Larger sample
+Kuching,Sarawak,4.12,4.08,-0.04,215,266,Larger sample
+Langkawi,Kedah,4.21,4.59,0.38,179,31,Small sample
+Melaka,Melaka,4.09,3.97,-0.12,65,286,Larger sample
+Miri,Sarawak,4.12,4.02,-0.1,72,119,Larger sample
+George Town,Pulau Pinang,4.22,4.52,0.3,184,52,Small sample
+Petaling Jaya,Selangor,4.13,4.62,0.49,223,6,Small sample
+Shah Alam,Selangor,4.19,4.11,-0.08,9,429,Small sample
