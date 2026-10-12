@@ -1,0 +1,2302 @@
+source,Location,Restaurant,n_reviews,avg_rating,median_review_len,cuisine_guess
+Google,Ipoh,1919 Restaurant Ipoh,142,4.28,42.0,Unknown
+Google,Ipoh,362 Heong Peah 362炭烧香饼,118,4.01,74.5,Chinese
+Google,Ipoh,718 Pizza,63,4.7,109.0,Western
+Google,Ipoh,A Jie Cafe,259,4.32,60.0,Cafe & bar
+Google,Ipoh,ASSAM HOUSE,281,4.45,38.0,Unknown
+Google,Ipoh,Anderson Curry House,89,3.92,65.0,Indian
+Google,Ipoh,Asow Eatery Station,166,3.95,71.0,Unknown
+Google,Ipoh,Atas Speakeasy,77,4.56,128.0,Unknown
+Google,Ipoh,Aud's Cafe,115,4.38,86.0,Cafe & bar
+Google,Ipoh,Ayam Garam Aun Kheng Lim (Main Branch),488,4.08,54.0,Malay
+Google,Ipoh,Bricks & Barrels Ipoh,289,4.05,41.0,Cafe & bar
+Google,Ipoh,Burps & Giggles,153,3.92,62.0,Unknown
+Google,Ipoh,CHAKORI 二奶冰室,108,4.15,104.5,Unknown
+Google,Ipoh,Canning Dim Sum,690,4.43,69.0,Chinese
+Google,Ipoh,Chef Fatt Restaurant,118,3.99,53.5,Unknown
+Google,Ipoh,Citrus Wine & Dine,108,4.2,68.0,Unknown
+Google,Ipoh,Cowan Street Ayam Tauge & Koitiau Restaurant 高温街牙菜鸡沙河粉,345,4.03,70.0,Chinese
+Google,Ipoh,Cuisines Restaurant,20,3.45,103.5,Unknown
+Google,Ipoh,Cun Cun Cafe,80,4.56,44.5,Cafe & bar
+Google,Ipoh,David's Diner,321,4.19,53.0,Unknown
+Google,Ipoh,Durbar at FMS,251,4.31,92.0,Cafe & bar
+Google,Ipoh,East Ocean Seafood Restaurant Menglembu,269,4.09,38.0,Seafood
+Google,Ipoh,Euro House,410,4.27,41.0,Unknown
+Google,Ipoh,Fei Bo Snow Beer Ipoh Garden East 肥波雪花啤酒,249,3.92,49.0,Unknown
+Google,Ipoh,Fish and Chips by Bareeseta,163,4.56,97.0,Cafe & bar
+Google,Ipoh,Foh San Restaurant,863,3.28,69.0,Unknown
+Google,Ipoh,Galanggal Cafe,48,4.56,99.0,Cafe & bar
+Google,Ipoh,Girlie's Café,112,4.48,116.0,Cafe & bar
+Google,Ipoh,Greentown Dimsum Café,911,4.23,52.0,Chinese
+Google,Ipoh,Having's,135,4.7,109.0,Unknown
+Google,Ipoh,Healy Mac's Irish Bar,361,4.04,41.0,Cafe & bar
+Google,Ipoh,Indulgence Restaurant & Living,131,3.62,61.0,Unknown
+Google,Ipoh,Ipoh Tuck Kee Restaurant 德记炒粉专门店,863,3.65,67.0,Chinese
+Google,Ipoh,JJ Corner,61,3.9,53.0,Unknown
+Google,Ipoh,Jeff's Cellar,28,4.64,104.5,Unknown
+Google,Ipoh,Jln Theatre Coffee,186,4.39,82.0,Cafe & bar
+Google,Ipoh,K Ten Claypot Chicken Rice,134,3.69,40.5,Chinese
+Google,Ipoh,Kafe Yoon Wah 元华饮食阁雪花啤酒,307,3.57,53.0,Unknown
+Google,Ipoh,Kannaa's Bamboo Masalla Briyani,346,4.02,37.0,Indian
+Google,Ipoh,Kitchen Iron Rice Bowl Sdn Bhd.,103,4.15,69.0,Unknown
+Google,Ipoh,Koh ~ Samui,52,3.79,58.0,Unknown
+Google,Ipoh,Lim Ko Pi,314,4.17,64.5,Unknown
+Google,Ipoh,Little Elephant,280,3.84,61.0,Unknown
+Google,Ipoh,Mad Ramen Bar,105,4.1,94.0,Japanese
+Google,Ipoh,Maiale Japanese Style Italian Restaurant,92,4.42,83.5,Japanese
+Google,Ipoh,Marianis@7,118,4.06,44.0,Unknown
+Google,Ipoh,MichelangelO's Pizzeria,518,4.22,81.5,Western
+Google,Ipoh,Miker Food,999,4.18,55.0,Unknown
+Google,Ipoh,Ming Court Hong Kong Dim Sum 明阁香港点心,999,3.82,67.0,Chinese
+Google,Ipoh,Morel Restaurant,132,4.25,75.5,Unknown
+Google,Ipoh,Mun Choong Restaurant,206,3.97,37.0,Unknown
+Google,Ipoh,Nur Imam Restaurant,21,4.33,38.0,Unknown
+Google,Ipoh,Padi House Greentown Ipoh,322,3.94,50.5,Unknown
+Google,Ipoh,Pakeeza Restaurant & Catering,689,4.29,44.0,Unknown
+Google,Ipoh,Paris restaurant hakka mee stall,89,3.61,88.0,Unknown
+Google,Ipoh,Plan B (Ipoh),1057,3.98,63.0,Unknown
+Google,Ipoh,Purple Cane Tea House,176,4.29,57.5,Cafe & bar
+Google,Ipoh,Restaurant Caterbest Sdn. Bhd.,114,4.04,58.0,Unknown
+Google,Ipoh,Restaurant Chang Keong Dim Sum,132,3.99,61.0,Chinese
+Google,Ipoh,Restaurant Huat Chicken,42,3.33,72.5,Unknown
+Google,Ipoh,Restaurant Pusing Public,473,4.37,47.0,Cafe & bar
+Google,Ipoh,Restaurant Sri Aryaa Bhavan Ipoh,442,4.2,37.0,Indian
+Google,Ipoh,Restaurant Sun Yeong Wai (Medan Ipoh Branch),140,3.74,42.5,Unknown
+Google,Ipoh,Restoran Kong Heng,203,3.69,75.0,Unknown
+Google,Ipoh,Restoran Krishna Bhawan,65,3.78,42.0,Unknown
+Google,Ipoh,Restoran Mee Rebus Ramli @ Taman Tasek Jaya,865,4.03,34.0,Unknown
+Google,Ipoh,Restoran Moga Punjab,119,3.96,46.0,Unknown
+Google,Ipoh,Restoran Nasi Ayam Pak Kong,316,3.93,72.0,Malay
+Google,Ipoh,Restoran Nasi Briyani Bukhara,117,3.67,30.0,Indian
+Google,Ipoh,Restoran SYW (Flagship) 新揚威烤鴨（新街場旗艦店）,178,4.01,57.0,Unknown
+Google,Ipoh,Restoran Sam Poh,119,4.07,50.0,Unknown
+Google,Ipoh,Restoran Shabu Shabu Ipoh,254,3.62,35.5,Unknown
+Google,Ipoh,Restoran Simpang Tiga,562,3.51,50.0,Unknown
+Google,Ipoh,Restoran Sin Lean Lee,70,4.14,48.0,Unknown
+Google,Ipoh,Restoran Wong Koh Kee,68,4.01,62.5,Unknown
+Google,Ipoh,STG Ipoh Oldtown,264,4.05,55.5,Unknown
+Google,Ipoh,STG Tea House Cafe,384,4.06,66.0,Cafe & bar
+Google,Ipoh,Shinjuku Japanese Cuisine,41,3.59,66.0,Japanese
+Google,Ipoh,Sin Hup Kee Restaurant,199,3.91,46.0,Unknown
+Google,Ipoh,Sun Kok Kee Restaurant,88,3.78,57.0,Unknown
+Google,Ipoh,Sun Marpoh Restaurant,427,4.3,55.0,Unknown
+Google,Ipoh,Sushi Tei @ Ipoh Parade,30,3.07,64.0,Japanese
+Google,Ipoh,TUCK KEE RESTAURANT SDN. BHD.,409,4.05,45.0,Unknown
+Google,Ipoh,Tamara’s,159,4.13,52.0,Unknown
+Google,Ipoh,Tandoor Grill,497,4.35,53.0,Indian
+Google,Ipoh,Ten-Good Japanese Restaurant,83,3.93,42.0,Japanese
+Google,Ipoh,Thai Mookata Steamboat Ipoh,129,4.14,46.0,Chinese
+Google,Ipoh,The Deck Gastrobar,23,3.26,69.0,Cafe & bar
+Google,Ipoh,The Limestone's Restaurant,124,3.77,49.0,Unknown
+Google,Ipoh,The Museum,249,4.15,53.0,Unknown
+Google,Ipoh,The Pomelo,41,3.88,214.0,Unknown
+Google,Ipoh,Vegan Delights Cafe,231,4.6,67.0,Cafe & bar
+Google,Ipoh,Volcano Grill Café,61,4.02,82.0,Cafe & bar
+Google,Ipoh,Weng Kee Seafood Restaurant（永記海鮮飯店）,153,3.9,50.0,Seafood
+Google,Ipoh,Yum Yum Restaurant Ipoh,254,4.22,52.5,Unknown
+Google,Ipoh,越南小廚 V NAM KITCHEN,185,4.12,48.0,Chinese
+Google,JB,27@cove,53,4.74,67.0,Unknown
+Google,JB,7 Spice,739,4.24,42.0,Unknown
+Google,JB,AK Noodles House - Johor Bahru City Square,33,4.0,84.0,Unknown
+Google,JB,Ah Hua Kuey Teow,74,3.39,53.0,Unknown
+Google,JB,Amaya Food Gallery,43,3.91,116.0,Unknown
+Google,JB,Amma Restaurant,300,3.18,76.0,Unknown
+Google,JB,Anjung Senibong,100,3.39,59.5,Unknown
+Google,JB,Ashoka Curry House,463,4.09,39.0,Indian
+Google,JB,August Cafe,46,4.17,82.0,Cafe & bar
+Google,JB,Awagyu restaurant,66,4.08,112.5,Unknown
+Google,JB,Basilico Restaurant,185,4.21,74.0,Unknown
+Google,JB,Batavia Kitchen City Square,22,4.09,112.0,Unknown
+Google,JB,Bay Street 66,79,3.62,41.0,Unknown
+Google,JB,Big Food F&B - Taman Nong Chik,500,4.19,61.0,Unknown
+Google,JB,BlackBall Original Taiwanese Tea & Dessert,38,3.26,36.5,Cafe & bar
+Google,JB,Bloom by Mokmok,209,4.23,81.0,Unknown
+Google,JB,Bottle & Glass Cafe & Bar,31,4.39,38.0,Cafe & bar
+Google,JB,C.A.T.S Cafe (JB) - Cats At Their Sanctuary,274,4.41,75.5,Cafe & bar
+Google,JB,Cafe BLD at Renaissance Johor Bahru Hotel,216,4.07,64.0,Cafe & bar
+Google,JB,Café Racer by Grillbar,225,4.28,54.0,Cafe & bar
+Google,JB,Canton-i Restaurant @ Johor Bahru City Square,174,4.43,70.5,Chinese
+Google,JB,Chakra Restaurant,310,4.06,47.5,Unknown
+Google,JB,Chamek Kopitiam BBU,95,4.0,30.0,Chinese
+Google,JB,Chez Papa French Bistro and Wine Bar,218,4.43,83.5,Western
+Google,JB,Chimmy Chummy,92,4.48,63.5,Unknown
+Google,JB,ChokDee Thai Restaurant,83,3.99,43.0,Thai
+Google,JB,Classic Nyonya Restaurant,22,3.95,58.0,Unknown
+Google,JB,Coppola Pizza Restaurant,207,4.32,58.0,Western
+Google,JB,Corner 61,53,4.45,30.0,Unknown
+Google,JB,DIN by Din Tai Fung,59,3.49,112.0,Unknown
+Google,JB,Dallah Restaurant (Johor Bahru),142,4.43,45.0,Unknown
+Google,JB,Di Mattoni,21,3.86,83.0,Unknown
+Google,JB,Dong Seoul Korea Restaurant Mount Austin,34,3.21,53.5,Korean
+Google,JB,Dontaku,49,4.2,100.0,Unknown
+Google,JB,Dragon-i Restaurant Sdn Bhd (Komtar),87,3.49,74.0,Unknown
+Google,JB,Dulang Lima Cafe,345,4.27,45.0,Cafe & bar
+Google,JB,Eastern Dragon Restaurant,53,3.96,46.0,Unknown
+Google,JB,EverGreen Restaurant,134,4.16,50.5,Unknown
+Google,JB,Fat Fish,166,4.2,50.0,Unknown
+Google,JB,Fern Pine Cafe,37,3.84,63.0,Cafe & bar
+Google,JB,Fifty Trees,217,4.24,67.0,Unknown
+Google,JB,Flowers in the Window,338,4.31,107.0,Unknown
+Google,JB,Food Paradise 乡之丰味 - JB City Square,23,3.48,114.0,Unknown
+Google,JB,Foodie Foodie,85,4.4,64.0,Unknown
+Google,JB,George & Dragon Cafe Sdn. Bhd.,218,4.14,49.0,Cafe & bar
+Google,JB,Gianni's Trattoria,187,4.17,65.0,Western
+Google,JB,Giovannis,23,4.74,137.0,Unknown
+Google,JB,Grand Bayview Seafood Restaurant,297,4.16,50.0,Seafood
+Google,JB,Grand Straits Garden Seafood Restaurant,228,4.0,39.5,Seafood
+Google,JB,Grill Bar Steakhouse,146,4.16,74.0,Western
+Google,JB,Gui Yuan Restaurant,217,3.71,42.0,Unknown
+Google,JB,Hadramawt Restaurant Johor Bahru,26,3.73,80.5,Unknown
+Google,JB,Hanoi Cafe JB,154,3.99,49.0,Cafe & bar
+Google,JB,Hao Yun Restaurant（苦瓜汤，炸肉，姜茸松鱼头）,55,4.07,45.0,Unknown
+Google,JB,Happy Union Restaurant Sdn Bhd,147,3.95,41.0,Unknown
+Google,JB,Harvests Bar & Grill,271,4.37,44.0,Cafe & bar
+Google,JB,Hayashi Japanese Restaurant 林日式料理,63,4.08,43.0,Japanese
+Google,JB,Ho Seng Kee Wanton Mee,236,4.06,78.0,Unknown
+Google,JB,"HoMinSan 好面善 @ Paradigm Mall, Johor",159,3.76,60.0,Chinese
+Google,JB,Hwa Mei Bak Kut Teh 华美肉骨茶,85,4.0,52.0,Chinese
+Google,JB,IKAR 一家特式鱼头米 @ Nusa Bestari,69,4.13,73.0,Unknown
+Google,JB,Infusion Café | Restaurant,59,3.69,50.0,Cafe & bar
+Google,JB,It Roo Cafe,492,3.97,103.0,Cafe & bar
+Google,JB,J.H. Lovely Sweets (North Indian Vegetarian),182,4.6,56.5,Indian
+Google,JB,Jeju KOREA BBQ Restaurant,147,4.01,49.0,Korean
+Google,JB,Johor Bahru JB Restoran Sulam Best Kari Kepala Ikan & Best Asam Pedas Ikan Makanan Laut Best Restoran Taman Sentosa Midvalley @ Johor Bahru JB Restaurant Sulam Best Curry Fish Head & Best Asam Pedas Fish Best Seafood Taman Sentosa Midvalley,71,4.59,46.0,Indian
+Google,JB,K Fry Urban Korean Holiday Villa,491,4.45,97.0,Korean
+Google,JB,KAMPUNG CARABAO 100% Authentic Thai Restaurant,217,3.76,52.0,Malay
+Google,JB,KS Treasures Restaurant,84,4.49,53.0,Unknown
+Google,JB,Kage Sushi,97,3.98,67.0,Japanese
+Google,JB,Kedai Bak Kut Teh Hin Hock,203,4.1,46.0,Chinese
+Google,JB,Kedai Makan Jadi Baru Botak Asam Fish,234,4.19,44.0,Malay
+Google,JB,Kedai Makanan Hook Sang,229,3.93,52.0,Unknown
+Google,JB,"Kerala Restaurant, Johor Bahru",258,3.8,42.0,Unknown
+Google,JB,Kim Cheong Restaurant,78,4.22,55.0,Unknown
+Google,JB,Kisho Japanese restaurant 料亭 吉祥,43,4.63,135.0,Japanese
+Google,JB,Korean BBQ Nam Moon,180,3.83,60.0,Korean
+Google,JB,"L.table, Taman Pelangi",43,4.14,94.0,Unknown
+Google,JB,LAZY MONDAY,135,4.55,103.0,Unknown
+Google,JB,Lao Tee Kue Teow 大丰老弟,44,3.84,48.5,Unknown
+Google,JB,M2 Cafe.,65,3.82,68.0,Cafe & bar
+Google,JB,MacGregor's,178,4.18,54.5,Unknown
+Google,JB,Makan Kitchen,86,3.97,91.0,Unknown
+Google,JB,Marina Seafood Restaurant,84,3.79,35.5,Seafood
+Google,JB,Mat Corner Nasi Ambang,280,4.39,36.0,Malay
+Google,JB,Medan Selera Tepian Tebrau,500,4.02,51.5,Unknown
+Google,JB,Merah Kitchen & Bar,80,4.31,63.0,Cafe & bar
+Google,JB,Mok Mok Brunch & Bistro,221,4.31,88.0,Cafe & bar
+Google,JB,Monaco Dining Restaurant,38,4.68,89.0,Unknown
+Google,JB,Monkey On Stage,48,4.27,56.5,Unknown
+Google,JB,Moonlight Cake House (Sutera Utama),140,3.82,33.5,Unknown
+Google,JB,Morganfield's,41,3.68,61.0,Unknown
+Google,JB,Mount Austin One Two Eat Cafe,249,3.89,40.0,Cafe & bar
+Google,JB,NOSH by Poké Twins,35,4.46,60.0,Unknown
+Google,JB,New Hong Kong Restaurant (JB) 新香港,165,3.55,43.0,Unknown
+Google,JB,New Lucky Seafood Restaurant,320,3.89,38.5,Seafood
+Google,JB,New Zealand Unlimited,82,4.23,74.0,Unknown
+Google,JB,Nijyumaru Japanese Restaurant (Sutera Utama),321,4.26,43.0,Japanese
+Google,JB,Nur Tahara Restaurant,295,4.2,40.0,Unknown
+Google,JB,Olive Kitchen Bar Puteri Harbour,217,4.21,42.0,Cafe & bar
+Google,JB,Pan Kobo Japanese Bakery,75,4.37,52.0,Japanese
+Google,JB,"PappaRich City Square, JB",33,2.94,93.0,Unknown
+Google,JB,People & Places Cafe,469,4.47,88.0,Cafe & bar
+Google,JB,Permas Jaya One Two Eat Cafe,197,4.0,32.0,Cafe & bar
+Google,JB,Quivo,64,4.41,78.5,Unknown
+Google,JB,Restaurant Loon Sing (JB) Sdn Bhd,219,3.65,53.0,Unknown
+Google,JB,Restaurant Shoon Huat,191,3.7,88.0,Unknown
+Google,JB,Restaurant Shun Fa Bak Kut Teh,181,3.89,45.0,Chinese
+Google,JB,Restaurant Sze Zai Hiong (食在乡),57,4.19,46.0,Unknown
+Google,JB,Restaurant Teck Sing,380,4.28,67.5,Unknown
+Google,JB,Restoran Agus,98,3.97,44.5,Unknown
+Google,JB,Restoran Ah Meng,200,4.04,55.0,Unknown
+Google,JB,Restoran E&Y,218,3.94,38.0,Unknown
+Google,JB,Restoran Kacang Pool Haji,991,4.42,49.0,Unknown
+Google,JB,Restoran Kah Kah Loke (Johor Jaya总行),173,3.96,35.0,Unknown
+Google,JB,Restoran Ke Ren Lai,79,3.94,58.0,Unknown
+Google,JB,Restoran LC Catering Sdn Bhd,294,4.04,38.0,Unknown
+Google,JB,Restoran Onn Kee Jaya 安记砂煲鱼头汤,29,4.17,42.0,Unknown
+Google,JB,Restoran Pekin,240,4.22,30.0,Unknown
+Google,JB,Restoran Star Chef,64,3.69,49.0,Unknown
+Google,JB,Restoran Ya Wang 鸭皇药材烧腊大王,419,4.06,83.0,Unknown
+Google,JB,Restoran Yeo Sekeluarga,109,3.61,63.0,Unknown
+Google,JB,RunningMan Korea Restaurant,79,4.59,68.0,Korean
+Google,JB,Saigon Cafe,78,3.49,42.0,Cafe & bar
+Google,JB,Seasons Cake House,49,2.8,130.0,Unknown
+Google,JB,Seng Huat,33,3.61,52.0,Unknown
+Google,JB,Seng Steam Fish Restaurant,195,4.31,46.0,Unknown
+Google,JB,Siam House Restaurant,58,3.38,66.5,Thai
+Google,JB,Sisters BBQ Korean Family Restaurant,154,4.52,95.0,Korean
+Google,JB,"Skybar, Bar & Restaurant",54,3.65,52.5,Cafe & bar
+Google,JB,Sodam Korean BBQ Restaurant,87,4.09,58.0,Korean
+Google,JB,Souper Tang,33,2.64,108.0,Unknown
+Google,JB,Spice Grill,213,4.24,72.0,Unknown
+Google,JB,Spice Villa,147,4.24,46.0,Unknown
+Google,JB,"Storia Cafe 【士多利茶餐室】Nasi Lemak,Mee Siam,Otak Otak",79,4.24,55.0,Chinese
+Google,JB,Sunrise Breakfast Café,33,4.67,45.0,Cafe & bar
+Google,JB,Sweetwater Mediterranean Bar & Grill,134,4.16,59.0,Cafe & bar
+Google,JB,Swood Smokehouse Texas BBQ,155,4.54,71.0,Unknown
+Google,JB,Tabushi ramen,100,4.16,43.0,Japanese
+Google,JB,Tai Son Seafood Restaurant,206,3.96,38.5,Seafood
+Google,JB,Tanba Yakiniku (Twin Galaxy),88,3.92,74.0,Unknown
+Google,JB,Tasixi Hong Kong Dim Sum,366,3.86,46.0,Chinese
+Google,JB,The Banana Leaf Kitchen,160,3.98,69.0,Indian
+Google,JB,The Brazzo House,69,3.93,47.0,Unknown
+Google,JB,The Grand Gem,48,4.38,54.0,Unknown
+Google,JB,The Replacement - Lodge & Kitchen,450,4.1,94.0,Unknown
+Google,JB,The Spice Kitchen,377,3.75,55.0,Unknown
+Google,JB,Tosca Italian Trattoria,103,4.36,79.0,Western
+Google,JB,Triple K Cafe 牛肉面家,96,4.24,67.0,Chinese
+Google,JB,Tropique Café & Restaurant,127,3.73,97.0,Cafe & bar
+Google,JB,UFB-Union Fashion Bar Garden,92,4.03,61.0,Cafe & bar
+Google,JB,Verbena,280,4.35,46.0,Unknown
+Google,JB,Village Briyani Cafe,246,4.11,37.5,Indian
+Google,JB,W.W. Laksa House 水塘。辣沙,403,4.09,48.0,Malay
+Google,JB,Wan Li Chinese Restaurant,41,4.02,46.0,Chinese
+Google,JB,Warung Pokok Cherry,358,4.11,38.0,Malay
+Google,JB,Yaoki Japanese Foods Sdn. Bhd.,139,4.32,73.0,Japanese
+Google,JB,Yash South Indian Cuisine,127,4.02,31.0,Indian
+Google,JB,Yi Jia Seafood Sdn. Bhd.,471,4.01,57.0,Seafood
+Google,JB,天香 永平手工鱼丸 Tian Xiang Fish Ball,59,4.27,57.0,Unknown
+Google,JB,寒舍 HANSHE @Perling,55,4.09,41.0,Unknown
+Google,JB,海皇粿条仔Restaurant Hi Wan,119,3.79,66.0,Unknown
+Google,JB,田園粥火锅 Farmland Porridge Steamboat,29,4.14,40.0,Chinese
+Google,JB,食得福美食中心Cedar Point Food Centre,379,4.08,50.0,Unknown
+Google,KL,AQUA Restaurant & Bar,62,4.5,43.5,Cafe & bar
+Google,KL,ATAS,39,3.95,193.0,Unknown
+Google,KL,Al-Amar,292,3.91,78.0,Unknown
+Google,KL,Aliyaa,430,4.36,67.0,Unknown
+Google,KL,Antipodean @ Mid Valley,500,4.42,114.5,Unknown
+Google,KL,"Arthur's Bar & Grill, Shangri-La Hotel, Kuala Lumpur",115,4.29,60.0,Cafe & bar
+Google,KL,BBQ NIGHTS,492,4.25,50.0,Unknown
+Google,KL,Beta KL,109,4.24,133.0,Unknown
+Google,KL,Bombay Palace,492,3.98,56.0,Unknown
+Google,KL,Brasserie 25,74,4.05,121.5,Unknown
+Google,KL,Cafe ETC,300,4.45,93.0,Cafe & bar
+Google,KL,Canopy Lounge Rooftop Bar KL,948,4.55,90.0,Cafe & bar
+Google,KL,Cedar On 15,39,4.08,88.0,Unknown
+Google,KL,Chamber’s Grill,29,4.24,135.0,Unknown
+Google,KL,Chynna,113,4.04,88.0,Unknown
+Google,KL,Cielo KL,184,4.21,86.5,Unknown
+Google,KL,Contango,409,4.15,61.0,Unknown
+Google,KL,Curate,59,3.71,140.0,Unknown
+Google,KL,Dancing Fish,200,4.3,91.5,Unknown
+Google,KL,Dewakan Restaurant,114,4.13,139.0,Unknown
+Google,KL,Din Tai Fung 鼎泰豐 at The Gardens Mall,492,4.05,53.0,Unknown
+Google,KL,Dining In The Dark KL,378,4.66,112.5,Unknown
+Google,KL,Eat X Dignity Cafe,307,4.45,71.0,Cafe & bar
+Google,KL,El Iberico,94,4.12,85.0,Unknown
+Google,KL,El Toro Loco @ Cormar Suites,127,4.37,99.0,Unknown
+Google,KL,Emily's Steakhouse Kuala Lumpur,236,4.36,95.0,Western
+Google,KL,"Favola , Le Méridien Kuala Lumpur",103,4.15,103.0,Unknown
+Google,KL,"Flock, W Kuala Lumpur",57,4.02,112.0,Unknown
+Google,KL,"Gastro Sentral, Le Méridien Kuala Lumpur",77,4.3,90.0,Cafe & bar
+Google,KL,Geographer cafe Kuala Lumpur,181,4.34,69.0,Cafe & bar
+Google,KL,Gobo Upstairs Lounge & Grill,21,3.67,37.0,Unknown
+Google,KL,Graze,31,3.42,148.0,Unknown
+Google,KL,Hakka Restaurant,300,3.92,123.5,Unknown
+Google,KL,Halab KL,500,4.33,120.0,Unknown
+Google,KL,Havana Bar & Grill,300,4.08,152.5,Cafe & bar
+Google,KL,Horizon Grill @ Banyan Tree Kuala Lumpur,96,4.28,136.0,Unknown
+Google,KL,Hornbill Restaurant & Cafe,259,4.12,91.0,Cafe & bar
+Google,KL,Iketeru,216,4.12,76.0,Unknown
+Google,KL,Ishin Japanese Dining,452,4.28,68.5,Japanese
+Google,KL,JP teres,165,4.28,57.0,Unknown
+Google,KL,Kampachi EQ,66,3.61,110.5,Unknown
+Google,KL,Kampachi Pavilion KL,185,3.28,78.0,Unknown
+Google,KL,Kedai Kopi Lai Foong,290,4.12,171.0,Unknown
+Google,KL,Khan’s Indian Cuisine,939,4.42,64.0,Indian
+Google,KL,Knowhere Bangsar,650,4.61,82.0,Unknown
+Google,KL,La Boca Latino Bar,426,4.44,66.5,Cafe & bar
+Google,KL,Lai Po Heen,167,4.1,90.0,Unknown
+Google,KL,"Latest Recipe, Le Méridien Kuala Lumpur",127,4.17,93.0,Unknown
+Google,KL,Le Petit Chef - Kuala Lumpur,139,4.37,155.0,Unknown
+Google,KL,Lemon Garden Cafe,500,3.94,104.0,Cafe & bar
+Google,KL,"Li Yen at The Ritz-Carlton, Kuala Lumpur",92,3.77,102.0,Unknown
+Google,KL,Limapulo: Baba Can Cook,300,4.11,150.0,Unknown
+Google,KL,Little Penang Kafé - KLCC,212,3.72,105.0,Unknown
+Google,KL,Loco Mexican Bar and Restaurant,175,4.23,51.0,Cafe & bar
+Google,KL,Luce Osteria Contemporanea,256,4.39,87.0,Unknown
+Google,KL,Madam Kwan's Suria KLCC,292,3.68,155.0,Unknown
+Google,KL,Malai Thai Cuisine @ Cormar Suites,198,4.45,92.0,Thai
+Google,KL,Manja Old Malaya,317,4.46,85.0,Unknown
+Google,KL,Marini’s on 57,500,4.32,116.0,Unknown
+Google,KL,Marta's Kitchen @ Hartamas,300,4.16,157.5,Unknown
+Google,KL,Mercat Barcelona Gastrobar (1MontKiara),81,4.19,80.0,Cafe & bar
+Google,KL,Michelangelo's Restaurant & Bar @ Pavilion KL,281,4.16,57.0,Cafe & bar
+Google,KL,Mohd.Yaseem Nasi Kandar Restaurant,491,3.96,78.0,Indian
+Google,KL,NADODI,148,4.64,110.5,Unknown
+Google,KL,Nagasari Curry House,207,3.96,48.0,Indian
+Google,KL,Nam Heong Chicken Rice,294,3.7,73.5,Chinese
+Google,KL,Nero Nero,235,4.33,114.0,Unknown
+Google,KL,Nipah at EQ,152,4.38,74.0,Unknown
+Google,KL,Nobu Kuala Lumpur,200,3.54,189.0,Unknown
+Google,KL,Old China Cafe,300,3.91,122.0,Cafe & bar
+Google,KL,Old Shanghai,599,4.35,86.0,Unknown
+Google,KL,"PRIME , Le Méridien Kuala Lumpur",240,4.3,86.5,Unknown
+Google,KL,Pampas Reserve Steakhouse,164,4.2,67.5,Western
+Google,KL,Passage Thru India,300,4.04,127.5,Unknown
+Google,KL,Pier 12 Seafood Tavern,184,4.33,91.5,Seafood
+Google,KL,Positano Risto @ Publika,487,4.34,84.0,Cafe & bar
+Google,KL,Prego,138,4.06,72.0,Unknown
+Google,KL,Qureshi,237,4.42,53.0,Unknown
+Google,KL,RSMY,500,3.97,107.0,Unknown
+Google,KL,Restoran Rebung Dato Chef Ismail,297,4.29,167.0,Unknown
+Google,KL,Restoran Sai Woo,163,3.79,101.0,Unknown
+Google,KL,Restoran Yusoof Dan Zakhir,465,4.04,52.0,Unknown
+Google,KL,Sarang,144,4.44,97.0,Unknown
+Google,KL,Sausage KL Cafe & Deli,110,4.63,144.0,Cafe & bar
+Google,KL,Serena Brasserie,87,3.89,68.0,Unknown
+Google,KL,"Shang Palace, Shangri-La Hotel, Kuala Lumpur",138,4.09,68.5,Unknown
+Google,KL,Skillet KL,317,4.37,111.0,Unknown
+Google,KL,Sri Nirwana Maju Restaurant - Bangsar,300,4.01,205.0,Unknown
+Google,KL,Sushi Hibiki,88,4.81,154.0,Japanese
+Google,KL,"THIRTY8 Restaurant, Bar & Lounge",485,4.19,123.0,Cafe & bar
+Google,KL,TRACE Restaurant and Bar - Element by Westin Kuala Lumpur,162,3.66,87.5,Cafe & bar
+Google,KL,Temptations Kitchen + Bar,78,4.35,42.5,Cafe & bar
+Google,KL,The Grand Getaway,42,4.81,146.5,Unknown
+Google,KL,The Green Man Bar,159,4.31,47.0,Cafe & bar
+Google,KL,The Living Room,42,3.33,147.0,Unknown
+Google,KL,The Lounge at Four Seasons,68,4.21,89.5,Unknown
+Google,KL,The Rabbit Hole,190,3.88,134.5,Unknown
+Google,KL,The Steakhouse KL 章卡牛排之馆,266,4.3,68.0,Western
+Google,KL,The Terrace at Tamarind Springs,26,4.27,88.0,Unknown
+Google,KL,The Whisky Bar KL 威士金酒吧,259,4.54,69.0,Cafe & bar
+Google,KL,Tujo,273,4.25,51.0,Unknown
+Google,KL,Vertigo @ Banyan Tree Kuala Lumpur,191,4.11,115.0,Unknown
+Google,KL,Village Roast Duck @ Bangsar Village,250,4.0,61.0,Unknown
+Google,KL,Vin's Restaurant,415,4.26,70.0,Unknown
+Google,KL,W XYZ Bar,21,4.05,142.0,Cafe & bar
+Google,KL,"WET® Deck, W Kuala Lumpur",188,4.2,94.0,Unknown
+Google,KL,"YEN, W Kuala Lumpur",49,4.47,114.0,Unknown
+Google,KL,Yun House,113,4.42,88.0,Unknown
+Google,KL,Yut Kee Restaurant,300,4.06,189.5,Unknown
+Google,KL,ZENZERO Restaurant & Wine Bar,201,4.38,90.0,Cafe & bar
+Google,KL,"Zipangu, Shangri-La Hotel, Kuala Lumpur",178,4.2,56.5,Unknown
+Google,KL,leaf & co. cafe,491,4.0,107.0,Cafe & bar
+Google,Kuching,16th St. Cafe,134,4.39,46.0,Cafe & bar
+Google,Kuching,333 char kway teow,42,3.9,77.5,Unknown
+Google,Kuching,3IC Food Station,44,3.77,37.5,Unknown
+Google,Kuching,5 Foot Way Bistro & Cafe,52,4.42,36.5,Cafe & bar
+Google,Kuching,ANC Burger,136,4.32,49.5,Western
+Google,Kuching,Ah Soh Buntal Seafood,55,3.78,59.0,Seafood
+Google,Kuching,Al Dente,144,3.77,80.0,Unknown
+Google,Kuching,Alfresco,100,3.93,57.0,Unknown
+Google,Kuching,Ammah Curry House,71,4.03,63.0,Indian
+Google,Kuching,Aroma Cafe Halal,109,4.16,41.0,Cafe & bar
+Google,Kuching,Atok Kopitiam,109,3.73,32.0,Chinese
+Google,Kuching,B @ Green House,88,3.94,40.5,Unknown
+Google,Kuching,BBQ KING Seafood (Jalan Song),107,4.27,49.0,Seafood
+Google,Kuching,Balkanico Handmade Pizza 全手工意大利披萨,51,4.59,62.0,Western
+Google,Kuching,Bear Garden,66,4.2,75.0,Unknown
+Google,Kuching,Bella Italia,247,4.46,43.0,Unknown
+Google,Kuching,Bla Bla Bla,136,4.05,83.0,Unknown
+Google,Kuching,Blendsmiths,119,4.23,80.0,Unknown
+Google,Kuching,Borneo Delight,86,3.87,69.0,Unknown
+Google,Kuching,Bukit Mata Seafood Restaurant Sdn Bhd,296,4.05,38.0,Seafood
+Google,Kuching,CHOPSTICK GARDEN Icom Square Pending,107,4.04,36.0,Unknown
+Google,Kuching,Canard Eat & Roll,38,4.45,38.5,Unknown
+Google,Kuching,Carvery,80,4.65,46.5,Unknown
+Google,Kuching,Ceylonese Restaurant Sdn Bhd,661,4.37,59.0,Unknown
+Google,Kuching,Cha bo,66,4.21,70.5,Unknown
+Google,Kuching,Chef At Home,205,4.3,50.0,Unknown
+Google,Kuching,Chicking Eating House,57,4.26,29.0,Unknown
+Google,Kuching,Choon Hui Cafe,397,4.27,58.0,Cafe & bar
+Google,Kuching,Come On Veggie Cafe 泉興素食坊,90,4.22,30.5,Cafe & bar
+Google,Kuching,Country Court New (Five loaves Two Fish),22,2.5,42.5,Unknown
+Google,Kuching,Country Kitchen 家鄉小廚,117,3.76,56.0,Chinese
+Google,Kuching,Curry House,145,4.16,31.0,Indian
+Google,Kuching,D' Cahaya Cafe,38,4.11,21.5,Cafe & bar
+Google,Kuching,DAPUR DAYANG,27,3.44,63.0,Unknown
+Google,Kuching,Dapo Cafe - Makanan Kelantan.,74,4.09,37.5,Cafe & bar
+Google,Kuching,Dar Zen Food Centre 大人饮食中心,97,3.69,25.0,Unknown
+Google,Kuching,Feast & Furious,318,4.4,56.0,Unknown
+Google,Kuching,Fisherman Seafood,79,3.96,40.0,Seafood
+Google,Kuching,Fook Xing Seafood Sdn. Bhd.,69,3.99,39.0,Seafood
+Google,Kuching,Fork & Knife Restaurant,139,3.99,53.0,Unknown
+Google,Kuching,Gala Corner,289,3.82,43.0,Unknown
+Google,Kuching,Gourmet Sausage,24,4.17,33.0,Unknown
+Google,Kuching,Hai Nan Village Lei Cha,35,4.6,41.0,Unknown
+Google,Kuching,Hi hotpot buffet,90,3.89,53.0,Chinese
+Google,Kuching,Hock Hai Dim Sum Cafe 福海點心,98,3.92,54.5,Chinese
+Google,Kuching,Hoi Tin Lau Restaurant Sdn. Bhd. 海天楼,175,4.09,43.0,Unknown
+Google,Kuching,Homiez Recipe,32,4.66,47.5,Unknown
+Google,Kuching,Hon Hin Cafe,147,4.29,46.0,Cafe & bar
+Google,Kuching,Hong Kong Noodle House,72,3.78,71.0,Unknown
+Google,Kuching,Howdy Grillhouse,227,4.12,46.0,Unknown
+Google,Kuching,Hui Sing Open Air Hawker Centre Food Court,281,3.96,45.0,Unknown
+Google,Kuching,I Cafe,162,4.0,35.5,Cafe & bar
+Google,Kuching,IZAKAYA Japanese Restaurant,150,4.14,52.5,Japanese
+Google,Kuching,Imperial Duck,181,3.67,41.0,Unknown
+Google,Kuching,Jade Pot Tea House,45,4.16,37.0,Cafe & bar
+Google,Kuching,KANTIN at The Granary,73,4.45,111.0,Unknown
+Google,Kuching,KUEH FAH CAFE,54,4.06,30.0,Cafe & bar
+Google,Kuching,Keeper's Ground,150,4.12,57.0,Unknown
+Google,Kuching,Ken’s Kitchen Kuching,202,4.24,66.0,Unknown
+Google,Kuching,Kim Joo 錦裕,188,4.4,52.0,Unknown
+Google,Kuching,Kopi O' Corner,300,3.73,86.5,Unknown
+Google,Kuching,Korean Restaurant Goong,117,4.09,69.0,Korean
+Google,Kuching,Koreana,68,3.88,41.5,Korean
+Google,Kuching,Kuching Big Veggie 大蔬无界,76,4.07,43.0,Unknown
+Google,Kuching,Kyushigai,47,4.11,73.0,Unknown
+Google,Kuching,Laksa Foody Goody,32,3.69,31.0,Malay
+Google,Kuching,Lau Ya Keng Foodcourt 阳春台茶室,362,4.27,57.0,Chinese
+Google,Kuching,Le Parlour Cafe Studio,137,4.28,56.0,Cafe & bar
+Google,Kuching,Lepau Restaurant,528,4.49,68.0,Unknown
+Google,Kuching,Lian June Cafe,47,4.26,36.0,Cafe & bar
+Google,Kuching,Life Cafe @ Train Terrace 人间茶坊之火车栈,124,3.9,41.5,Chinese
+Google,Kuching,Madeleine Cafe @Green Heights,71,4.08,59.0,Cafe & bar
+Google,Kuching,Magenta Restaurant,44,3.84,70.5,Unknown
+Google,Kuching,Makino Kochi Ramen Bar,219,4.65,75.0,Japanese
+Google,Kuching,Mango Tree,31,3.61,66.0,Unknown
+Google,Kuching,Masa-Ria Seafood Restaurant,22,4.36,48.0,Seafood
+Google,Kuching,Mi Sapi / Mi Kolok Haji Salleh @ Sepinang Sari,250,4.4,35.5,Unknown
+Google,Kuching,Mike's Smokehouse,93,4.44,65.0,Unknown
+Google,Kuching,Min Feng Hao,48,4.12,54.0,Unknown
+Google,Kuching,Min Hong Kee,149,3.97,39.0,Unknown
+Google,Kuching,Minoru Japanese Restaurant,72,4.06,66.0,Japanese
+Google,Kuching,Mom's Laksa Kopitiam,328,3.77,43.0,Chinese
+Google,Kuching,Motowners Cafe,75,4.24,37.0,Cafe & bar
+Google,Kuching,Mummy Patz Dayak Café,52,4.33,41.0,Cafe & bar
+Google,Kuching,Munch,151,4.27,55.0,Unknown
+Google,Kuching,My Village Barok,300,4.02,59.5,Cafe & bar
+Google,Kuching,Nam Nam Vietnamese Cafe,35,3.86,53.0,Cafe & bar
+Google,Kuching,Nasi Lemak Ganja,52,4.17,79.5,Malay
+Google,Kuching,New Atmosferah Restaurant,300,3.52,36.5,Unknown
+Google,Kuching,New Wonderful Place,29,3.62,26.0,Unknown
+Google,Kuching,Nirawan9 Royal Thai Cuisine,159,4.09,75.0,Thai
+Google,Kuching,No.6 & 33 Ling Loong Seafood,116,4.13,46.0,Seafood
+Google,Kuching,Odiya Cafe,48,3.77,69.0,Cafe & bar
+Google,Kuching,Old Rex Cucur Udang Cafe,267,4.21,43.0,Cafe & bar
+Google,Kuching,On 3 Kopitiam,183,3.89,38.0,Chinese
+Google,Kuching,Once Upon A Cafè,62,3.39,67.0,Unknown
+Google,Kuching,One Roof Cafe 合家欢,57,4.18,62.0,Cafe & bar
+Google,Kuching,Overseas Seafood Restaurant,56,4.05,54.5,Seafood
+Google,Kuching,"Peridot, Kuching",101,4.61,80.0,Unknown
+Google,Kuching,Phở Master Vietnamese @ Vivacity,68,3.68,97.0,Unknown
+Google,Kuching,Pinggai Cafe,82,4.4,86.0,Cafe & bar
+Google,Kuching,Pinoy Ihaw-Ihaw,48,4.27,60.5,Unknown
+Google,Kuching,Popular Vegetarian,28,4.29,59.0,Unknown
+Google,Kuching,Porkie's By Flavours,188,3.99,49.0,Unknown
+Google,Kuching,RJ Cafe @Satok,139,3.92,38.0,Cafe & bar
+Google,Kuching,Rainforest Garden Cafe,139,3.94,34.0,Cafe & bar
+Google,Kuching,Razzmatazz Bistro Bar,90,4.61,47.5,Cafe & bar
+Google,Kuching,Restoran Maju Jaya,68,3.44,32.5,Unknown
+Google,Kuching,Rusty Bean & Batter,21,3.52,79.0,Unknown
+Google,Kuching,SCR Express @ Pending,39,2.79,51.0,Unknown
+Google,Kuching,SUUKEE The Original Hainanese Chicken Rice @ Jalan Song,206,3.68,56.0,Chinese
+Google,Kuching,Sando Ramen Restaurant,30,3.87,38.5,Japanese
+Google,Kuching,Sanga Japanese Food,201,4.26,45.0,Japanese
+Google,Kuching,Satok Fly Over Cafe,48,4.46,29.5,Cafe & bar
+Google,Kuching,Secret Recipe @ Vivacity Megamall,97,3.56,26.0,Unknown
+Google,Kuching,Serapi Garden Cafe,168,4.22,51.5,Cafe & bar
+Google,Kuching,Serapi Virgin Coconut Milk Shake,256,4.37,42.0,Unknown
+Google,Kuching,Shan City Kopitiam,124,4.11,35.0,Chinese
+Google,Kuching,SideWalk,83,4.12,45.0,Unknown
+Google,Kuching,Sisan Restaurant,61,3.7,44.0,Unknown
+Google,Kuching,Snack19 (Bistro Bar),34,4.26,26.0,Cafe & bar
+Google,Kuching,Spoon Cafe & Restaurant,115,3.55,46.0,Cafe & bar
+Google,Kuching,Suasana On 18 Fine Dining Restaurant,23,4.26,90.0,Unknown
+Google,Kuching,Sung Heng Cafe,33,4.45,64.0,Cafe & bar
+Google,Kuching,Sushi King,89,3.84,25.0,Japanese
+Google,Kuching,Sushi Mentai,298,4.05,70.0,Japanese
+Google,Kuching,Sushi Zanmai Vivacity Megamall,209,3.95,46.0,Japanese
+Google,Kuching,Ta Wan Kung,132,4.04,42.5,Unknown
+Google,Kuching,Teo Seafood,69,3.58,53.0,Seafood
+Google,Kuching,Thaali Punjabi Restaurant,75,4.19,69.0,Unknown
+Google,Kuching,Thanh Thao Cafe,57,3.86,51.0,Cafe & bar
+Google,Kuching,The Bikalan,31,4.77,147.0,Unknown
+Google,Kuching,The CABIN 寒舍,89,4.6,65.0,Unknown
+Google,Kuching,"The Container Cafe, Kuching",182,4.16,47.5,Cafe & bar
+Google,Kuching,The Dyak,79,3.96,96.0,Unknown
+Google,Kuching,The Farm Bistro,49,3.76,60.0,Cafe & bar
+Google,Kuching,The Hash Cafe,61,4.34,56.0,Cafe & bar
+Google,Kuching,The Heritage 喜临门,153,4.25,55.0,Unknown
+Google,Kuching,The Junk,353,4.26,53.0,Unknown
+Google,Kuching,The King's Curry,300,4.22,52.5,Indian
+Google,Kuching,The Mandarin Restaurant,153,4.15,39.0,Unknown
+Google,Kuching,The Manhattan Fish Market,42,3.1,69.0,Unknown
+Google,Kuching,The Round Tower 1886 Cafe & Restaurant,82,4.22,122.0,Cafe & bar
+Google,Kuching,The Spring,300,4.37,143.5,Unknown
+Google,Kuching,The Story Table,49,4.59,50.0,Unknown
+Google,Kuching,The Venue,112,4.1,46.5,Unknown
+Google,Kuching,Tok Janggut Cafe (Beryani),194,4.16,31.5,Cafe & bar
+Google,Kuching,Tom's,137,4.21,45.0,Unknown
+Google,Kuching,Topspot Food Court,964,4.33,88.0,Unknown
+Google,Kuching,Tribal Stove,22,3.73,116.0,Unknown
+Google,Kuching,Verinice,67,4.07,68.0,Unknown
+Google,Kuching,Wakakakaka 2.0,44,3.75,46.0,Unknown
+Google,Kuching,"Warong Nusantara Bukit Mata Kuching, Kuching, Sarawak.",300,3.77,32.0,Unknown
+Google,Kuching,Wonderboom,163,4.21,68.0,Unknown
+Google,Kuching,Yalla Yalla Arabic Cuisine Kuching,84,4.55,43.5,Unknown
+Google,Kuching,Zhun San Yen Vegetarian,68,4.57,45.0,Unknown
+Google,Kuching,Zinc Restaurant & Bar,192,4.47,71.0,Cafe & bar
+Google,Kuching,Zu Sakuraitei,97,4.25,73.0,Unknown
+Google,Kuching,de Cuisine,62,3.71,69.5,Unknown
+Google,Kuching,escobar,92,3.5,50.0,Unknown
+Google,Kuching,kuching red kolo mee,53,4.28,36.0,Unknown
+Google,Kuching,லூசி லிங்கம் வாழை இலை உணவகம்,69,3.93,46.0,Unknown
+Google,Kuching,乐天酒楼,80,3.99,40.0,Unknown
+Google,Kuching,人間茶坊之老店 Life Cafe @ Padungan,223,4.3,61.0,Chinese
+Google,Kuching,相聚火锅 The Gather BBQ Steamboat(新犀鸟阁 New Hornbill BBQ Steamboat）,35,3.86,76.0,Chinese
+Google,Kuching,青山角 / Green Hill Corner,77,4.1,51.0,Unknown
+Google,Langkawi,AIN- ARABIA Restaurant & Cafe Langkawi,258,4.82,128.5,Cafe & bar
+Google,Langkawi,ATLANTIS RESTAURANT,299,4.15,52.0,Unknown
+Google,Langkawi,AZ Restaurant Thai Seafood,22,3.91,87.0,Thai
+Google,Langkawi,Apathaas Taste Indian Restaurant,220,3.99,55.0,Indian
+Google,Langkawi,Arang BBQ & Grill,166,4.72,99.5,Unknown
+Google,Langkawi,Artisans Pizza,263,4.7,85.0,Western
+Google,Langkawi,Arts Cafe,284,4.24,94.0,Cafe & bar
+Google,Langkawi,Beach Cove,38,2.68,155.0,Unknown
+Google,Langkawi,Bobi's restaurant,84,4.23,86.0,Unknown
+Google,Langkawi,Breizh Up Langkawi,83,4.43,108.0,Unknown
+Google,Langkawi,Cba Restaurant,155,4.36,61.0,Unknown
+Google,Langkawi,Chicking,73,3.75,41.0,Unknown
+Google,Langkawi,Cili Kampung,256,4.07,75.5,Malay
+Google,Langkawi,Citi Thai Food,109,3.32,47.0,Thai
+Google,Langkawi,CoCo's Bistro,114,4.65,59.5,Cafe & bar
+Google,Langkawi,CoffeeNuts Cafe,73,4.99,109.0,Cafe & bar
+Google,Langkawi,Colonial India Restaurant,161,3.78,71.0,Unknown
+Google,Langkawi,Cruise Kebab كروز كباب,23,4.57,113.0,Unknown
+Google,Langkawi,D'Lima Cafe,51,3.35,110.0,Cafe & bar
+Google,Langkawi,D'grill Seafood restaurant,33,2.03,96.0,Seafood
+Google,Langkawi,DESA PERMATA IKAN BAKAR no5&6,300,4.2,64.0,Unknown
+Google,Langkawi,Dash Beach Club,89,3.93,104.0,Unknown
+Google,Langkawi,Dawan Thai Kitchen Seafood Restaurant,69,4.33,142.0,Thai
+Google,Langkawi,El Toro Langkawi - Mexican Bar & Grill,205,4.44,92.0,Cafe & bar
+Google,Langkawi,FOOD PARADISE RESTAURANT & BISTRO,22,4.59,78.0,Cafe & bar
+Google,Langkawi,Fat Cupid - Cafe & Restaurant,315,4.42,120.0,Cafe & bar
+Google,Langkawi,GM Burger,99,4.21,36.0,Western
+Google,Langkawi,Gallo Nero Italian Restaurant,188,4.49,112.0,Western
+Google,Langkawi,German Food Corner,206,4.42,75.0,Unknown
+Google,Langkawi,HBL Food Corner,134,4.51,42.5,Unknown
+Google,Langkawi,Hadramawt Langkawi Restaurant,189,3.96,57.0,Unknown
+Google,Langkawi,Happy Happy Cenang Seafood Restaurant 真浪大家乐海鲜餐馆,251,3.55,68.0,Chinese
+Google,Langkawi,Haroo Korean Restaurant,426,4.75,126.0,Korean
+Google,Langkawi,Haroo Story korean Restaurant,81,4.64,82.0,Korean
+Google,Langkawi,Haroo+ Korean Restaurant,156,4.7,84.5,Korean
+Google,Langkawi,Hidden Langkawi,283,3.88,114.0,Unknown
+Google,Langkawi,Hole In The Wall Fish Farm,96,4.07,51.5,Unknown
+Google,Langkawi,Horizon,27,4.85,82.0,Unknown
+Google,Langkawi,Hotel Malaysia Restaurant,127,3.71,49.0,Unknown
+Google,Langkawi,House of Lamb Malaysia,31,4.03,55.0,Unknown
+Google,Langkawi,India Gate Restaurant - Puchong,300,4.6,156.0,Unknown
+Google,Langkawi,Jake's Charbroil Steaks - Langkawi,128,4.41,94.0,Western
+Google,Langkawi,Jala Restaurant,23,4.35,53.0,Unknown
+Google,Langkawi,Kalut Cafe And Bar,252,4.31,61.0,Cafe & bar
+Google,Langkawi,Kapal Layar Langkawi,185,4.09,105.0,Unknown
+Google,Langkawi,Kayuputi,89,4.61,104.0,Unknown
+Google,Langkawi,Korean Seoul Restaurant,116,4.91,66.0,Korean
+Google,Langkawi,Kuah Town Seafood,206,4.55,81.5,Seafood
+Google,Langkawi,Laila Kebab House,56,3.8,98.0,Unknown
+Google,Langkawi,Laksa Power Airport,149,3.68,65.0,Malay
+Google,Langkawi,"Langkawi International Airport, Kedah.",290,4.04,134.5,Unknown
+Google,Langkawi,Lebanon shawarma kebab langkawi cafe,92,4.57,70.5,Cafe & bar
+Google,Langkawi,MAYHIANG SEAFOOD RESTAURANT,128,3.98,66.5,Seafood
+Google,Langkawi,MY French Factory,278,4.64,83.0,Western
+Google,Langkawi,Maharaja Restaurant,184,3.82,66.0,Unknown
+Google,Langkawi,Makan Mana Ikan Bakar,129,4.6,83.0,Unknown
+Google,Langkawi,Mangoes Bar & Grill,118,4.43,129.5,Cafe & bar
+Google,Langkawi,Mumbai Palace Restaurant القصر,282,3.88,69.5,Unknown
+Google,Langkawi,My Chef Seafood Restaurant,67,4.13,51.0,Seafood
+Google,Langkawi,Nagoya Seafood Restaurant寶立海鮮樓,94,3.63,44.5,Seafood
+Google,Langkawi,Nam Restaurant,34,4.18,130.5,Unknown
+Google,Langkawi,Nasi Atan,87,4.38,29.0,Malay
+Google,Langkawi,Nasi Dagang Pak Malau,290,4.27,139.0,Malay
+Google,Langkawi,"Nasi Lemak Ultra, Imut's Hall & The Black Kitchen",65,4.89,74.0,Malay
+Google,Langkawi,New Water Garden Hawker Centre LGK,67,3.72,44.0,Unknown
+Google,Langkawi,Oriental Café,40,1.95,114.5,Cafe & bar
+Google,Langkawi,Orkid Ria Seafood Restaurant,283,4.01,186.0,Seafood
+Google,Langkawi,Pahn-Thai Restaurant,278,4.26,73.0,Thai
+Google,Langkawi,Pak Hj Ya Chicken Rice Restaurant,239,3.77,46.0,Chinese
+Google,Langkawi,PappaRich Langkawi,144,3.83,40.0,Unknown
+Google,Langkawi,Pizza On Fire,43,4.77,66.0,Western
+Google,Langkawi,Pom Pom Bar & Restaurant. Previously named Thai Odyssey Spa & Cafe,29,4.72,132.0,Thai
+Google,Langkawi,Putumayo Restaurant 复古海滨餐厅,288,4.08,92.5,Unknown
+Google,Langkawi,Qiang Shi Fu cenang Seafood Restaurant,129,3.98,79.0,Seafood
+Google,Langkawi,RESTORAN RT (LANGKAWI),85,4.68,73.0,Unknown
+Google,Langkawi,Red Sky Restaurant & Bar,104,4.32,67.5,Cafe & bar
+Google,Langkawi,Red Tomato Langkawi,300,4.17,122.0,Unknown
+Google,Langkawi,Restaurant Marhaba Langkawi,120,3.72,82.5,Unknown
+Google,Langkawi,Restaurant Tian Tian Lai Seafood & Bak Kut Teh Langkawi,28,3.43,54.5,Chinese
+Google,Langkawi,Restoran Aliah,25,4.48,97.0,Unknown
+Google,Langkawi,Restoran Atta Shooru lama,52,4.1,56.0,Unknown
+Google,Langkawi,Restoran Kak Yan Nasi Campur,283,4.46,94.0,Malay
+Google,Langkawi,Restoran Kauboi 夜猫子露天海鲜饭店,78,3.27,91.0,Chinese
+Google,Langkawi,Restoran Mangga 2,69,4.2,44.0,Unknown
+Google,Langkawi,Restoran Siti Fatimah,215,4.36,55.0,Unknown
+Google,Langkawi,Rimba Restaurant at Ambong Pool Villas,25,4.68,138.0,Unknown
+Google,Langkawi,Rootian Seafood Restaurant 露天海鲜饭店,145,3.68,69.0,Chinese
+Google,Langkawi,Rose Tea 2 Thai Food Restaurant,154,3.98,96.5,Thai
+Google,Langkawi,"SALOMA NASI LEMAK PANAS DAUN PISANG,LANGKAWI",38,3.95,44.0,Malay
+Google,Langkawi,Shin Mi Seafood Village,126,4.06,72.5,Seafood
+Google,Langkawi,Singgah Seafood,65,4.6,42.0,Seafood
+Google,Langkawi,Spice & Rice,128,3.06,65.5,Unknown
+Google,Langkawi,Spice Garden,36,3.53,37.5,Unknown
+Google,Langkawi,Spice Market Restaurant,49,4.04,77.0,Unknown
+Google,Langkawi,Sun Cafe,303,4.34,74.0,Cafe & bar
+Google,Langkawi,Sunday Restaurant,27,4.44,34.0,Unknown
+Google,Langkawi,"THE CLIFF RESTAURANT, LANGKAWI",300,3.87,117.0,Unknown
+Google,Langkawi,Tapaz,155,4.15,110.0,Unknown
+Google,Langkawi,Teng Long Food and beverage management sdn bhd Bhd,65,3.51,66.0,Unknown
+Google,Langkawi,Terragrill Satay Cafe,47,4.62,55.0,Malay
+Google,Langkawi,The Argan Trees Restaurant-Moroccan and Mediterran- Restaurant Langkawi,296,4.79,128.0,Unknown
+Google,Langkawi,The Beach Club,52,4.46,44.0,Unknown
+Google,Langkawi,The Beach Grill,57,4.4,74.0,Unknown
+Google,Langkawi,The Brasserie At laguna,29,4.76,67.0,Unknown
+Google,Langkawi,The Fat Frog,208,4.58,103.0,Unknown
+Google,Langkawi,The Gulai House,53,4.68,44.0,Unknown
+Google,Langkawi,Thirstday Bar and Restaurant,500,4.53,74.0,Cafe & bar
+Google,Langkawi,Tokyo Japanese Restaurant,51,4.33,105.0,Japanese
+Google,Langkawi,Tulsi Garden,149,3.29,73.0,Unknown
+Google,Langkawi,Viva Italia Restaurant,116,3.66,69.5,Unknown
+Google,Langkawi,Wang Chiew Seafood Restaurant,300,4.11,50.0,Seafood
+Google,Langkawi,Warung Bridge Water,23,4.13,86.0,Malay
+Google,Langkawi,Warung Janggus Ikan Bakar BBQ,79,3.27,59.0,Malay
+Google,Langkawi,Warung Jati Aisya,178,4.43,41.5,Malay
+Google,Langkawi,Weng Fung Seafood Restaurant(Air Condition),148,4.1,71.5,Seafood
+Google,Langkawi,Wonderland Food Store,500,4.48,152.0,Unknown
+Google,Langkawi,Wood's,74,4.18,59.0,Unknown
+Google,Langkawi,Yam Yam Chinese Restaurant langkawi,118,4.25,101.5,Chinese
+Google,Langkawi,Yatierose Cafe,29,4.79,60.0,Cafe & bar
+Google,Langkawi,ZF Seafood Restaurant 卓峰海鲜餐,59,4.17,89.0,Chinese
+Google,Langkawi,Zhong Hua Lou Seafood Restaurant,142,4.25,65.5,Seafood
+Google,Langkawi,uskudars restaurant,32,4.22,92.0,Unknown
+Google,Langkawi,四川海鲜饭店 Sin Sze Chuan Restaurant,25,4.32,69.0,Chinese
+Google,Langkawi,心安素食斋料食馆 Xin An Vegetarian Cafe,25,3.12,62.0,Cafe & bar
+Google,Melaka,Amy Heritage Nyonya Cuisine,293,3.86,106.0,Unknown
+Google,Melaka,Asam Pedas Claypot 2 Restoran Kota Laksamana,300,3.42,146.0,Chinese
+Google,Melaka,Bernie's Bar/Pub,23,4.91,136.0,Cafe & bar
+Google,Melaka,Bert's Garden Seafood,291,3.79,66.0,Seafood
+Google,Melaka,Bica & Co Courtyard Cafe,138,4.56,71.0,Cafe & bar
+Google,Melaka,Bulldog Malacca,229,4.48,124.0,Unknown
+Google,Melaka,Busdriver.cafe,22,4.95,178.0,Cafe & bar
+Google,Melaka,Caribbi Seafood Village,49,4.43,78.0,Seafood
+Google,Melaka,Chop Tiang Bee Cafe,85,4.26,87.0,Cafe & bar
+Google,Melaka,Cottage Spices Nyonya Restaurant,300,4.13,103.5,Unknown
+Google,Melaka,Daorae Korean BBQ Restaurant,190,4.25,68.0,Korean
+Google,Melaka,Durian Dreamland @ 榴莲之乡,30,4.57,108.0,Unknown
+Google,Melaka,Dutch Harbour Cafe,78,3.42,95.5,Cafe & bar
+Google,Melaka,Eat at 18,108,3.99,87.0,Unknown
+Google,Melaka,Ee Ji Ban Chicken Rice Ball,300,3.87,162.0,Chinese
+Google,Melaka,Kaya Kaya Cafe,195,3.89,91.0,Cafe & bar
+Google,Melaka,Kuchabe 古早味 (Melaka),58,3.84,73.0,Unknown
+Google,Melaka,LeQUE Steak & Smoked House,126,4.37,74.0,Western
+Google,Melaka,Limau Limau Cafe,87,4.4,79.0,Cafe & bar
+Google,Melaka,Low Yong Moh Restaurant,300,3.63,83.0,Unknown
+Google,Melaka,MaMa Taste Café,62,3.77,87.0,Cafe & bar
+Google,Melaka,Mamee Jonker House,300,4.12,75.0,Unknown
+Google,Melaka,Manis J Nyonya Restaurant,214,4.19,99.0,Unknown
+Google,Melaka,Miller's Kitchen Restaurant,154,4.29,95.0,Unknown
+Google,Melaka,Molten Chocolate Cafe Dataran Pahlawan,149,4.18,42.0,Cafe & bar
+Google,Melaka,Monterios Portuguese Seafood Stall,108,4.06,76.0,Seafood
+Google,Melaka,Mori Vegetarian Tea House and Residence,251,4.42,69.0,Cafe & bar
+Google,Melaka,Nancy's Kitchen,300,3.7,192.0,Unknown
+Google,Melaka,Nasi Ayam Hoe Kee,567,3.88,68.0,Malay
+Google,Melaka,Noah Art Cafe,90,3.9,75.0,Cafe & bar
+Google,Melaka,Nyonya 63,92,4.32,113.5,Unknown
+Google,Melaka,Oriental Cottage Cafe,64,3.94,128.5,Cafe & bar
+Google,Melaka,Pak Putra Restaurant,990,4.14,127.0,Unknown
+Google,Melaka,Pampas Sky Dining Steakhouse,198,3.93,74.0,Western
+Google,Melaka,Poh Piah Lwee,179,4.28,89.0,Unknown
+Google,Melaka,Putu Piring Melaka,263,4.52,66.0,Unknown
+Google,Melaka,Restaurant Ban Lee Siang,300,4.04,109.0,Unknown
+Google,Melaka,Restaurant D' Tandoori House,262,4.05,55.5,Indian
+Google,Melaka,Restaurant Lee Swee Meng,278,4.23,63.0,Unknown
+Google,Melaka,Restoran J & J Corner,42,4.14,97.5,Unknown
+Google,Melaka,Restoran Nyonya Makko,294,3.66,121.5,Unknown
+Google,Melaka,Restoran Nyonya Suan,197,3.59,72.0,Unknown
+Google,Melaka,Restoran Tong Sheng,300,3.86,155.0,Unknown
+Google,Melaka,River View Cafe,114,4.38,77.5,Cafe & bar
+Google,Melaka,Rock Bottom Malacca,248,4.33,50.0,Unknown
+Google,Melaka,SSihat Kafe,63,4.52,122.0,Unknown
+Google,Melaka,Salud Tapas,276,4.24,99.5,Unknown
+Google,Melaka,SamFu Restaurant,282,4.38,76.0,Unknown
+Google,Melaka,Sayyid Antique & Cafe,113,4.47,90.0,Cafe & bar
+Google,Melaka,Selvam Restaurant,617,3.85,42.0,Unknown
+Google,Melaka,Shui Xian Su Shi Yuan Vegetarian,111,4.23,61.0,Unknown
+Google,Melaka,Sid's Pub @ Jonker’s,262,4.09,72.5,Cafe & bar
+Google,Melaka,Sirocco Restaurant,69,4.42,39.0,Unknown
+Google,Melaka,Southern Court Chinese Restaurant,22,4.45,54.0,Chinese
+Google,Melaka,Sun May Hiong Satay House,300,3.66,100.0,Malay
+Google,Melaka,Suukee Satay海南沙爹,125,4.13,54.0,Malay
+Google,Melaka,Taste Better Original One Bite Durian puff,100,4.15,67.5,Unknown
+Google,Melaka,Teo Soon Loong Seafood Restaurant,192,3.74,61.0,Seafood
+Google,Melaka,The Baboon House,817,4.64,96.0,Unknown
+Google,Melaka,Trois by navy,178,4.2,119.5,Unknown
+Google,Melaka,Wa Zen Japanese Restaurant,290,4.55,75.0,Japanese
+Google,Melaka,Zhong Tai Seafood Restaurant,199,3.57,57.0,Seafood
+Google,Melaka,北栈食馆 Bei Zhan Restaurant,300,4.01,78.5,Unknown
+Google,Melaka,我家餐館Our Kitchen Nyonya Restaurant,133,4.39,97.0,Unknown
+Google,Miri,28 Food Centre,136,4.1,38.0,Unknown
+Google,Miri,86 Cold Drink,62,4.39,32.5,Unknown
+Google,Miri,Apollo Seafood Centre,125,4.04,44.0,Seafood
+Google,Miri,"Biryani Art, Malaysia",45,3.73,78.0,Indian
+Google,Miri,Bonzer Restaurant_Kingwood Hotel,92,4.36,61.0,Unknown
+Google,Miri,Cafe Rosita Coffee House,68,4.28,30.5,Cafe & bar
+Google,Miri,Chickilicious Miri,80,4.28,40.0,Unknown
+Google,Miri,Chillax Cafe & Bistro,204,4.25,44.0,Cafe & bar
+Google,Miri,Container City Miri,258,3.9,35.0,Unknown
+Google,Miri,Crumb Artisan Bakery & Cafe,73,4.15,71.0,Cafe & bar
+Google,Miri,Dessert Master,58,3.78,47.5,Cafe & bar
+Google,Miri,Don’s Burger Permyjaya,347,4.4,35.0,Western
+Google,Miri,Dragon Seafood Restaurant,174,4.12,42.5,Seafood
+Google,Miri,Dynasty Chinese Restaurant,125,4.33,43.0,Chinese
+Google,Miri,Excapade Japanese Cuisine Tanjong Lobang,228,4.25,45.0,Japanese
+Google,Miri,Feed Me Miri,54,4.39,50.5,Unknown
+Google,Miri,FuduBa Japanese,92,3.72,63.5,Japanese
+Google,Miri,Hainan Cafe,141,4.47,53.0,Cafe & bar
+Google,Miri,Hornbill Cafe Miri,33,4.52,59.0,Cafe & bar
+Google,Miri,Khan's Islamic Restaurant,131,4.03,37.0,Unknown
+Google,Miri,Khan's Taj Restaurant,105,4.1,36.0,Unknown
+Google,Miri,King's Park,43,3.67,56.0,Unknown
+Google,Miri,Korea Heritage,29,3.9,39.0,Korean
+Google,Miri,Laksa Lolita,112,4.12,30.0,Malay
+Google,Miri,Lao Yang Dim Sum,255,4.2,42.0,Chinese
+Google,Miri,Lavender Cafe,106,4.16,46.0,Cafe & bar
+Google,Miri,Lemon Grass Cafe,43,4.35,31.0,Cafe & bar
+Google,Miri,Little Roast Co. Cafe,73,4.4,58.0,Cafe & bar
+Google,Miri,Lotus Cafe,37,4.0,38.0,Cafe & bar
+Google,Miri,Madli's,155,3.4,37.0,Unknown
+Google,Miri,Mandarin Oriental Authentic Chicken Rice,22,4.09,42.5,Chinese
+Google,Miri,Mee Jawa Pulau Melayu,155,3.76,53.0,Unknown
+Google,Miri,Meng Chai Seafood,138,3.86,36.5,Seafood
+Google,Miri,Ming Cafe,526,4.3,37.0,Cafe & bar
+Google,Miri,Miri Central Market,306,3.95,31.0,Unknown
+Google,Miri,Mirup,46,4.59,40.0,Unknown
+Google,Miri,Nancy Beef Noodles,86,4.28,34.0,Unknown
+Google,Miri,New Thompson Seafood,60,3.85,34.5,Seafood
+Google,Miri,Nok An Net Three Power Thai Food,27,4.19,78.0,Thai
+Google,Miri,Pahlung Cafe,42,4.52,37.0,Cafe & bar
+Google,Miri,Palate Restaurant,29,3.76,93.0,Unknown
+Google,Miri,Pete's Deli,24,3.88,69.5,Unknown
+Google,Miri,Piasau Boat Club,141,4.3,51.0,Unknown
+Google,Miri,Piato Bistro,76,4.14,48.5,Cafe & bar
+Google,Miri,Pp Cafe Miri,113,4.35,37.0,Cafe & bar
+Google,Miri,Qing Xiang Vegetarian @ Boulevard Miri,65,3.72,35.0,Unknown
+Google,Miri,Rainforest Cafe 喜來登飲食餐廳,59,4.07,33.0,Cafe & bar
+Google,Miri,Santinos Miri,93,4.15,36.0,Unknown
+Google,Miri,Selera Rasa Segar,347,3.8,31.0,Unknown
+Google,Miri,Surf & Turf Fusion Dining,36,4.5,49.5,Unknown
+Google,Miri,Sushi Zanmai Miri,113,4.3,50.0,Japanese
+Google,Miri,Tasty Point (1),36,3.75,50.0,Unknown
+Google,Miri,The Back Cafe,22,4.18,46.5,Cafe & bar
+Google,Miri,The Fisherman Wharf,85,3.84,49.0,Unknown
+Google,Miri,The Nest Cafe Lounge,104,4.15,68.0,Cafe & bar
+Google,Miri,The Red Lantern Bistro,36,3.94,32.0,Cafe & bar
+Google,Miri,The Summit Cafe,115,4.29,49.0,Cafe & bar
+Google,Miri,The Superb Cuisine,90,4.1,45.5,Unknown
+Google,Miri,The Workshop Grill,29,4.03,28.0,Unknown
+Google,Miri,UNIQUE Cafe & Restaurant,21,4.1,68.0,Cafe & bar
+Google,Miri,Zaika Restaurant,85,4.31,38.0,Unknown
+Google,Miri,台灣風味館 Miri Taiwan Restaurant,29,4.17,54.0,Unknown
+Google,Penang,20 Chulia Lane Cafe,62,4.73,84.5,Cafe & bar
+Google,Penang,218 Hainan Lor Mee,75,4.36,81.0,Unknown
+Google,Penang,Ah Chui Seafood,213,4.1,56.0,Seafood
+Google,Penang,Air Itam Sister Curry Mee,294,3.8,90.0,Indian
+Google,Penang,Aji Noren 味暖簾,177,4.31,67.0,Unknown
+Google,Penang,Aki Pancake,98,4.43,71.0,Unknown
+Google,Penang,Andrew's Kampung,327,4.53,96.0,Malay
+Google,Penang,Antarabangsa Enterprise,135,4.61,78.0,Unknown
+Google,Penang,Areca Cafe,33,4.3,86.0,Cafe & bar
+Google,Penang,Arte Malaysia,56,4.25,94.0,Unknown
+Google,Penang,Auntie Gaik Lean's Old School Eatery,290,4.32,91.5,Unknown
+Google,Penang,Awesome Canteen,175,4.27,78.0,Unknown
+Google,Penang,Baa Baa Black Sheep,178,4.28,65.0,Unknown
+Google,Penang,Bali Hai Seafood Market,295,3.56,130.0,Seafood
+Google,Penang,Beach Corner Seafood,219,3.54,55.0,Seafood
+Google,Penang,Bean Sprout Café,205,4.39,97.0,Cafe & bar
+Google,Penang,Behind 50,30,3.73,83.5,Unknown
+Google,Penang,Bite N Eat Dindigul Biriyani,183,3.58,139.0,Unknown
+Google,Penang,Blue Reef Fish & Chips,279,4.18,69.0,Unknown
+Google,Penang,Blue Vegan Restaurant,106,4.55,101.5,Unknown
+Google,Penang,Boatman Restaurant,73,4.36,76.0,Unknown
+Google,Penang,Bridge Street Prawn Noodle 正宗橋頭福建蝦麵,233,4.18,66.0,Seafood
+Google,Penang,"Brussels Beer Cafe, Gurney Paragon",187,4.11,68.0,Cafe & bar
+Google,Penang,CRC Restaurant,300,4.02,58.0,Unknown
+Google,Penang,CREAM by ChinChin,41,4.49,96.0,Unknown
+Google,Penang,Chatto Tea & Coffee Georgetown,119,4.41,75.0,Cafe & bar
+Google,Penang,Cheang Kee Restaurant,423,4.68,82.0,Unknown
+Google,Penang,Chilli Mee at Prestige Hotel,23,4.3,81.0,Unknown
+Google,Penang,Chin Chin Gastropub Penang,93,4.13,108.0,Cafe & bar
+Google,Penang,Chin’s Stylish Chinese Cuisine,76,4.0,114.5,Chinese
+Google,Penang,Claypot Restaurant,159,4.49,55.0,Chinese
+Google,Penang,D'Loovi's,78,4.64,76.0,Unknown
+Google,Penang,David Brown's Restaurant & Tea Terrace,291,4.12,82.0,Unknown
+Google,Penang,Deens Maju Nasi Kandar,300,4.35,151.0,Indian
+Google,Penang,Dehappy Seafood Restaurant,291,4.15,90.0,Seafood
+Google,Penang,Deluxcious Spa & Restaurant,107,4.47,76.0,Unknown
+Google,Penang,Din Tai Fung 鼎泰豐 At Penang Gurney Plaza,292,4.05,57.5,Unknown
+Google,Penang,Edelweiss Cafe,129,4.57,95.0,Cafe & bar
+Google,Penang,Ee Beng Vegetarian Food,242,4.3,67.5,Unknown
+Google,Penang,Enca Restaurant,43,4.09,98.0,Unknown
+Google,Penang,Farquhar's Bar,20,4.1,127.5,Cafe & bar
+Google,Penang,Feringgi Grill at Shangri-La's Rasa Sayang Resort and Spa - Penang,65,4.77,68.0,Unknown
+Google,Penang,Flip Burger Queensbay Mall,109,4.36,86.0,Western
+Google,Penang,Garden Cafe at Golden Sands Resort - Penang,21,3.38,179.0,Cafe & bar
+Google,Penang,"Gravity, Rooftop Bar, Penang",62,4.47,49.0,Cafe & bar
+Google,Penang,Gudang Café,300,4.28,81.0,Cafe & bar
+Google,Penang,Gusto Cafe,163,4.37,55.0,Cafe & bar
+Google,Penang,HH+ by Haven Harbour,88,4.17,64.0,Unknown
+Google,Penang,Hai Wei Seafood Restaurants 海味海鲜中餐厅,178,4.13,61.5,Chinese
+Google,Penang,Hainanese Delights Restaurant Penang,73,3.62,86.0,Unknown
+Google,Penang,Hameed Pata Mee Sotong,300,4.08,128.0,Unknown
+Google,Penang,Hameediyah Restaurant,300,3.78,169.5,Unknown
+Google,Penang,Harvest In Café,295,4.43,56.0,Cafe & bar
+Google,Penang,Healy Mac's Irish Bar & Restaurant,515,4.19,56.0,Cafe & bar
+Google,Penang,Heap Seng at 29,83,4.41,88.0,Unknown
+Google,Penang,Helena Cafe,110,4.45,99.0,Cafe & bar
+Google,Penang,Hi Barry Desserts Cafe,31,4.58,117.0,Cafe & bar
+Google,Penang,Ho Ping Cafe,148,4.16,64.0,Cafe & bar
+Google,Penang,Hudson's Deli,82,4.72,103.5,Unknown
+Google,Penang,Hutton Lane Roti Bakar,290,4.24,79.0,Unknown
+Google,Penang,Hygge Dining & Bar,145,4.74,98.0,Cafe & bar
+Google,Penang,I Love You Cafe,31,3.9,81.0,Cafe & bar
+Google,Penang,Il Bacaro,282,4.3,119.0,Unknown
+Google,Penang,Indigo Restaurant @ The Blue Mansion,110,4.24,164.0,Unknown
+Google,Penang,J. L. Gourmet Café,28,4.11,135.5,Cafe & bar
+Google,Penang,Jawi House Cafe Gallery,496,4.45,75.5,Cafe & bar
+Google,Penang,Junk Cafe,227,4.53,79.0,Cafe & bar
+Google,Penang,Kafe Ping Hooi,69,3.81,82.0,Unknown
+Google,Penang,Kannichikan Yakiniku Tanjung Tokong,89,4.44,73.0,Unknown
+Google,Penang,Kedai Kopi Seng Thor,290,4.26,103.0,Unknown
+Google,Penang,Kedai Makan Lidiana - Nasi Campur,290,4.33,45.5,Malay
+Google,Penang,Kek Seng格成 (红豆雪),216,4.0,66.0,Unknown
+Google,Penang,Kheng Pin Cafe,300,4.13,90.5,Cafe & bar
+Google,Penang,Kimberley Street Duck Kway Chap,300,3.94,103.0,Unknown
+Google,Penang,Kimpo Famous Roasted,51,4.2,101.0,Unknown
+Google,Penang,Knife And Fork Restaurant,44,4.66,129.5,Unknown
+Google,Penang,Kota Dine & Coffee - when Francis meets rempah,161,3.89,108.0,Cafe & bar
+Google,Penang,Kuih Culture,119,3.4,95.0,Unknown
+Google,Penang,L Kitchen,183,4.32,62.0,Unknown
+Google,Penang,Lagenda House & Cafe,498,4.48,85.0,Cafe & bar
+Google,Penang,Lavish Community,307,3.78,83.0,Unknown
+Google,Penang,Leong Kee Tim Sum,93,3.6,80.0,Unknown
+Google,Penang,Let's Meat | American Restaurant | American Food | American Breakfast,300,4.55,74.5,Unknown
+Google,Penang,Li Er Cafe 莉儿,154,4.42,77.5,Cafe & bar
+Google,Penang,Lilys Vegetarian Kitchen Sdn. Bhd.,247,4.22,65.0,Unknown
+Google,Penang,Little Kitchen @ Nyonya,37,4.57,113.0,Unknown
+Google,Penang,Living Room Cafe Bar Gallery,138,4.39,91.5,Cafe & bar
+Google,Penang,Maple Palace Chinese Restaurant,300,4.32,65.0,Chinese
+Google,Penang,Mews Cafe,198,4.36,89.5,Cafe & bar
+Google,Penang,Miami Cafe Beachfront,111,4.4,84.0,Cafe & bar
+Google,Penang,Minah Restaurant,300,4.25,49.0,Unknown
+Google,Penang,Miraku G Kelawai,134,4.0,63.5,Unknown
+Google,Penang,Mish Mash,265,4.5,65.0,Unknown
+Google,Penang,Moh Teng Pheow Nyonya Koay,300,4.03,98.5,Unknown
+Google,Penang,Mr. Shawerma,258,4.44,47.5,Unknown
+Google,Penang,My Home Style,185,4.31,47.0,Unknown
+Google,Penang,My Own Cafe,222,4.56,79.0,Cafe & bar
+Google,Penang,Narrow Marrow,292,4.52,84.0,Unknown
+Google,Penang,Nasi Kandar Merlin,194,4.48,44.0,Indian
+Google,Penang,Nasi Kandar Pokok Ketapang,300,4.15,38.0,Indian
+Google,Penang,No Eyed Deer,144,4.25,63.5,Unknown
+Google,Penang,Nyonya Breeze Desire,158,4.28,74.5,Unknown
+Google,Penang,Ocean Green Restaurant,300,3.53,104.0,Unknown
+Google,Penang,Olive Kitchen + Bar Penang,291,4.41,60.0,Cafe & bar
+Google,Penang,Orinea by Farquhar Mansion,146,4.02,98.5,Unknown
+Google,Penang,Pasta Path,137,4.46,96.0,Western
+Google,Penang,Paul Loiis,28,4.0,67.5,Unknown
+Google,Penang,Penang Air Itam Laksa,294,4.17,160.5,Malay
+Google,Penang,Penang Club,87,4.26,34.0,Unknown
+Google,Penang,Pho Viet Cafe,121,4.28,78.0,Cafe & bar
+Google,Penang,Pit Stop No. 12,121,4.63,62.0,Unknown
+Google,Penang,Planters Lounge,40,4.12,82.5,Unknown
+Google,Penang,Potters Place Cafe,38,5.0,99.0,Cafe & bar
+Google,Penang,Presgrave Street Hawker Centre,256,4.18,70.0,Unknown
+Google,Penang,Puree Juice,69,4.94,82.0,Unknown
+Google,Penang,Restaurant Ferringhi Garden,300,4.29,149.0,Unknown
+Google,Penang,Restaurant Veloo Villas,238,3.74,51.5,Unknown
+Google,Penang,Restoran DEEN | Nasi Kandar,296,4.0,133.5,Indian
+Google,Penang,Restoran Fishing Village Seafood,149,3.9,59.0,Seafood
+Google,Penang,Restoran Red Chopstick,102,3.4,71.5,Unknown
+Google,Penang,Restorante Bella Italia Pizzeria,187,3.93,70.0,Western
+Google,Penang,Rubin Mardini Cafe & Restaurant,200,4.82,154.0,Cafe & bar
+Google,Penang,SUPE Vegan - Georgetown Branch,97,4.7,89.0,Unknown
+Google,Penang,Saigon Bowl,211,4.14,62.0,Unknown
+Google,Penang,Salsas Penang,25,4.64,66.0,Unknown
+Google,Penang,Santorini Café,77,4.29,68.0,Cafe & bar
+Google,Penang,Sarkies,300,4.2,74.0,Unknown
+Google,Penang,Siam Road Charcoal Char Koay Teow,300,4.2,161.0,Thai
+Google,Penang,SmokePapa BBQ,38,4.84,116.5,Unknown
+Google,Penang,Soul Cafe,300,4.43,55.5,Cafe & bar
+Google,Penang,Spice Market Cafe at Shangri-La's Rasa Sayang Resort and Spa - Penang,97,4.15,82.0,Cafe & bar
+Google,Penang,Spice Pisa Cafe,300,4.17,100.0,Cafe & bar
+Google,Penang,Sungai Pinang Food Court,292,4.04,107.5,Unknown
+Google,Penang,Sup Hameed,300,3.73,94.0,Unknown
+Google,Penang,Super Tanker Food Court,291,3.97,105.0,Unknown
+Google,Penang,THE HILLSIDE,152,4.28,68.5,Unknown
+Google,Penang,Tajuddin Hussain Nasi Kandar,285,4.32,72.0,Indian
+Google,Penang,Tea Kadai,300,4.36,50.0,Unknown
+Google,Penang,Teels Heritage Cafe,61,4.33,64.0,Cafe & bar
+Google,Penang,Thali-NR Sweets Cafe,292,4.17,64.0,Cafe & bar
+Google,Penang,The Book Sandwich Cafe,200,4.11,134.0,Cafe & bar
+Google,Penang,The Brick Café,79,4.41,128.0,Cafe & bar
+Google,Penang,The Bungalow At Lone Pine Hotel,61,4.03,13.0,Unknown
+Google,Penang,The Jetty Food Court,291,3.89,111.0,Unknown
+Google,Penang,The Leaf Healthy Recipes At Bayan Baru,35,4.57,61.0,Cafe & bar
+Google,Penang,The Line Sandwich Cafe,30,4.33,69.0,Cafe & bar
+Google,Penang,The Little Nyonya Cuisine @ Gurney Plaza,126,3.0,110.0,Unknown
+Google,Penang,The Loft - Love Lane,287,4.48,68.0,Unknown
+Google,Penang,The Mermaid Cafe . Ikan Bakar,48,4.5,60.5,Cafe & bar
+Google,Penang,The Table Penang,300,4.41,71.0,Unknown
+Google,Penang,The View Condominiums,25,4.44,21.0,Unknown
+Google,Penang,Three Sixty Revolving Restaurant and Rooftop Bar,219,3.94,73.0,Cafe & bar
+Google,Penang,Thóng Thai Fusion,95,4.6,79.0,Thai
+Google,Penang,Tokma Malay Kitchen,65,4.51,107.0,Unknown
+Google,Penang,Two Buns,153,4.34,83.0,Unknown
+Google,Penang,Two Frenchies Cafe Bistro,357,4.68,99.0,Western
+Google,Penang,Urban Daybreak,290,4.13,119.0,Unknown
+Google,Penang,Urban Spice Café,22,4.59,96.0,Cafe & bar
+Google,Penang,Via Pre Penang Italian Restaurants,300,4.31,87.0,Western
+Google,Penang,Vintage Bulgaria Restaurant & Bar,125,4.44,77.0,Cafe & bar
+Google,Penang,Viva Local Food Haven,300,3.98,112.0,Unknown
+Google,Penang,Viva Victoria,120,4.49,72.0,Unknown
+Google,Penang,WHEELER'S,191,4.4,182.0,Unknown
+Google,Penang,Wen Chang Hainan Chicken Rice,204,3.73,60.0,Chinese
+Google,Penang,What The Duck Restaurant,148,4.3,79.0,Unknown
+Google,Penang,Winn's Cafe,228,4.3,65.5,Cafe & bar
+Google,Penang,Woodlands Vegetarian Restaurant,293,3.94,118.0,Unknown
+Google,Penang,Yeap Noodles,206,4.36,74.5,Unknown
+Google,Penang,Yeng Keng Café,148,4.15,81.5,Cafe & bar
+Google,Penang,Yong Pin Restaurant,300,4.01,78.0,Unknown
+Google,Penang,Zhu Yuan Vegetarian Restaurant 竺緣素食齋菜館,74,3.85,74.0,Unknown
+Google,Penang,"Ăn Viet, Gurney Plaza | Vietnamese Food Restaurant",157,4.24,58.0,Unknown
+Google,Penang,一品轩 Yi Bin the Mansion of Tea Art,32,4.19,78.0,Unknown
+Google,Penang,云山阁素食茶馆 Yun Shan Ge Vegetarian House,87,4.06,95.0,Chinese
+Google,Penang,富二代 Fu Er Dai,300,3.89,73.5,Unknown
+Google,Petaling Jaya,33 Blue Room,300,4.38,153.0,Unknown
+Google,Petaling Jaya,4Fingers Crispy Chicken @ Sunway Pyramid,277,3.64,60.0,Unknown
+Google,Petaling Jaya,ABC Bistro Cafe,300,3.86,51.5,Cafe & bar
+Google,Petaling Jaya,ADU Sugar Restaurant,65,4.55,133.0,Unknown
+Google,Petaling Jaya,After Black,300,4.16,96.5,Unknown
+Google,Petaling Jaya,Ah Sang Bak Kut Teh,300,4.4,87.0,Chinese
+Google,Petaling Jaya,Ah Tuan Ee's Place,61,3.92,53.0,Unknown
+Google,Petaling Jaya,Aliyaa,447,4.36,66.0,Unknown
+Google,Petaling Jaya,Annalakshmi,294,4.39,132.5,Unknown
+Google,Petaling Jaya,Antipodean @ Atria,971,4.61,85.0,Unknown
+Google,Petaling Jaya,Antipodean Cafe,988,4.64,119.0,Cafe & bar
+Google,Petaling Jaya,Ara Vietnamese Noodles (non-halal),291,4.39,104.0,Unknown
+Google,Petaling Jaya,Ashley's by Living Food,64,3.5,132.5,Unknown
+Google,Petaling Jaya,Asian Rice Pot,291,4.15,75.0,Unknown
+Google,Petaling Jaya,Awesome Canteen,300,4.06,98.5,Unknown
+Google,Petaling Jaya,BBQ NIGHTS,300,4.22,92.0,Unknown
+Google,Petaling Jaya,BBQ Thai (OKR) Sdn Bhd,300,3.47,93.0,Thai
+Google,Petaling Jaya,Bacon And Balls Courtyard,233,3.99,67.0,Unknown
+Google,Petaling Jaya,Bedouin Arabian Cuisine,289,4.64,104.0,Unknown
+Google,Petaling Jaya,Bistro à Table,109,3.97,91.0,Cafe & bar
+Google,Petaling Jaya,Boon Signature Roast Pork,300,3.83,166.0,Unknown
+Google,Petaling Jaya,Boran (Seapark) - Classic Thai Street Food,300,3.94,87.0,Thai
+Google,Petaling Jaya,Botanica + Co at Bangsar South,300,3.86,162.5,Unknown
+Google,Petaling Jaya,Brotzeit German Bier Bar & Restaurant Sunway Pyramid,154,4.13,41.5,Cafe & bar
+Google,Petaling Jaya,Busaba Thai - Sunway Hotel Resort & Spa,118,4.12,67.0,Thai
+Google,Petaling Jaya,Carnaval Churrascaria,285,4.37,68.0,Unknown
+Google,Petaling Jaya,Chamber’s Grill,29,4.24,135.0,Unknown
+Google,Petaling Jaya,Chez Gaston by rendez-vous,140,4.39,115.5,Unknown
+Google,Petaling Jaya,Chili's 1 Utama,300,3.91,96.5,Unknown
+Google,Petaling Jaya,Chuup,251,4.23,82.0,Unknown
+Google,Petaling Jaya,Chynna,113,4.04,88.0,Unknown
+Google,Petaling Jaya,Cielo KL,190,4.22,85.5,Unknown
+Google,Petaling Jaya,Coco Fika,28,4.86,81.5,Unknown
+Google,Petaling Jaya,Coco Ichibanya,89,3.98,88.0,Unknown
+Google,Petaling Jaya,Coffee ETC,83,3.87,51.0,Cafe & bar
+Google,Petaling Jaya,Cor Blimey British Fish and Chips (Damansara Uptown),291,4.26,127.0,Unknown
+Google,Petaling Jaya,Curate,60,3.73,142.0,Unknown
+Google,Petaling Jaya,DC Restaurant,178,4.55,88.0,Unknown
+Google,Petaling Jaya,Dalca Penang Restaurant by Masakan Warisan,53,4.0,58.0,Unknown
+Google,Petaling Jaya,Damansara Uptown Hokkien Mee (Uptown-HQ),294,3.47,144.5,Chinese
+Google,Petaling Jaya,Dancing Fish,229,4.27,71.0,Unknown
+Google,Petaling Jaya,Decanter PJ Section 17,277,3.99,51.0,Unknown
+Google,Petaling Jaya,Define:Food,300,4.01,99.0,Unknown
+Google,Petaling Jaya,"Delicious, Bangsar Village 2",144,3.78,61.5,Unknown
+Google,Petaling Jaya,Din Tai Fung 鼎泰豐 at 1 Utama Shopping Centre,300,4.09,49.0,Unknown
+Google,Petaling Jaya,Din Tai Fung 鼎泰豐 at Pavilion KL,291,4.27,104.0,Unknown
+Google,Petaling Jaya,Din Tai Fung 鼎泰豐 at The Gardens Mall,300,3.96,101.5,Unknown
+Google,Petaling Jaya,Dining In The Dark KL,290,4.69,130.0,Unknown
+Google,Petaling Jaya,"Dolly Dim Sum, NU Sentral",300,3.91,66.0,Chinese
+Google,Petaling Jaya,Don's Diner,209,4.42,47.0,Unknown
+Google,Petaling Jaya,Edo Ichi Nexus Bangsar South,240,4.03,62.0,Unknown
+Google,Petaling Jaya,Ee Chinese Cuisine Restaurant,67,4.21,82.0,Chinese
+Google,Petaling Jaya,Enorme Italian Restaurant,290,4.05,80.0,Western
+Google,Petaling Jaya,Entier French Dining,300,4.1,173.0,Western
+Google,Petaling Jaya,Fat Olive Food Garage,102,4.36,81.5,Unknown
+Google,Petaling Jaya,Fatty Crab Restaurant 肥佬蟹海鲜楼,290,4.0,148.5,Chinese
+Google,Petaling Jaya,"Favola , Le Méridien Kuala Lumpur",94,4.14,104.0,Unknown
+Google,Petaling Jaya,Fellini Ristorante & Caffe,206,4.52,112.5,Western
+Google,Petaling Jaya,"Flock, W Kuala Lumpur",58,3.97,121.0,Unknown
+Google,Petaling Jaya,Fong Lye Taiwan Restaurant (Sunway) 蓬莱茶房,145,3.52,88.0,Chinese
+Google,Petaling Jaya,Fresca Mexican Kitchen & Bar,108,3.61,64.5,Cafe & bar
+Google,Petaling Jaya,Frontera Sol of Mexico,22,3.36,115.5,Unknown
+Google,Petaling Jaya,GOODDAM,79,4.15,121.0,Unknown
+Google,Petaling Jaya,"Gastro Sentral, Le Méridien Kuala Lumpur",76,4.3,91.5,Cafe & bar
+Google,Petaling Jaya,Gem Restaurant PJ,286,3.93,44.5,Unknown
+Google,Petaling Jaya,Genji Japanese Restaurant,151,3.93,57.0,Japanese
+Google,Petaling Jaya,Geographer cafe Kuala Lumpur,181,4.34,69.0,Cafe & bar
+Google,Petaling Jaya,Goon Wah XO Fish Head Noodle,200,3.62,81.5,Seafood
+Google,Petaling Jaya,GravyBaby Damansara Heights,197,3.83,61.0,Unknown
+Google,Petaling Jaya,Gravybaby Jalan P Ramlee,295,4.13,110.0,Unknown
+Google,Petaling Jaya,Grub by Ahong & Friends,300,4.25,185.0,Unknown
+Google,Petaling Jaya,Hee Lai Ton Restaurant,290,3.93,77.5,Unknown
+Google,Petaling Jaya,Horizon Grill @ Banyan Tree Kuala Lumpur,99,4.28,132.0,Unknown
+Google,Petaling Jaya,Hornbill Restaurant & Cafe,272,4.12,89.0,Cafe & bar
+Google,Petaling Jaya,Huck's Cafe,89,4.71,70.0,Cafe & bar
+Google,Petaling Jaya,Iketeru,202,4.09,79.0,Unknown
+Google,Petaling Jaya,Ishin Japanese Dining,448,4.29,68.5,Japanese
+Google,Petaling Jaya,Jatujak Bangkok Street Food,290,3.96,142.5,Unknown
+Google,Petaling Jaya,Just Seafood,216,4.42,103.0,Seafood
+Google,Petaling Jaya,Kampachi Plaza33,177,3.94,69.0,Unknown
+Google,Petaling Jaya,Kayra Authentic Kerala Cuisine @Bangsar Village,300,4.29,119.5,Unknown
+Google,Petaling Jaya,Kechara Oasis Vegetarian Restaurant,263,4.23,42.0,Unknown
+Google,Petaling Jaya,Khan’s Indian Cuisine,948,4.43,63.5,Indian
+Google,Petaling Jaya,Kingdom Palace Restaurant,218,3.94,57.0,Unknown
+Google,Petaling Jaya,Kulcats Barrio,33,3.82,35.0,Cafe & bar
+Google,Petaling Jaya,La Risata Bar Pizzeria Ristorante (Damansara),300,3.79,117.5,Western
+Google,Petaling Jaya,Laguna Filipino Bar & Restaurant,155,4.42,70.0,Cafe & bar
+Google,Petaling Jaya,Lai Po Heen,169,4.11,90.0,Unknown
+Google,Petaling Jaya,Lankan Cafe,300,4.17,89.0,Cafe & bar
+Google,Petaling Jaya,Lao Ma Zi 佬妈子家乡小菜@Lot 10 Kawasan Landskap & Nursery Tropicana Selatan,144,4.11,67.0,Unknown
+Google,Petaling Jaya,Leonardo's Dining Room and Wine Loft,206,4.33,76.0,Unknown
+Google,Petaling Jaya,MARCO Creative Cuisine,205,4.21,84.0,Unknown
+Google,Petaling Jaya,MTR,300,4.22,170.0,Unknown
+Google,Petaling Jaya,Mai Bar,78,3.81,69.0,Cafe & bar
+Google,Petaling Jaya,Malabar Palace Sri Hartamas,227,4.21,68.0,Cafe & bar
+Google,Petaling Jaya,Malai Thai Cuisine @ Cormar Suites,198,4.45,92.0,Thai
+Google,Petaling Jaya,Mandarin Grill,77,4.19,63.0,Unknown
+Google,Petaling Jaya,March Azalea Kitchen,255,4.22,69.0,Unknown
+Google,Petaling Jaya,Maria's SteakCafe Damansara Perdana,171,4.06,78.0,Western
+Google,Petaling Jaya,Marta's Kitchen @ Hartamas,300,4.17,165.0,Unknown
+Google,Petaling Jaya,Maruhi Sakaba,200,4.28,83.0,Unknown
+Google,Petaling Jaya,Masala Wheels,291,4.1,116.0,Unknown
+Google,Petaling Jaya,Menya Shi-Shi Do,300,4.3,179.5,Unknown
+Google,Petaling Jaya,Mercat Barcelona Gastrobar (1MontKiara),84,4.17,86.0,Cafe & bar
+Google,Petaling Jaya,Metal Box Restaurant & Cafe,34,3.5,65.0,Cafe & bar
+Google,Petaling Jaya,Mighty Monster IPC,112,3.99,82.0,Unknown
+Google,Petaling Jaya,Milligram - Coffee & Eatery,292,4.13,84.0,Cafe & bar
+Google,Petaling Jaya,Miyabi @ Sheraton PJ,37,3.89,108.0,Unknown
+Google,Petaling Jaya,Monnalisa Italian Restaurant,146,4.45,94.5,Western
+Google,Petaling Jaya,Naj & Belle SS15 Courtyard,300,3.71,113.5,Unknown
+Google,Petaling Jaya,"Nam Heong Vintage, Pavilion Elite",300,3.54,67.5,Unknown
+Google,Petaling Jaya,Nasi Kukus Ilham @ Mutiara Damansara,282,4.2,99.5,Malay
+Google,Petaling Jaya,Nature's Vegetarian Restaurant,149,4.25,41.0,Unknown
+Google,Petaling Jaya,Naughty Nuri's @ Atria Shopping Gallery(Non Halal),284,3.84,61.0,Unknown
+Google,Petaling Jaya,Nero Nero,250,4.32,106.0,Unknown
+Google,Petaling Jaya,New Paris Restaurant,283,3.53,97.0,Unknown
+Google,Petaling Jaya,Oliver Gourmet,85,3.67,115.0,Unknown
+Google,Petaling Jaya,Omulab,291,3.85,157.0,Unknown
+Google,Petaling Jaya,One Half,282,4.28,97.0,Unknown
+Google,Petaling Jaya,Opus Bistro,127,4.23,55.0,Cafe & bar
+Google,Petaling Jaya,Organic Express,179,4.46,58.0,Unknown
+Google,Petaling Jaya,Oriental Pavilion 大港城酒家,288,3.95,100.5,Unknown
+Google,Petaling Jaya,Out of Africa Restaurant & Kudu Bar,224,4.35,58.5,Cafe & bar
+Google,Petaling Jaya,P.S. Tokyo,98,4.23,78.5,Japanese
+Google,Petaling Jaya,POP PIZZA,111,3.16,170.0,Western
+Google,Petaling Jaya,Paradise Dynasty @ Bangsar Village II,196,4.41,69.0,Unknown
+Google,Petaling Jaya,Passage thru' India Damansara,120,4.31,66.5,Unknown
+Google,Petaling Jaya,Pinchos Tapas Bar,300,4.48,60.0,Cafe & bar
+Google,Petaling Jaya,Ploy,177,4.33,56.0,Unknown
+Google,Petaling Jaya,Positano Risto @ Publika,300,4.22,144.5,Cafe & bar
+Google,Petaling Jaya,Proof Pizza + Wine,298,4.03,98.5,Western
+Google,Petaling Jaya,Putien @ 1 Utama Shopping Centre,234,3.86,65.0,Unknown
+Google,Petaling Jaya,Quivo,291,4.06,131.0,Unknown
+Google,Petaling Jaya,Qureshi,237,4.42,53.0,Unknown
+Google,Petaling Jaya,Raju Restaurant,292,3.65,128.5,Unknown
+Google,Petaling Jaya,Rasa Wau,96,4.39,54.0,Unknown
+Google,Petaling Jaya,Restaurant Baan Rao,185,3.89,69.0,Unknown
+Google,Petaling Jaya,Restaurant Dominic,195,4.24,99.0,Unknown
+Google,Petaling Jaya,Restaurant Gold Dragon City,300,3.91,112.5,Unknown
+Google,Petaling Jaya,Restaurant Saravanaa Bhavan Petaling Jaya,290,3.87,78.0,Indian
+Google,Petaling Jaya,Restaurant Sin Chua Kee (Kuala Lumpur),245,4.02,48.0,Unknown
+Google,Petaling Jaya,Restaurant Siu Siu - Sungai Besi,117,3.46,72.0,Unknown
+Google,Petaling Jaya,Restoran Hoi Peng Seafood,211,3.94,60.0,Seafood
+Google,Petaling Jaya,Restoran Mum's Place,300,4.36,64.0,Unknown
+Google,Petaling Jaya,Restoran New Wong Poh,300,3.81,69.0,Unknown
+Google,Petaling Jaya,Restoran Sri Nyonya,150,4.27,63.0,Unknown
+Google,Petaling Jaya,Restoran Sweet Inn,237,3.9,49.0,Unknown
+Google,Petaling Jaya,Rock Salt Restaurant,169,4.69,98.0,Unknown
+Google,Petaling Jaya,STREAT Thai,292,3.7,128.0,Thai
+Google,Petaling Jaya,Sam You Restaurant,187,3.79,50.0,Unknown
+Google,Petaling Jaya,Sangeetha Veg Restaurant,300,4.02,37.0,Unknown
+Google,Petaling Jaya,Sao Nam,220,4.45,70.5,Unknown
+Google,Petaling Jaya,Sausage KL Cafe & Deli,117,4.62,146.0,Cafe & bar
+Google,Petaling Jaya,Secret Of Louisiana at the lake,300,3.62,179.0,Unknown
+Google,Petaling Jaya,Secret Recipe PJ New Town,79,3.8,47.0,Unknown
+Google,Petaling Jaya,Shell Out®,291,3.99,46.0,Unknown
+Google,Petaling Jaya,Skillet KL,300,4.37,109.0,Unknown
+Google,Petaling Jaya,Sköhns Canteen,285,4.34,79.0,Unknown
+Google,Petaling Jaya,Sou Omakase Dining - Gardens Mall Mid Valley,100,4.18,94.5,Japanese
+Google,Petaling Jaya,Southern Rock Seafood,290,3.88,86.5,Seafood
+Google,Petaling Jaya,Sri Nirwana Maju Restaurant - Bangsar,300,4.01,202.0,Unknown
+Google,Petaling Jaya,Sushiya One Utama (Ichiro Sushi Bar),205,4.28,109.0,Japanese
+Google,Petaling Jaya,TENMAYA Japanese Cuisine,84,4.21,73.0,Japanese
+Google,Petaling Jaya,THE TOKYO RESTAURANT.,300,4.27,181.5,Japanese
+Google,Petaling Jaya,Table & Apron,292,4.56,171.5,Unknown
+Google,Petaling Jaya,Table9,300,4.38,72.0,Unknown
+Google,Petaling Jaya,Tanjung Bungah Nyonya,147,3.98,68.0,Unknown
+Google,Petaling Jaya,Thai Hou Sek @ 1 Utama,263,3.76,78.0,Thai
+Google,Petaling Jaya,"Thai Thai, Sunway Pyramid",291,3.63,85.0,Thai
+Google,Petaling Jaya,The BBP,286,4.63,56.5,Unknown
+Google,Petaling Jaya,The Beato Dry Aged Steakhouse Bangsar,163,4.31,88.0,Western
+Google,Petaling Jaya,The Daily Grind Bangsar,300,4.22,72.0,Unknown
+Google,Petaling Jaya,The Elite Seafood Restaurant,240,3.92,38.0,Seafood
+Google,Petaling Jaya,The Enclave@Bangsar,95,4.39,56.0,Unknown
+Google,Petaling Jaya,The Ganga Café @ Sea Park,95,4.01,96.0,Cafe & bar
+Google,Petaling Jaya,The Grand Getaway,46,4.83,146.5,Unknown
+Google,Petaling Jaya,The Great Beer Bar,227,4.36,67.0,Cafe & bar
+Google,Petaling Jaya,The Han Room,290,3.4,106.0,Unknown
+Google,Petaling Jaya,The Locker & Loft,290,4.48,86.5,Unknown
+Google,Petaling Jaya,The Lounge at Four Seasons,62,4.1,107.5,Unknown
+Google,Petaling Jaya,The Ming Room 名城酒家,260,3.9,62.5,Unknown
+Google,Petaling Jaya,The Uma Bali,274,4.55,85.0,Unknown
+Google,Petaling Jaya,Thosai Cafe,197,4.59,81.0,Indian
+Google,Petaling Jaya,Tiffin's By Chef Korn Restaurant,272,4.4,125.0,Unknown
+Google,Petaling Jaya,Tiki Taka,202,4.2,61.0,Unknown
+Google,Petaling Jaya,Toh Yuen Chinese Restaurant,53,3.81,66.0,Chinese
+Google,Petaling Jaya,"Tom, Dick & Harry's, Oasis Square",277,4.11,43.0,Unknown
+Google,Petaling Jaya,Tonkatsu by Ma Maison @1Utama,252,4.14,83.0,Unknown
+Google,Petaling Jaya,Tony Roma's,292,3.5,91.0,Unknown
+Google,Petaling Jaya,Turkish Cafe Istanbul,174,4.68,111.5,Cafe & bar
+Google,Petaling Jaya,Tut's Egyptian Eatery - Neo Damansara Kitchen (F-LG-3A),187,3.95,77.0,Unknown
+Google,Petaling Jaya,UROKO Japanese Cuisine,300,4.2,75.0,Japanese
+Google,Petaling Jaya,Unique Seafood PJ23,300,3.99,149.0,Seafood
+Google,Petaling Jaya,Vasco's,118,3.45,103.5,Unknown
+Google,Petaling Jaya,Verona Trattoria,168,4.02,74.0,Western
+Google,Petaling Jaya,Via Pre KL Italian restaurant,194,4.44,78.5,Western
+Google,Petaling Jaya,Village Park Restaurant,475,4.12,171.0,Unknown
+Google,Petaling Jaya,Village Roast Duck @ Sunway Pyramid,265,4.08,77.0,Unknown
+Google,Petaling Jaya,Vin's Restaurant,437,4.24,65.0,Unknown
+Google,Petaling Jaya,Wild Sheep Home,123,4.22,97.0,Unknown
+Google,Petaling Jaya,Williams Corner,300,3.54,144.0,Unknown
+Google,Petaling Jaya,"YEN, W Kuala Lumpur",47,4.47,114.0,Unknown
+Google,Petaling Jaya,Ye Zi Steamboat,117,4.33,44.0,Chinese
+Google,Petaling Jaya,Yoshinoya & Hanamaru Udon @ Mid Valley Megamall,96,3.38,79.0,Japanese
+Google,Petaling Jaya,Yue @ Sheraton PJ,35,3.83,62.0,Unknown
+Google,Petaling Jaya,Yun House,111,4.45,112.0,Unknown
+Google,Petaling Jaya,Zuan Yuan Chinese Restaurant,170,3.76,70.0,Chinese
+Google,Petaling Jaya,a'Roma dinings,292,4.28,108.5,Unknown
+Google,Petaling Jaya,d'Tandoor Restaurant Damansara Utama,170,3.95,59.0,Indian
+Google,Petaling Jaya,habanna charbroil steakhouse,151,4.3,98.0,Western
+Google,Petaling Jaya,leaf & co. cafe,300,3.97,159.0,Cafe & bar
+Google,Petaling Jaya,myBurgerLab OUG,938,4.35,54.5,Western
+Google,Petaling Jaya,مطعم قصر العرب Arab Palace Restaurant,203,4.47,78.0,Unknown
+Google,Petaling Jaya,友谊饭店,186,3.83,54.0,Chinese
+Google,Shah Alam,ALRAWSHA RESTAURANT,291,4.15,114.0,Unknown
+Google,Shah Alam,Buns & Noodles,150,4.32,97.5,Unknown
+Google,Shah Alam,Fatty Mee Hoon Kuih House (Klang),300,4.14,121.0,Unknown
+Google,Shah Alam,Hadramawt Kitchen Shah Alam-Middle Eastern Restaurant,300,4.59,113.0,Unknown
+Google,Shah Alam,"Melting Pot Cafe, Concorde Hotel",84,4.06,33.5,Cafe & bar
+Google,Shah Alam,Ole-Ole Bali @ Empire Shopping Gallery,300,4.21,60.0,Unknown
+Google,Shah Alam,Restoran Boston Baru,291,3.66,188.0,Cafe & bar
+Google,Shah Alam,Senja Restaurant @ The Saujana Hotel Kuala Lumpur,32,4.31,69.0,Unknown
+Google,Shah Alam,Ti Chen,121,4.45,53.0,Unknown
+TripAdvisor,Ipoh,1919 Restaurant and Gallery,63,3.86,279.0,Unknown
+TripAdvisor,Ipoh,Aud's Cafe,48,4.54,289.0,Cafe & bar
+TripAdvisor,Ipoh,Aun Kheng Lim Salted Chicken,235,4.09,227.0,Unknown
+TripAdvisor,Ipoh,Bricks & Barrels,46,3.48,229.5,Cafe & bar
+TripAdvisor,Ipoh,Burps & Giggles,219,3.99,253.0,Unknown
+TripAdvisor,Ipoh,Canning Dim Sum,22,4.45,212.0,Chinese
+TripAdvisor,Ipoh,Citrus Wine & Dine,48,4.31,328.0,Unknown
+TripAdvisor,Ipoh,Cuisines Restaurant,243,4.81,245.0,Unknown
+TripAdvisor,Ipoh,Durbar at FMS,45,4.36,332.0,Cafe & bar
+TripAdvisor,Ipoh,East Ocean Seafood Restaurant,27,4.37,341.0,Seafood
+TripAdvisor,Ipoh,Euro House,43,4.09,221.0,Unknown
+TripAdvisor,Ipoh,Fish and Chips By. Bareeseta,30,4.87,209.5,Cafe & bar
+TripAdvisor,Ipoh,Foh San,330,3.36,265.0,Unknown
+TripAdvisor,Ipoh,Greentown Dimsum Cafe,103,4.17,211.0,Chinese
+TripAdvisor,Ipoh,Hakka Mee Restaurant Paris (Yin Yau Kui),20,3.65,336.5,Unknown
+TripAdvisor,Ipoh,Having's,23,4.74,293.0,Unknown
+TripAdvisor,Ipoh,Healy Mac's Irish Bar and Restaurant,150,4.41,217.0,Cafe & bar
+TripAdvisor,Ipoh,Indulgence Restaurant,114,3.74,363.0,Unknown
+TripAdvisor,Ipoh,Ipoh Tuck Kee,183,3.81,257.0,Unknown
+TripAdvisor,Ipoh,Jeff's Cellar,119,4.78,329.0,Unknown
+TripAdvisor,Ipoh,Kafe Yoon Wah,39,3.62,350.0,Unknown
+TripAdvisor,Ipoh,Koh Samui,34,4.06,238.0,Unknown
+TripAdvisor,Ipoh,Lim Ko Pi,40,4.38,261.0,Unknown
+TripAdvisor,Ipoh,Little Elephant,109,4.34,202.0,Unknown
+TripAdvisor,Ipoh,Lou Wong Bean Sprout Chicken,440,3.47,249.5,Unknown
+TripAdvisor,Ipoh,MYTH Eatery and  Bar,27,3.22,240.0,Cafe & bar
+TripAdvisor,Ipoh,Maiale Japanese Style Italian Restaurant,30,4.53,402.0,Japanese
+TripAdvisor,Ipoh,Marianis Italian Restaurant,26,4.23,252.0,Western
+TripAdvisor,Ipoh,Michelangelo's Pizzeria,30,4.27,290.5,Western
+TripAdvisor,Ipoh,Ming Court Hong Kong Tim Sum,358,3.89,279.0,Unknown
+TripAdvisor,Ipoh,Morel,20,4.4,294.5,Unknown
+TripAdvisor,Ipoh,Old Andersonian Cafeteria,33,3.82,335.0,Cafe & bar
+TripAdvisor,Ipoh,Old Town Kopitiam,29,3.62,158.0,Chinese
+TripAdvisor,Ipoh,Pakeeza Restaurant,160,4.12,307.5,Unknown
+TripAdvisor,Ipoh,Plan B,130,3.93,249.5,Unknown
+TripAdvisor,Ipoh,Purple Cane Tea House,75,4.11,312.0,Cafe & bar
+TripAdvisor,Ipoh,"Pusing Public Seafood Restaurant, Seafood",30,4.37,228.0,Seafood
+TripAdvisor,Ipoh,Restoran Assam House,48,4.1,219.0,Unknown
+TripAdvisor,Ipoh,Restoran Cowan Street Ayam Tauge & Koitiau,85,4.12,363.0,Malay
+TripAdvisor,Ipoh,Restoran M Salim,43,3.95,419.0,Unknown
+TripAdvisor,Ipoh,Restoran Mee Rebus Ramli,21,3.71,224.0,Unknown
+TripAdvisor,Ipoh,Restoran Mun Choong S/B,29,4.28,368.0,Unknown
+TripAdvisor,Ipoh,Restoran Nasi Ayam Pak Kong,34,4.09,347.0,Malay
+TripAdvisor,Ipoh,Restoran New Hollywood,118,4.11,247.5,Unknown
+TripAdvisor,Ipoh,Restoran SYW,47,4.43,286.0,Unknown
+TripAdvisor,Ipoh,Restoran Shabu Shabu & Stimbot,23,3.3,363.0,Unknown
+TripAdvisor,Ipoh,Restoran Simpang Tiga (Medan-Ipoh),33,3.67,314.0,Unknown
+TripAdvisor,Ipoh,STG Ipoh Oldtown,139,4.5,228.0,Unknown
+TripAdvisor,Ipoh,STG Tea House Cafe,167,4.1,281.0,Cafe & bar
+TripAdvisor,Ipoh,Sin Hup Kee Restaurant,43,4.12,223.0,Unknown
+TripAdvisor,Ipoh,Sun Kok Kee dim sum,33,4.12,173.0,Chinese
+TripAdvisor,Ipoh,Sun Marpoh Restaurant,60,4.33,312.0,Unknown
+TripAdvisor,Ipoh,Sun Yeong Wai,27,4.41,225.0,Unknown
+TripAdvisor,Ipoh,Tandoor Grill,200,4.38,283.5,Indian
+TripAdvisor,Ipoh,The Deck,54,3.52,336.5,Unknown
+TripAdvisor,Ipoh,The Happy 8 Cafe,43,3.88,306.0,Cafe & bar
+TripAdvisor,Ipoh,The Limestone's Fine Dining,74,4.04,280.0,Unknown
+TripAdvisor,Ipoh,The Museum New Concept In Tow,63,4.56,255.0,Unknown
+TripAdvisor,Ipoh,The Pomelo - The Banjaran Hotsprings Retreat,127,4.2,276.0,Unknown
+TripAdvisor,Ipoh,Tiffin Restaurant,50,3.96,250.5,Unknown
+TripAdvisor,Ipoh,Tuck Kee Restaurant Sdn. Bhd.,89,3.7,297.0,Unknown
+TripAdvisor,Ipoh,V Nam Kitchen,62,4.1,313.5,Unknown
+TripAdvisor,Ipoh,Volcano Grill Café,32,3.97,379.5,Cafe & bar
+TripAdvisor,Ipoh,Wong Koh Kee Restaurant,31,4.19,309.0,Unknown
+TripAdvisor,Ipoh,Yuk Sou Hin,217,4.64,233.0,Unknown
+TripAdvisor,Ipoh,Yum yum,108,4.1,308.0,Unknown
+TripAdvisor,JB,7 Spice Indian Cuisine,200,4.12,270.0,Indian
+TripAdvisor,JB,Amaya Food Gallery,42,4.6,305.5,Unknown
+TripAdvisor,JB,Amma Restaurant,46,3.13,215.0,Unknown
+TripAdvisor,JB,Anjung Senibong Seafood,46,3.41,391.5,Seafood
+TripAdvisor,JB,Arashi Shabu Shabu,60,4.17,261.0,Unknown
+TripAdvisor,JB,Axis Lounge at DoubleTree by Hilton Johor Bahru,20,4.25,229.0,Unknown
+TripAdvisor,JB,Bigfood,20,3.45,296.5,Unknown
+TripAdvisor,JB,CATS Cafe JB - Cats At Their Sanctuary,30,4.23,467.0,Cafe & bar
+TripAdvisor,JB,Cafe BLD at Renaissance Johor Bahru Hotel,257,4.52,276.0,Cafe & bar
+TripAdvisor,JB,Cafe Racer by Grillbar,20,4.35,230.0,Cafe & bar
+TripAdvisor,JB,Café Para Para,20,3.7,153.0,Cafe & bar
+TripAdvisor,JB,Canton-i,55,3.65,380.0,Chinese
+TripAdvisor,JB,Cedar Point Food Centre,30,3.87,277.0,Unknown
+TripAdvisor,JB,Chakra,111,4.1,303.0,Unknown
+TripAdvisor,JB,Chez Papa French Bistro and Wine Bar,393,4.61,359.0,Western
+TripAdvisor,JB,City Square Hong Kong Kim Gary Restaurant,22,3.14,208.5,Unknown
+TripAdvisor,JB,Coppola Family Pizzeria & Wine Bar,84,4.46,227.5,Western
+TripAdvisor,JB,D'Laksa - Original Penang Laksa,36,4.44,182.0,Malay
+TripAdvisor,JB,DC Comics Super Heroes,41,3.8,162.0,Unknown
+TripAdvisor,JB,Dragon-I,50,3.64,241.0,Unknown
+TripAdvisor,JB,Eastern Dragon Restaurant,31,3.61,379.0,Unknown
+TripAdvisor,JB,Evergreen Restaurant,22,3.95,273.5,Unknown
+TripAdvisor,JB,Fatfish jb,168,4.6,140.0,Unknown
+TripAdvisor,JB,Flowers in the Window,57,4.11,259.0,Unknown
+TripAdvisor,JB,George & Dragon Cafe at Taman Tasek,48,4.15,291.0,Cafe & bar
+TripAdvisor,JB,Gianni's Trattoria,153,4.12,293.0,Western
+TripAdvisor,JB,Grand Straits Garden Seafood Restaurants,40,3.82,265.0,Seafood
+TripAdvisor,JB,Grill Bar,100,4.09,365.0,Cafe & bar
+TripAdvisor,JB,Harvests Bar & Grill,28,4.04,302.0,Cafe & bar
+TripAdvisor,JB,Ho Seng Kee,70,4.2,333.5,Unknown
+TripAdvisor,JB,IT Roo Cafe,120,3.45,246.5,Cafe & bar
+TripAdvisor,JB,Infusion,49,3.71,214.0,Unknown
+TripAdvisor,JB,JH Lovely Sweets Indian Vegetarian Food,110,4.83,191.0,Indian
+TripAdvisor,JB,Jeju Korea Bbq Restaurant,55,4.11,361.0,Korean
+TripAdvisor,JB,K Fry Urban Korean Holiday Villa Johor Bahru,34,4.32,315.0,Korean
+TripAdvisor,JB,Kacang Pool Haji,40,4.0,172.5,Unknown
+TripAdvisor,JB,Kai Xuan Chinese Restaurant,28,3.89,201.5,Chinese
+TripAdvisor,JB,Kam Long Curry Fish Head,112,4.03,302.0,Indian
+TripAdvisor,JB,Kampung Carabao Authentic Thai Restaurant,49,3.49,280.0,Malay
+TripAdvisor,JB,Kenny Rogers Roasters,30,2.5,245.5,Unknown
+TripAdvisor,JB,Makan Kitchen at DoubleTree by Hilton Johor Bahru,430,4.43,246.0,Unknown
+TripAdvisor,JB,Meng Meng Roasted Duck,40,4.32,279.0,Unknown
+TripAdvisor,JB,Naughty Bali,90,4.07,260.5,Unknown
+TripAdvisor,JB,New Hong Kong Restaurant,30,3.2,290.5,Unknown
+TripAdvisor,JB,New Zealand Unlimited Restaurant at Puteri Harbour,45,3.87,366.0,Unknown
+TripAdvisor,JB,Nijyumaru Japanese Restaurant,54,4.13,276.0,Japanese
+TripAdvisor,JB,Olive Kitchen + Bar,100,4.16,283.5,Cafe & bar
+TripAdvisor,JB,Olive at the Bay,40,4.3,187.0,Unknown
+TripAdvisor,JB,People & Places Cafe,26,4.5,329.5,Cafe & bar
+TripAdvisor,JB,Quivo Southkey,47,4.89,154.0,Unknown
+TripAdvisor,JB,Restaurant Loon Sing,20,3.7,335.0,Unknown
+TripAdvisor,JB,Restaurant Teck Sing,116,4.09,291.5,Unknown
+TripAdvisor,JB,Restaurant Ya Wang,86,3.83,315.0,Unknown
+TripAdvisor,JB,Restoran Absolute Thai,49,3.53,240.0,Thai
+TripAdvisor,JB,Restoran Pekin,37,4.11,338.0,Unknown
+TripAdvisor,JB,Sizzling Stonegrill,20,3.3,466.5,Unknown
+TripAdvisor,JB,SkyBar Bar & Restaurant,97,4.13,259.0,Cafe & bar
+TripAdvisor,JB,Souper Tang,20,3.55,254.0,Unknown
+TripAdvisor,JB,Spice Grill,137,4.48,322.0,Unknown
+TripAdvisor,JB,Spice Villa,22,4.45,325.5,Unknown
+TripAdvisor,JB,Suasana Suites Cafe Johor Bahru,32,4.88,166.0,Cafe & bar
+TripAdvisor,JB,Sweetwater Restaurant,50,4.06,346.5,Unknown
+TripAdvisor,JB,Tai Son Seafood Restaurant - The Zon,23,3.74,398.0,Seafood
+TripAdvisor,JB,Tepian Tebrau,30,4.13,256.0,Unknown
+TripAdvisor,JB,The Banana Leaf Kitchen,40,4.82,137.5,Indian
+TripAdvisor,JB,The Brazzo House,39,3.64,266.0,Unknown
+TripAdvisor,JB,The Grand Gem - Johor Bahru,60,4.08,323.0,Unknown
+TripAdvisor,JB,The Replacement - Lodge & Kitchen,68,3.97,288.5,Unknown
+TripAdvisor,JB,The Spice Kitchen,169,4.37,190.0,Unknown
+TripAdvisor,JB,Tosca Trattoria Italiana at DoubleTree by Hilton Johor Bahru,386,4.53,265.0,Western
+TripAdvisor,JB,Village Briyani Cafe,49,3.96,225.0,Indian
+TripAdvisor,JB,Vivo American Pizza & Panini,23,4.0,188.0,Western
+TripAdvisor,JB,W.W. Laksa House,55,4.0,240.0,Malay
+TripAdvisor,JB,Wan Li Chinese Restaurant,80,4.18,296.0,Chinese
+TripAdvisor,JB,Warakuya Japanese Restaurant,54,3.91,431.5,Japanese
+TripAdvisor,JB,Yi Jia Seafood Restaurant (Bukit Indah),48,3.98,319.0,Seafood
+TripAdvisor,JB,You Kee XO,23,4.09,297.0,Unknown
+TripAdvisor,JB,Zaituna Restaurant,20,4.75,207.0,Unknown
+TripAdvisor,KL,103 Coffee Workshop,20,3.95,295.0,Cafe & bar
+TripAdvisor,KL,1919 Restaurant,49,4.22,353.0,Unknown
+TripAdvisor,KL,4 Fingers Crispy Chicken,35,3.66,217.0,Unknown
+TripAdvisor,KL,443 Bar Lounge,68,4.0,255.5,Cafe & bar
+TripAdvisor,KL,7TNine Bar & Kitchen,37,4.11,191.0,Cafe & bar
+TripAdvisor,KL,ABC Bistro Cafe,67,3.79,207.0,Cafe & bar
+TripAdvisor,KL,AQUA Restaurant & Bar,74,4.59,299.0,Cafe & bar
+TripAdvisor,KL,ATAS at The RuMa Hotel & Residences,43,4.79,414.0,Unknown
+TripAdvisor,KL,Absolute Thai,110,3.66,264.0,Thai
+TripAdvisor,KL,Acme Bar & Coffee at The Troika,253,3.37,324.0,Cafe & bar
+TripAdvisor,KL,Ah Koong Restaurant (Pudu),30,3.8,251.0,Unknown
+TripAdvisor,KL,Al Rawsha Restaurant Kuala Lumpur,50,4.1,257.5,Unknown
+TripAdvisor,KL,Al-Amar,317,3.92,286.0,Unknown
+TripAdvisor,KL,Al-Amar Express,30,3.97,272.0,Unknown
+TripAdvisor,KL,Al-Halabi Gourmet Restaurant,150,4.41,247.5,Unknown
+TripAdvisor,KL,Alexis,130,3.62,343.0,Unknown
+TripAdvisor,KL,Alexis Ampang,78,3.71,293.0,Unknown
+TripAdvisor,KL,Alexis Bistro,38,4.0,317.0,Cafe & bar
+TripAdvisor,KL,"Ali, Muthu & Ah Hock",40,4.08,209.5,Unknown
+TripAdvisor,KL,Aliyaa Island Restaurant & Bar,164,4.46,299.0,Cafe & bar
+TripAdvisor,KL,Amarin Heavenly Thai,54,4.0,276.0,Thai
+TripAdvisor,KL,Amber Chinese Muslim Restaurant,36,3.81,265.5,Chinese
+TripAdvisor,KL,Anjappar Indian Chettinad Restaurant,66,3.71,254.5,Indian
+TripAdvisor,KL,Annalakshmi,156,4.3,313.0,Unknown
+TripAdvisor,KL,Anne Elizabeth The Deli Restaurant,40,4.22,384.5,Unknown
+TripAdvisor,KL,Antara Restaurant,24,3.71,496.0,Unknown
+TripAdvisor,KL,Ante,70,3.96,369.5,Unknown
+TripAdvisor,KL,Antipodean Bukit Bintang,41,4.83,163.0,Unknown
+TripAdvisor,KL,Antipodean City Centre,30,4.73,185.0,Unknown
+TripAdvisor,KL,Antipodean Mid Valley,177,4.27,200.0,Unknown
+TripAdvisor,KL,Arabella Restaurant,30,4.43,189.5,Unknown
+TripAdvisor,KL,Aroma Restaurant,30,4.23,278.5,Unknown
+TripAdvisor,KL,Arthur’s Bar & Grill,178,4.1,285.0,Cafe & bar
+TripAdvisor,KL,Ashley's by Living Food,60,3.85,449.5,Unknown
+TripAdvisor,KL,Astana Restaurant,36,4.56,251.0,Unknown
+TripAdvisor,KL,Atlas Gourmet Market,30,4.27,255.5,Unknown
+TripAdvisor,KL,Atmosphere 360 Revolving Restaurant,790,3.54,426.5,Unknown
+TripAdvisor,KL,Aunty Christina's Sarawak Laksa,31,4.16,328.0,Malay
+TripAdvisor,KL,B-Lab,30,4.13,229.0,Unknown
+TripAdvisor,KL,BAAN 26,137,4.13,252.0,Unknown
+TripAdvisor,KL,BAIT,40,4.08,371.5,Unknown
+TripAdvisor,KL,BB Hailam Chicken Rice,29,4.24,256.0,Chinese
+TripAdvisor,KL,BBQ NIGHTS,520,4.64,223.5,Unknown
+TripAdvisor,KL,Backofen,20,4.15,206.5,Unknown
+TripAdvisor,KL,Backyard,29,4.1,337.0,Unknown
+TripAdvisor,KL,Bacon & Balls,40,4.18,305.0,Unknown
+TripAdvisor,KL,Bakti Woodlands,86,4.33,350.5,Unknown
+TripAdvisor,KL,Bala's Banana Leaf,50,3.76,341.5,Indian
+TripAdvisor,KL,BananaBro,30,4.33,191.5,Unknown
+TripAdvisor,KL,Bankara Ramen Malaysia,56,3.96,291.0,Japanese
+TripAdvisor,KL,Bar B Q Tonight Malaysia,60,4.15,299.0,Cafe & bar
+TripAdvisor,KL,Barat Restaurant,51,4.67,464.0,Unknown
+TripAdvisor,KL,Barbeque Nation,20,4.65,532.5,Unknown
+TripAdvisor,KL,Basil Thai,34,3.85,291.0,Thai
+TripAdvisor,KL,Beast,74,3.62,440.5,Unknown
+TripAdvisor,KL,Bedouin Arabian Cuisine,20,4.3,326.5,Unknown
+TripAdvisor,KL,Ben's,311,3.2,399.0,Unknown
+TripAdvisor,KL,Bentley's Pub,37,4.16,170.0,Cafe & bar
+TripAdvisor,KL,Berjaya Cafe,70,4.03,217.0,Cafe & bar
+TripAdvisor,KL,Beta KL,170,4.76,242.5,Unknown
+TripAdvisor,KL,Bijan,310,4.05,300.0,Unknown
+TripAdvisor,KL,Birch,101,3.68,334.0,Unknown
+TripAdvisor,KL,Blue Boy Vegetarian Food Centre,50,4.26,325.5,Unknown
+TripAdvisor,KL,Boardwalk,20,3.9,282.5,Unknown
+TripAdvisor,KL,Bobo KL,44,4.5,316.5,Unknown
+TripAdvisor,KL,Bombay Palace,390,4.1,296.0,Unknown
+TripAdvisor,KL,Bonne Gilla,20,4.75,200.0,Unknown
+TripAdvisor,KL,Botanica+Co Restaurant & Bar,133,3.53,421.0,Cafe & bar
+TripAdvisor,KL,Brasserie 25,86,4.42,353.0,Unknown
+TripAdvisor,KL,Brasserie Fritz,24,4.12,465.0,Unknown
+TripAdvisor,KL,BreadFruits,35,3.51,343.0,Unknown
+TripAdvisor,KL,Breakfast Thieves,74,3.7,322.0,Unknown
+TripAdvisor,KL,Brussels Beer Cafe,64,3.72,346.5,Cafe & bar
+TripAdvisor,KL,Bubble Bee Cafe,30,4.33,188.0,Cafe & bar
+TripAdvisor,KL,Buns Burger Bar,20,4.3,195.0,Western
+TripAdvisor,KL,Busaba,40,3.92,421.5,Unknown
+TripAdvisor,KL,Byblos Cafe & Lounge,30,4.03,308.5,Cafe & bar
+TripAdvisor,KL,"CEDAR on 15, Impiana KLCC Hotel",138,4.38,283.5,Unknown
+TripAdvisor,KL,Cafe Cafe,113,4.13,398.0,Cafe & bar
+TripAdvisor,KL,Cafe de Paris,74,4.22,273.0,Cafe & bar
+TripAdvisor,KL,Cafe etc.,38,4.39,191.0,Cafe & bar
+TripAdvisor,KL,Cameleon Vegetarian Restoran,26,4.42,291.0,Unknown
+TripAdvisor,KL,Canopy Rooftop Bar and Lounge,1268,4.88,130.0,Cafe & bar
+TripAdvisor,KL,Capital Cafe,30,4.37,301.5,Cafe & bar
+TripAdvisor,KL,Celestial Court,118,4.14,293.0,Unknown
+TripAdvisor,KL,"Chakri Palace, KLCC",227,3.23,334.0,Unknown
+TripAdvisor,KL,Chalet Suisse Restaurant,40,4.62,332.0,Unknown
+TripAdvisor,KL,Chambers Grill,703,4.86,177.0,Unknown
+TripAdvisor,KL,Chat Masala,60,3.68,319.0,Unknown
+TripAdvisor,KL,Chateau Dionne,26,4.5,498.0,Unknown
+TripAdvisor,KL,Chez Gaston,36,4.25,343.5,Unknown
+TripAdvisor,KL,Chili's,175,3.74,240.0,Unknown
+TripAdvisor,KL,Chilli's,89,3.53,267.0,Unknown
+TripAdvisor,KL,Chinoz On The Park,273,3.43,345.0,Unknown
+TripAdvisor,KL,Chocha Foodstore,76,3.95,406.0,Unknown
+TripAdvisor,KL,Chynna,672,4.57,224.0,Unknown
+TripAdvisor,KL,Ciao,74,4.01,352.0,Unknown
+TripAdvisor,KL,Cielo Sky Dining & Lounge,490,4.85,153.5,Unknown
+TripAdvisor,KL,Cilantro Restaurant & Wine Bar,80,4.11,488.0,Cafe & bar
+TripAdvisor,KL,Coliseum Cafe,233,3.73,367.0,Cafe & bar
+TripAdvisor,KL,Colonial Cafe,103,3.82,405.0,Cafe & bar
+TripAdvisor,KL,Connoisseurs Cafe,34,3.85,273.0,Cafe & bar
+TripAdvisor,KL,Contango,211,4.07,398.0,Unknown
+TripAdvisor,KL,Cozy Corner (Ampang Park),48,3.67,261.0,Unknown
+TripAdvisor,KL,Crystal,20,4.8,296.0,Unknown
+TripAdvisor,KL,Cu Cha Restaurant,61,3.97,316.0,Unknown
+TripAdvisor,KL,Curate At Four Seasons Hotel Kuala Lumpur,183,4.5,373.0,Unknown
+TripAdvisor,KL,D Legends bar,47,4.53,300.0,Cafe & bar
+TripAdvisor,KL,DC Restaurant,73,4.62,594.0,Unknown
+TripAdvisor,KL,DIN by Din Tai Fung at Suria KLCC (NO PORK),64,4.11,238.5,Unknown
+TripAdvisor,KL,Da On Fine Korean Cuisine,46,4.15,367.5,Korean
+TripAdvisor,KL,Dancing Fish,158,4.16,329.5,Unknown
+TripAdvisor,KL,Daorea Korean BBQ,20,3.8,210.5,Korean
+TripAdvisor,KL,Dc Comics Superheroes Cafe,174,4.19,126.5,Cafe & bar
+TripAdvisor,KL,De.Wan,20,3.95,449.5,Unknown
+TripAdvisor,KL,De.Wan 1958 By Chef Wan,29,4.38,444.0,Unknown
+TripAdvisor,KL,Deep Blue,20,3.85,287.5,Unknown
+TripAdvisor,KL,Define:food,20,3.85,286.0,Unknown
+TripAdvisor,KL,Delay No More Crab Restaurant,29,3.93,268.0,Seafood
+TripAdvisor,KL,Delhi Royale,132,3.86,262.5,Unknown
+TripAdvisor,KL,Delicious Bangsar Village 2,104,3.42,283.0,Unknown
+TripAdvisor,KL,Delirium Cafe,36,4.11,259.5,Cafe & bar
+TripAdvisor,KL,Devi's Corner,194,3.68,315.5,Unknown
+TripAdvisor,KL,Dewakan Restaurant,101,4.6,552.0,Unknown
+TripAdvisor,KL,Din Tai Fung at The Gardens Mall,211,4.13,301.0,Unknown
+TripAdvisor,KL,Dining In The Dark KL,1405,4.67,397.0,Unknown
+TripAdvisor,KL,Dolly Dim Sum,116,3.82,322.0,Chinese
+TripAdvisor,KL,"Dolly Dim Sum, NU Sentral",100,3.91,231.0,Chinese
+TripAdvisor,KL,"Dolly Dim Sum, Pavilion Elite",64,4.02,243.5,Chinese
+TripAdvisor,KL,Dome Cafe (Connections),77,3.38,232.0,Cafe & bar
+TripAdvisor,KL,Down to Bones,20,4.15,212.5,Unknown
+TripAdvisor,KL,Dragon-i,119,3.57,241.0,Unknown
+TripAdvisor,KL,Dragon-i Peking Duck Restaurant @ Pavilion KL,100,3.79,328.5,Unknown
+TripAdvisor,KL,Drop Exchange,20,4.5,301.5,Unknown
+TripAdvisor,KL,"Du Viet Vietnamese Restaurant, Kuala Lumpur",69,3.57,308.0,Unknown
+TripAdvisor,KL,Duddha,21,3.62,319.0,Unknown
+TripAdvisor,KL,Eat X Dignity Cafe,98,4.63,162.0,Cafe & bar
+TripAdvisor,KL,Edo Ichi,31,4.26,264.0,Unknown
+TripAdvisor,KL,"Ekkamai, Batai",76,4.03,262.0,Unknown
+TripAdvisor,KL,El Cerdo,915,4.57,240.0,Unknown
+TripAdvisor,KL,El Mesón,90,4.09,310.5,Unknown
+TripAdvisor,KL,El Toro Loco KL,89,4.8,228.0,Unknown
+TripAdvisor,KL,Elegant Inn Hong Kong Cuisine,50,4.02,330.0,Unknown
+TripAdvisor,KL,Emily's Steakhouse Kuala Lumpur,52,4.71,196.5,Western
+TripAdvisor,KL,Enoteca Vino & Cucina,42,3.86,298.5,Unknown
+TripAdvisor,KL,Entier French Dining,70,4.09,506.5,Western
+TripAdvisor,KL,Essence Restaurant,123,4.02,269.0,Unknown
+TripAdvisor,KL,Estana Curry House,31,4.1,267.0,Indian
+TripAdvisor,KL,Express Teppanyaki,28,4.18,249.0,Japanese
+TripAdvisor,KL,FLOUR,114,3.91,445.5,Unknown
+TripAdvisor,KL,FS Nasi Kandar Corner,102,4.42,226.0,Indian
+TripAdvisor,KL,Fat Brother,20,4.55,331.0,Unknown
+TripAdvisor,KL,Fatboy's The Burger Bar,52,3.98,332.5,Western
+TripAdvisor,KL,Favola Italian Restaurant,379,4.67,320.0,Western
+TripAdvisor,KL,Feast Village Starhill Gallery,30,3.93,251.5,Unknown
+TripAdvisor,KL,Fish & Co. (pavilion Kl),30,3.7,243.0,Unknown
+TripAdvisor,KL,Fisherman's Cove,33,4.03,323.0,Unknown
+TripAdvisor,KL,"Flock, W Kuala Lumpur",165,4.82,261.0,Unknown
+TripAdvisor,KL,Fong Lye,34,4.09,352.5,Unknown
+TripAdvisor,KL,Fong Lye Fusion,37,3.73,268.0,Unknown
+TripAdvisor,KL,French Feast,30,3.77,380.0,Western
+TripAdvisor,KL,Fresca Mexican Kitchen & Bar,100,3.91,348.5,Cafe & bar
+TripAdvisor,KL,Frisky Goat,67,3.94,334.0,Unknown
+TripAdvisor,KL,Fuel Shack - Terminal Bersepadu Selatan,30,3.63,251.0,Unknown
+TripAdvisor,KL,Fuel Shack Signature,162,3.87,236.0,Unknown
+TripAdvisor,KL,GO Noodle House,38,3.97,318.0,Unknown
+TripAdvisor,KL,Gastro Sentral,299,4.58,210.0,Cafe & bar
+TripAdvisor,KL,Gavel Coffee Kitchen Craft Beers,46,4.41,286.5,Cafe & bar
+TripAdvisor,KL,Gem Restaurant,121,3.79,276.0,Unknown
+TripAdvisor,KL,Geographer Cafe,57,4.6,216.0,Cafe & bar
+TripAdvisor,KL,Gin Ger,32,4.22,282.0,Unknown
+TripAdvisor,KL,GinRikSha,29,4.17,294.0,Unknown
+TripAdvisor,KL,Ginger Restaurant,97,3.85,331.0,Unknown
+TripAdvisor,KL,Glass Tartines and Tipples,30,4.17,250.5,Unknown
+TripAdvisor,KL,Gobo Chit Chat,179,3.85,267.0,Unknown
+TripAdvisor,KL,Gobo Upstairs Lounge & Grill,256,4.21,267.5,Unknown
+TripAdvisor,KL,Goodness Greens Cafe,30,3.9,291.5,Cafe & bar
+TripAdvisor,KL,Grand Harbour Restaurant,45,3.82,340.0,Unknown
+TripAdvisor,KL,Grand Imperial Restaurant,60,3.95,344.0,Unknown
+TripAdvisor,KL,Grandmama's,30,3.63,265.0,Unknown
+TripAdvisor,KL,Grandmama's Intermark KL,39,3.79,326.0,Unknown
+TripAdvisor,KL,Gravybaby Jalan P Ramlee,188,4.67,190.5,Unknown
+TripAdvisor,KL,"Graze Restaurant, Kuala lumpur",250,4.61,267.0,Unknown
+TripAdvisor,KL,Greyhound Cafe,61,3.56,347.0,Cafe & bar
+TripAdvisor,KL,GridIron Sports Cafe & Lounge,22,4.14,295.5,Cafe & bar
+TripAdvisor,KL,HANAYA Japanese Dining,20,4.5,429.0,Japanese
+TripAdvisor,KL,Hadramawt Palace,20,3.85,252.5,Unknown
+TripAdvisor,KL,Hadramawt Restaurant,40,4.05,303.0,Unknown
+TripAdvisor,KL,Hakka,30,3.73,315.0,Unknown
+TripAdvisor,KL,Hakka Restaurant,481,3.9,321.0,Unknown
+TripAdvisor,KL,Halab KL,162,4.27,222.5,Unknown
+TripAdvisor,KL,Hanare Authentic Japanese Cuisine,100,3.74,361.5,Japanese
+TripAdvisor,KL,Hard Rock Cafe,734,3.81,260.5,Cafe & bar
+TripAdvisor,KL,Harrods Cafe,120,3.47,275.5,Cafe & bar
+TripAdvisor,KL,Havana Bar & Grill,251,4.02,266.0,Cafe & bar
+TripAdvisor,KL,Havelly,24,4.29,228.0,Unknown
+TripAdvisor,KL,Hawker Stalls in Chinatown,40,3.8,190.0,Unknown
+TripAdvisor,KL,Healy Mac's,460,4.78,221.0,Unknown
+TripAdvisor,KL,Healy Mac's 12 Bar Cafe,71,3.82,255.0,Cafe & bar
+TripAdvisor,KL,Healy Mac's Irish Bar and Restaurant,416,4.6,224.0,Cafe & bar
+TripAdvisor,KL,Heun Kee Claypot Chicken Rice,29,4.31,400.0,Chinese
+TripAdvisor,KL,Hit & Mrs,21,4.29,406.0,Unknown
+TripAdvisor,KL,Ho Kow Hainanese Kopitiam,24,3.96,328.5,Chinese
+TripAdvisor,KL,Hokkaido Ramen Santouka,30,3.73,244.0,Japanese
+TripAdvisor,KL,Hong Kee Claypot Chicken Rice,20,3.95,278.5,Chinese
+TripAdvisor,KL,Horizon Grill,130,4.69,276.5,Unknown
+TripAdvisor,KL,Hornbill restaurant and cafe,158,3.9,285.0,Cafe & bar
+TripAdvisor,KL,Hubba Mont Kiara,41,4.2,256.0,Unknown
+TripAdvisor,KL,Huck's Cafe,20,4.1,473.0,Cafe & bar
+TripAdvisor,KL,Hussain Cafe & Restaurant,20,3.45,237.5,Cafe & bar
+TripAdvisor,KL,Hyderabad Recipes,61,3.75,260.0,Unknown
+TripAdvisor,KL,ICC Pudu,27,4.19,296.0,Unknown
+TripAdvisor,KL,IKEA Restaurant,52,3.67,225.5,Unknown
+TripAdvisor,KL,IPPUDO Bangsar Shopping Centre,50,4.3,205.5,Unknown
+TripAdvisor,KL,IPPUDO Gardens Mall,72,4.18,240.0,Unknown
+TripAdvisor,KL,Ichi Zen Japanese Restaurant,42,4.24,243.0,Japanese
+TripAdvisor,KL,"Ichiban Boshi, Pavillion KL",60,3.6,291.0,Unknown
+TripAdvisor,KL,Iketeru Restaurant,1257,4.75,183.0,Unknown
+TripAdvisor,KL,In Colonial Restaurant,48,4.04,280.5,Unknown
+TripAdvisor,KL,Indian Kitchen,30,4.03,294.5,Indian
+TripAdvisor,KL,Indian Kitchen Bukit Bintang,36,4.47,229.5,Indian
+TripAdvisor,KL,Indian Spices Village,36,4.22,289.5,Indian
+TripAdvisor,KL,"Ipoh Road Yong Tow Foo, Cairnhill Hotel",20,4.4,239.5,Unknown
+TripAdvisor,KL,Isetan The Japan Store Lot 10,23,4.13,253.0,Japanese
+TripAdvisor,KL,Ishin Japanese Dining,553,4.58,140.0,Japanese
+TripAdvisor,KL,Italia & Ribs Gastronomia,30,4.27,331.5,Cafe & bar
+TripAdvisor,KL,Izakaya Hanazen,108,4.6,122.0,Japanese
+TripAdvisor,KL,JP teres,133,4.14,328.0,Unknown
+TripAdvisor,KL,Jai Hind,32,4.06,393.0,Unknown
+TripAdvisor,KL,Jake's Charbroil Steaks-MEDAN DAMANSARA,20,4.0,473.0,Western
+TripAdvisor,KL,Jalan Alor,360,3.98,293.0,Unknown
+TripAdvisor,KL,Jalan Alor Malaysian Street Food Kitchen (KLIA),125,3.83,269.0,Unknown
+TripAdvisor,KL,Jarrod & Rawlins,51,3.86,263.0,Unknown
+TripAdvisor,KL,Joloko,53,4.42,325.0,Unknown
+TripAdvisor,KL,KL Seafood Market,23,4.52,242.0,Seafood
+TripAdvisor,KL,KLCC Chili's Grill & Bar,266,3.82,272.5,Cafe & bar
+TripAdvisor,KL,Kaiju,30,3.9,331.0,Unknown
+TripAdvisor,KL,Kampachi EQ,85,4.65,182.0,Unknown
+TripAdvisor,KL,Kampachi Pavilion,236,4.14,241.5,Unknown
+TripAdvisor,KL,Kampung Baru Hawker Stalls,49,4.0,420.0,Malay
+TripAdvisor,KL,Kayra Authentic Kerala Cuisine,58,4.24,389.5,Unknown
+TripAdvisor,KL,"Kayra Authentic Kerala Cuisine, Bangsar Village",33,4.06,370.0,Unknown
+TripAdvisor,KL,Kedai Kopi Lai Foong,96,4.17,322.0,Unknown
+TripAdvisor,KL,Khan's Indian Cuisine,141,4.77,129.0,Indian
+TripAdvisor,KL,Ki Ki Taiwan Cuisine,20,4.1,207.0,Unknown
+TripAdvisor,KL,Kinme Sashimi & Grill Bar,20,4.3,406.5,Japanese
+TripAdvisor,KL,Knowhere Bangsar,60,4.88,167.5,Unknown
+TripAdvisor,KL,Kodawari Menya Udon & Tempura,20,3.8,232.5,Japanese
+TripAdvisor,KL,Koon Kee Wan Tan Mee,36,3.64,372.0,Unknown
+TripAdvisor,KL,Koong Woh Tong,21,4.19,235.0,Unknown
+TripAdvisor,KL,Koryowon Restaurant,32,4.0,356.5,Unknown
+TripAdvisor,KL,Koyaku Japanese Dining & Grill,20,4.05,361.0,Japanese
+TripAdvisor,KL,Kung Jung,20,4.2,364.0,Unknown
+TripAdvisor,KL,Kuriya Japanese Restaurant,30,3.77,385.0,Japanese
+TripAdvisor,KL,KyoChon Pavillion,86,3.51,318.0,Unknown
+TripAdvisor,KL,LUCE Osteria Contemporanea,145,4.6,238.0,Unknown
+TripAdvisor,KL,La Boca Latino Bar,209,4.22,301.0,Cafe & bar
+TripAdvisor,KL,La Bodega Pavilion KL,150,3.87,249.5,Unknown
+TripAdvisor,KL,La Casa Restaurant & Patisserie,30,4.17,306.0,Unknown
+TripAdvisor,KL,La Mexicana,135,4.01,422.0,Unknown
+TripAdvisor,KL,La Risata,60,3.68,363.0,Unknown
+TripAdvisor,KL,La Risata - Damansara,111,3.67,441.0,Unknown
+TripAdvisor,KL,Lafite,83,4.17,442.0,Unknown
+TripAdvisor,KL,Lai Ching Yuen,44,4.11,324.5,Unknown
+TripAdvisor,KL,Lai Po Heen,296,4.42,286.0,Unknown
+TripAdvisor,KL,Las Carretas,40,3.7,446.0,Unknown
+TripAdvisor,KL,Las Carretas Restaurant & Bar,26,4.27,335.0,Cafe & bar
+TripAdvisor,KL,Latest Recipe,567,4.56,243.0,Unknown
+TripAdvisor,KL,Layali El Sham Restaurant,20,4.6,229.0,Unknown
+TripAdvisor,KL,Le Petit Chef - Kuala Lumpur,219,4.67,269.0,Unknown
+TripAdvisor,KL,Le Petit Chef at ELEMENTS,83,3.41,268.0,Unknown
+TripAdvisor,KL,Le Shady Trinity Cafe,20,5.0,136.0,Cafe & bar
+TripAdvisor,KL,Leaf & Co Cafe,98,4.29,188.5,Cafe & bar
+TripAdvisor,KL,Legend's Claypot Briyani House,29,3.62,209.0,Indian
+TripAdvisor,KL,Lemon Garden,430,4.09,311.0,Unknown
+TripAdvisor,KL,Lemon Garden 2GO,34,4.44,219.5,Unknown
+TripAdvisor,KL,Leonardo's Dining Room & Wine Loft,46,4.02,476.5,Unknown
+TripAdvisor,KL,Li Yen,102,4.36,349.5,Unknown
+TripAdvisor,KL,Limapulo Baba Can Cook,121,4.03,356.0,Unknown
+TripAdvisor,KL,"Link Restaurant , Lower Ground , Hotel Pullman Bangsar ",68,3.78,287.0,Unknown
+TripAdvisor,KL,Lisette's Café & Bakery,42,3.86,332.5,Cafe & bar
+TripAdvisor,KL,Little Penang Cafe,331,3.85,259.0,Cafe & bar
+TripAdvisor,KL,Little Penang Kafe,100,3.9,267.0,Unknown
+TripAdvisor,KL,Little Rara Thai Noodle House,20,4.45,282.5,Thai
+TripAdvisor,KL,Lobby Lounge at Shangri-La Hotel,41,4.34,189.0,Unknown
+TripAdvisor,KL,Loco bar and restaurant,152,4.3,261.5,Cafe & bar
+TripAdvisor,KL,Lounge In The Sky Malaysia,43,4.7,116.0,Unknown
+TripAdvisor,KL,Lounge on the Park,90,4.43,303.0,Unknown
+TripAdvisor,KL,Lucky Tora,33,4.33,218.0,Unknown
+TripAdvisor,KL,Luk Yu Tea House,89,3.99,283.0,Cafe & bar
+TripAdvisor,KL,M Grill - Malaysia,21,4.9,299.0,Unknown
+TripAdvisor,KL,"MO Bar at Mandarin Oriental, Kuala Lumpur",20,4.65,223.5,Cafe & bar
+TripAdvisor,KL,Madam Kwan's KLCC,1268,3.84,249.5,Unknown
+TripAdvisor,KL,Madam Kwan’s,214,3.68,296.5,Unknown
+TripAdvisor,KL,Maison Francaise,130,4.11,438.5,Unknown
+TripAdvisor,KL,Maju Palace,29,3.93,239.0,Unknown
+TripAdvisor,KL,Malabar Palace Bukit Bintang,20,4.35,293.0,Cafe & bar
+TripAdvisor,KL,Malabar Palace Sri Hartamas,105,4.5,319.0,Cafe & bar
+TripAdvisor,KL,Malai Thai Cuisine,208,4.72,225.5,Thai
+TripAdvisor,KL,Malaysia Boleh,24,3.71,411.0,Unknown
+TripAdvisor,KL,Mallikas Restaurant,20,4.3,348.0,Unknown
+TripAdvisor,KL,Malones,28,3.96,256.0,Unknown
+TripAdvisor,KL,Mandarin Grill,275,4.47,398.0,Unknown
+TripAdvisor,KL,Manja,484,4.67,310.5,Unknown
+TripAdvisor,KL,Marble 8,157,4.1,382.0,Unknown
+TripAdvisor,KL,Marco Polo Restaurant,63,3.87,434.0,Unknown
+TripAdvisor,KL,Marhaba Restaurant - Mandi and Madfoon,26,4.04,292.5,Unknown
+TripAdvisor,KL,Marini's on 57,814,4.07,333.5,Unknown
+TripAdvisor,KL,Marmalade Cafe & Boutique,20,4.15,328.5,Cafe & bar
+TripAdvisor,KL,Marta's Kitchen Paella Tapas,112,4.13,344.5,Unknown
+TripAdvisor,KL,Masjid India Hawker Court,20,3.7,207.5,Unknown
+TripAdvisor,KL,Meat The Porkers,56,3.98,317.5,Unknown
+TripAdvisor,KL,Mei Keng Fatt Seafood Restaurant,90,3.76,334.0,Seafood
+TripAdvisor,KL,Melting Pot Cafe,100,3.84,234.5,Cafe & bar
+TripAdvisor,KL,Meng Kee Char Siew King,28,4.11,319.0,Unknown
+TripAdvisor,KL,Mercat Barcelona Gastrobar,42,4.76,249.5,Cafe & bar
+TripAdvisor,KL,Mezze Bistro,36,3.89,390.0,Cafe & bar
+TripAdvisor,KL,Michelangelo’s Restaurant @ Pavilion Kuala Lumpur,289,4.09,317.0,Unknown
+TripAdvisor,KL,Michelangelo’s Restaurant @ Solaris Mont’ Kiara,25,4.36,362.0,Unknown
+TripAdvisor,KL,Mighty Monster,30,4.43,189.5,Unknown
+TripAdvisor,KL,Mikey's Original New York Pizza,80,3.8,374.0,Western
+TripAdvisor,KL,Mingle Cafe,37,3.89,275.0,Cafe & bar
+TripAdvisor,KL,Miss Ellie Tea House,40,4.32,365.5,Cafe & bar
+TripAdvisor,KL,Mitasu Restaurant,67,3.87,358.0,Unknown
+TripAdvisor,KL,Mo-Mo Paradise,30,4.9,244.0,Unknown
+TripAdvisor,KL,Moghul Mahal Restaurant,54,4.06,248.5,Unknown
+TripAdvisor,KL,Mohd Yaseen Nasi Kandar,50,3.98,265.0,Indian
+TripAdvisor,KL,Mojo Restaurant & Bar KL,60,4.0,247.5,Cafe & bar
+TripAdvisor,KL,Monnalisa Ristorante Italiano,98,4.56,328.0,Western
+TripAdvisor,KL,Morganfield's,70,3.33,271.0,Unknown
+TripAdvisor,KL,Mr Naan & Mrs Idly,68,4.32,281.0,Indian
+TripAdvisor,KL,Mr. Dakgalbi,45,3.71,366.0,Unknown
+TripAdvisor,KL,Muar Restaurant,67,4.22,276.0,Unknown
+TripAdvisor,KL,Murni Restoran,30,3.93,248.5,Unknown
+TripAdvisor,KL,Museum Restaurant,20,4.35,235.0,Unknown
+TripAdvisor,KL,NZ Curry House,165,3.98,267.0,Indian
+TripAdvisor,KL,Nadodi KL,141,4.75,414.0,Unknown
+TripAdvisor,KL,Nam Heong Chicken Rice Chinatown,50,3.94,255.5,Chinese
+TripAdvisor,KL,Nana's Green Tea,20,3.9,257.5,Unknown
+TripAdvisor,KL,Nando's,150,3.87,142.0,Unknown
+TripAdvisor,KL,Nando's Nu Sentral,34,3.32,280.0,Unknown
+TripAdvisor,KL,Nandos,31,3.52,304.0,Unknown
+TripAdvisor,KL,Nasi Ayam Hainan Chee Meng,77,3.84,259.0,Malay
+TripAdvisor,KL,Nasi Kandar Pelita,342,3.98,299.0,Indian
+TripAdvisor,KL,Nasi Lemak Saleha,20,3.75,264.0,Malay
+TripAdvisor,KL,Nasi Lemak Wanjo,40,4.0,346.0,Malay
+TripAdvisor,KL,Nathalie Gourmet Studio,30,4.3,480.5,Unknown
+TripAdvisor,KL,Nature's Vegetarian Restaurant,20,4.15,397.5,Unknown
+TripAdvisor,KL,Naughty Babe Dirty Duck,30,3.77,238.5,Unknown
+TripAdvisor,KL,Naughty Nuri's,350,4.37,216.0,Unknown
+TripAdvisor,KL,Nero Nero,222,4.64,277.5,Unknown
+TripAdvisor,KL,Neroteca,118,3.96,381.5,Unknown
+TripAdvisor,KL,New Chapter by The Owls Cafe,47,4.02,308.0,Cafe & bar
+TripAdvisor,KL,Newens Tea House,71,4.61,183.0,Cafe & bar
+TripAdvisor,KL,Nick's Restaurant & Bar,20,4.4,220.0,Cafe & bar
+TripAdvisor,KL,Nipah,57,4.84,248.0,Unknown
+TripAdvisor,KL,Nizza,172,4.85,284.0,Unknown
+TripAdvisor,KL,No Black Tie,80,3.55,331.0,Unknown
+TripAdvisor,KL,Noble House,40,4.2,341.5,Unknown
+TripAdvisor,KL,Nobu Kuala Lumpur,449,3.98,443.0,Unknown
+TripAdvisor,KL,O'Galito,60,3.67,314.5,Unknown
+TripAdvisor,KL,OZEKI Tokyo Cuisine,73,4.07,386.0,Japanese
+TripAdvisor,KL,Old China Cafe,418,3.95,328.5,Cafe & bar
+TripAdvisor,KL,Old Town White Coffee,80,3.52,201.5,Cafe & bar
+TripAdvisor,KL,Omakase + Appreciate,30,4.57,261.0,Japanese
+TripAdvisor,KL,Onde Onde,33,3.94,264.0,Unknown
+TripAdvisor,KL,Open House,20,4.2,351.0,Unknown
+TripAdvisor,KL,Opium KL,890,4.67,246.5,Unknown
+TripAdvisor,KL,Opus Bistro,68,3.97,394.5,Cafe & bar
+TripAdvisor,KL,Oriental Cravings,45,3.76,277.0,Unknown
+TripAdvisor,KL,Outback Steakhouse BB Park,198,3.6,295.5,Western
+TripAdvisor,KL,Overseas Restaurant,192,3.86,395.0,Unknown
+TripAdvisor,KL,PLOY,152,4.2,342.0,Unknown
+TripAdvisor,KL,PLOY Publika,20,4.05,265.5,Cafe & bar
+TripAdvisor,KL,Pak Loh Chiu Chow,26,4.23,291.0,Unknown
+TripAdvisor,KL,Pak Punjab,20,4.4,249.0,Unknown
+TripAdvisor,KL,Palillos 'Spanish Yakitori Bar',40,4.72,346.0,Cafe & bar
+TripAdvisor,KL,Pampas Reserve Grill & Bar,178,4.35,304.5,Cafe & bar
+TripAdvisor,KL,Pampas at Old Malaya,92,3.93,370.5,Unknown
+TripAdvisor,KL,Pan & Tamper,50,4.34,256.0,Unknown
+TripAdvisor,KL,Papparich Nu Sentral,30,3.67,250.5,Unknown
+TripAdvisor,KL,Paradise Dynasty Bangsar Village II,68,3.82,356.5,Unknown
+TripAdvisor,KL,Passage Thru India,160,4.06,306.0,Unknown
+TripAdvisor,KL,Passage Thru India - Damansara,37,4.46,362.0,Unknown
+TripAdvisor,KL,Pasta Zanmai NU Sentral,20,3.5,348.0,Western
+TripAdvisor,KL,Pavilions Lounge,24,4.79,231.0,Unknown
+TripAdvisor,KL,Persia Restaurant,32,3.81,264.5,Unknown
+TripAdvisor,KL,Peter Hoe Cafe,40,3.75,394.5,Cafe & bar
+TripAdvisor,KL,Peter's Pork Noodles,22,4.18,323.0,Unknown
+TripAdvisor,KL,Pho Vietz - CLOSED,37,3.97,239.0,Unknown
+TripAdvisor,KL,Pier 12 Seafood Tavern,251,4.64,229.0,Seafood
+TripAdvisor,KL,Pigs & Wolf,90,3.21,423.0,Unknown
+TripAdvisor,KL,Pintu,20,4.65,269.5,Unknown
+TripAdvisor,KL,Pisco Bar,90,4.32,302.0,Cafe & bar
+TripAdvisor,KL,Pizza Brava,20,3.95,293.0,Western
+TripAdvisor,KL,Plane In The City,223,4.55,129.0,Unknown
+TripAdvisor,KL,Pool Bar & Grill,34,5.0,245.5,Cafe & bar
+TripAdvisor,KL,Porto Romano,121,3.82,341.0,Unknown
+TripAdvisor,KL,Portofino Bangsar Lucky Garden,103,4.17,319.0,Unknown
+TripAdvisor,KL,Positano Risto,848,4.87,187.5,Unknown
+TripAdvisor,KL,Prego,444,4.44,268.5,Unknown
+TripAdvisor,KL,Prime,415,4.48,262.0,Unknown
+TripAdvisor,KL,Proof Pizza and Wine,41,3.88,362.0,Western
+TripAdvisor,KL,Purple Cane Tea Restaurant,40,3.78,270.0,Unknown
+TripAdvisor,KL,Quivo Pavilion,650,4.62,216.0,Unknown
+TripAdvisor,KL,Qureshi Malaysia,143,4.61,243.0,Unknown
+TripAdvisor,KL,RSMY,163,4.12,182.0,Unknown
+TripAdvisor,KL,Ra-Ft,28,4.14,297.5,Unknown
+TripAdvisor,KL,Raj's Banana Leaf,77,3.36,284.0,Indian
+TripAdvisor,KL,Rakuzen Japanese Restaurant,30,3.87,265.5,Japanese
+TripAdvisor,KL,Rama V Fine Thai Cuisine,164,3.82,369.0,Thai
+TripAdvisor,KL,ReDynasty The Emperor's Bar,40,4.97,187.5,Cafe & bar
+TripAdvisor,KL,Restaurant Sun Chui Yuen,30,3.97,359.0,Unknown
+TripAdvisor,KL,Restaurant Win Heng Seng,20,4.2,342.5,Unknown
+TripAdvisor,KL,Restoran Beriani Asif,20,4.25,308.0,Unknown
+TripAdvisor,KL,Restoran Char Siew Yoong,37,3.95,398.0,Unknown
+TripAdvisor,KL,Restoran Dragon View,80,3.45,249.5,Unknown
+TripAdvisor,KL,Restoran Kudu Bin Abdul Nasi Kandar Penang,34,4.32,244.0,Indian
+TripAdvisor,KL,Restoran Lim Kee,28,4.11,399.5,Unknown
+TripAdvisor,KL,Restoran Mahbub,51,3.82,287.0,Unknown
+TripAdvisor,KL,Restoran Makanan Laut Lau Heong,37,4.11,358.0,Unknown
+TripAdvisor,KL,Restoran Nagasari Curry House,159,4.3,243.0,Indian
+TripAdvisor,KL,Restoran Nasi Ayam Kam Kee,21,4.29,288.0,Malay
+TripAdvisor,KL,Restoran Pik Wah,30,4.23,374.0,Unknown
+TripAdvisor,KL,Restoran Rebung Chef Ismail,143,4.13,401.0,Unknown
+TripAdvisor,KL,Restoran Sek Yuen,109,4.05,399.0,Unknown
+TripAdvisor,KL,Restoran Siu Siu,79,3.99,344.0,Unknown
+TripAdvisor,KL,Restoran Soong Kee,49,4.29,321.0,Unknown
+TripAdvisor,KL,Restoran Stadium Negara,59,4.12,429.0,Unknown
+TripAdvisor,KL,Restoran Suria,20,4.15,199.5,Unknown
+TripAdvisor,KL,Restoran Yusoof dan Zakhir,233,4.13,248.0,Unknown
+TripAdvisor,KL,Ril's Bangsar,76,3.75,431.5,Unknown
+TripAdvisor,KL,Rise & Shine by Tapestry,27,4.33,363.0,Unknown
+TripAdvisor,KL,Rock Bottom Bangsar,30,3.9,287.5,Unknown
+TripAdvisor,KL,Rock Bottom Changkat,69,3.99,230.0,Unknown
+TripAdvisor,KL,Rock Salt Restaurant,40,4.82,337.0,Unknown
+TripAdvisor,KL,Rocku Yakiniku,50,3.88,325.5,Unknown
+TripAdvisor,KL,Rococo Cafe Restaurant,22,4.27,296.0,Cafe & bar
+TripAdvisor,KL,Rokko KL Japanese Grill Dining,20,3.5,318.5,Japanese
+TripAdvisor,KL,Roofino Skydining,41,3.95,399.0,Unknown
+TripAdvisor,KL,Rooftop 25 Bar and Lounge KL,105,4.83,165.0,Cafe & bar
+TripAdvisor,KL,Ruyi & Lyn,30,3.5,370.0,Unknown
+TripAdvisor,KL,S.Wine Café,100,3.85,389.5,Cafe & bar
+TripAdvisor,KL,SK Corner,32,3.91,247.5,Unknown
+TripAdvisor,KL,SOULed OUT Ampang,159,3.75,306.0,Unknown
+TripAdvisor,KL,SOULed OUT Bangsar South,80,3.6,302.0,Unknown
+TripAdvisor,KL,Saba Restaurant,30,3.57,239.5,Unknown
+TripAdvisor,KL,Sabayon,60,4.53,252.0,Unknown
+TripAdvisor,KL,Sagar Restaurant,169,4.2,341.0,Unknown
+TripAdvisor,KL,Sage Restaurant & Wine Bar,106,3.98,514.0,Cafe & bar
+TripAdvisor,KL,Sahara Tent,60,3.93,328.5,Unknown
+TripAdvisor,KL,Sai Woo,100,4.02,332.5,Unknown
+TripAdvisor,KL,Samad Al Iraqi Restaurant,60,3.98,275.5,Unknown
+TripAdvisor,KL,Samba Brazilian Steakhouse Avenue K,158,4.07,350.5,Western
+TripAdvisor,KL,Sambal Hijau,62,4.13,333.0,Malay
+TripAdvisor,KL,Samira by Asian Terrace,92,3.91,505.0,Unknown
+TripAdvisor,KL,Sangeetha,200,4.06,223.5,Unknown
+TripAdvisor,KL,Sanoook,28,4.11,250.0,Unknown
+TripAdvisor,KL,Sarang Cookery,59,4.66,415.0,Unknown
+TripAdvisor,KL,Saravana Bhavan,146,4.05,281.0,Indian
+TripAdvisor,KL,Saravanaa Bhavan,144,4.0,240.5,Indian
+TripAdvisor,KL,Satay Station,30,3.93,394.0,Malay
+TripAdvisor,KL,Sausage KL Cafe & Deli,283,4.93,214.0,Cafe & bar
+TripAdvisor,KL,Savini Ristorante Italiano,31,4.19,441.0,Western
+TripAdvisor,KL,Secret Recipe,24,3.46,191.0,Unknown
+TripAdvisor,KL,Seetharam,28,3.5,265.0,Unknown
+TripAdvisor,KL,Senya Izakaya Publika,74,4.23,302.0,Japanese
+TripAdvisor,KL,Senya Sake and Dining - CLOSED,75,4.35,282.0,Unknown
+TripAdvisor,KL,Serena Brasserie,120,4.32,313.5,Unknown
+TripAdvisor,KL,Serendib Restaurant & Bar,29,4.62,310.0,Cafe & bar
+TripAdvisor,KL,Sham's Cooked With Love,49,4.67,566.0,Unknown
+TripAdvisor,KL,Shang Palace,226,4.22,277.0,Unknown
+TripAdvisor,KL,Shanghai,50,4.18,261.5,Unknown
+TripAdvisor,KL,Shawarma Damascus,26,4.31,218.5,Unknown
+TripAdvisor,KL,Shell Out,20,3.9,212.0,Unknown
+TripAdvisor,KL,Shin Nihon,31,4.29,340.0,Unknown
+TripAdvisor,KL,Ship,80,3.64,171.5,Unknown
+TripAdvisor,KL,Shisha Lounge,47,3.62,298.0,Unknown
+TripAdvisor,KL,Shook!,262,3.94,308.0,Unknown
+TripAdvisor,KL,Shucked Oyster and Seafood Bar,103,4.23,248.0,Seafood
+TripAdvisor,KL,Simple Life,40,4.12,291.0,Unknown
+TripAdvisor,KL,Simple life,20,4.25,273.5,Unknown
+TripAdvisor,KL,Sin Kee Restaurant,60,3.6,340.5,Unknown
+TripAdvisor,KL,Singh Chapati House Sdn Bhd,40,3.78,268.0,Unknown
+TripAdvisor,KL,Siti Li Dining,20,3.95,410.5,Unknown
+TripAdvisor,KL,Sitka Restaurant,54,3.72,403.0,Unknown
+TripAdvisor,KL,Skillet KL,500,4.61,329.5,Unknown
+TripAdvisor,KL,Sopoong,34,4.12,258.0,Unknown
+TripAdvisor,KL,Sou Omakase Dining,35,4.26,356.0,Japanese
+TripAdvisor,KL,Souled Out,229,3.75,290.0,Unknown
+TripAdvisor,KL,Southern Rock Seafood,86,3.91,479.0,Seafood
+TripAdvisor,KL,Spice Garden,50,3.9,250.0,Unknown
+TripAdvisor,KL,Splash,21,4.38,207.0,Unknown
+TripAdvisor,KL,Sri Nirwana Maju Restaurant,179,4.06,339.0,Unknown
+TripAdvisor,KL,Sri Paandi Bukit Bintang,30,3.57,252.5,Unknown
+TripAdvisor,KL,Steaks & Lobsters,53,3.87,408.0,Seafood
+TripAdvisor,KL,Stoked Restaurant & Bar,28,4.07,452.0,Cafe & bar
+TripAdvisor,KL,Strato,100,3.66,550.5,Unknown
+TripAdvisor,KL,Subway,70,3.83,162.0,Unknown
+TripAdvisor,KL,Sun Fong Bak Kut Teh,40,3.52,253.0,Chinese
+TripAdvisor,KL,Super Saigon Sri Hartamas,20,4.15,335.5,Unknown
+TripAdvisor,KL,Supperclub KL,25,4.56,219.0,Unknown
+TripAdvisor,KL,Suraya Seafood,28,4.07,262.0,Seafood
+TripAdvisor,KL,Sushi Azabu,20,4.05,387.0,Japanese
+TripAdvisor,KL,Sushi Hibiki,49,4.9,338.0,Japanese
+TripAdvisor,KL,Sushi Oribe,120,4.53,403.5,Japanese
+TripAdvisor,KL,"Sushi Tei, Pavilion Kuala Lumpur",64,3.34,260.5,Japanese
+TripAdvisor,KL,Sushi Zanmai,171,3.74,279.0,Japanese
+TripAdvisor,KL,Suzi's Corner,210,4.11,323.0,Unknown
+TripAdvisor,KL,TEMPTationS,188,4.24,231.5,Unknown
+TripAdvisor,KL,TGI Friday,95,3.51,245.0,Unknown
+TripAdvisor,KL,THE BAR°N @ Pavilion KL,20,4.15,273.5,Cafe & bar
+TripAdvisor,KL,THIRTY8,491,4.17,369.0,Unknown
+TripAdvisor,KL,TTDI Meat Point Steakhouse,53,4.15,298.0,Western
+TripAdvisor,KL,TWG Tea at Pavilion KL,99,3.53,292.0,Unknown
+TripAdvisor,KL,Table 23,50,4.2,300.5,Unknown
+TripAdvisor,KL,Taka,30,4.53,406.0,Unknown
+TripAdvisor,KL,Tamarind Springs By Samadhi,378,4.18,364.5,Unknown
+TripAdvisor,KL,Tao Chinese Cuisine,58,4.05,344.5,Chinese
+TripAdvisor,KL,Tarbush Restaurant,23,3.91,306.0,Unknown
+TripAdvisor,KL,Tarbush Starhill,158,3.93,269.0,Unknown
+TripAdvisor,KL,Taste of Asia,20,4.0,268.0,Unknown
+TripAdvisor,KL,TasteBud,44,4.66,204.5,Unknown
+TripAdvisor,KL,Tasty Chapathi Restaurant - KL,91,3.92,346.0,Unknown
+TripAdvisor,KL,Tate,35,4.4,337.0,Unknown
+TripAdvisor,KL,Tatsu Japanese Cuisine,50,4.18,253.5,Japanese
+TripAdvisor,KL,Tatto,119,4.29,335.0,Unknown
+TripAdvisor,KL,Tenmaya Japanese Cuisine,29,4.41,193.0,Japanese
+TripAdvisor,KL,Teppanyaki,20,4.05,261.0,Japanese
+TripAdvisor,KL,Tg's Nasi Kandar,524,4.53,262.0,Indian
+TripAdvisor,KL,Thai Tuk Tuk,28,3.68,272.0,Thai
+TripAdvisor,KL,The Apartment,120,3.39,308.5,Unknown
+TripAdvisor,KL,The BAR°N @1 Mont Kiara,63,3.48,318.0,Cafe & bar
+TripAdvisor,KL,The Beato Aged Steakhouse,108,3.98,389.5,Western
+TripAdvisor,KL,The Brasserie - The St. Regis Kuala Lumpur,52,4.27,346.5,Unknown
+TripAdvisor,KL,The Cafe at the Royal Selangor Visitor Centre,26,4.38,193.5,Cafe & bar
+TripAdvisor,KL,The Castle Restaurant,37,4.08,227.0,Unknown
+TripAdvisor,KL,The Ceylon bar,22,4.23,256.5,Cafe & bar
+TripAdvisor,KL,The Daily Grind,114,4.01,363.5,Unknown
+TripAdvisor,KL,The Enclave Bangsar,22,4.86,237.0,Unknown
+TripAdvisor,KL,The Grand Getaway by Grand Hyatt Kuala Lumpur,95,4.83,311.0,Unknown
+TripAdvisor,KL,The Green Man Pub & Restaurant,121,4.13,268.0,Cafe & bar
+TripAdvisor,KL,The Han Room,79,3.63,385.0,Unknown
+TripAdvisor,KL,The Living Room,200,4.4,204.5,Unknown
+TripAdvisor,KL,The Loaf (Pavillion Kuala Lumpur),122,3.73,209.5,Unknown
+TripAdvisor,KL,The Lobby Lounge,120,4.5,358.0,Unknown
+TripAdvisor,KL,The Lounge at Four Seasons,129,4.67,275.0,Unknown
+TripAdvisor,KL,The Magnificent Fish & Chips Bar,194,3.98,327.5,Cafe & bar
+TripAdvisor,KL,The Majapahit,30,3.7,323.5,Unknown
+TripAdvisor,KL,The Mill Cafe,83,3.69,302.0,Cafe & bar
+TripAdvisor,KL,The Ming Room,110,3.77,336.0,Unknown
+TripAdvisor,KL,The Olive Tree,100,3.71,288.0,Unknown
+TripAdvisor,KL,The Rabbit Hole,130,4.21,251.5,Unknown
+TripAdvisor,KL,"The Social, Bangsar",92,3.65,312.0,Unknown
+TripAdvisor,KL,"The Social, Publika",71,3.59,302.0,Cafe & bar
+TripAdvisor,KL,The Steakhouse KL,660,4.59,268.0,Western
+TripAdvisor,KL,The Sticky Wicket,20,4.5,196.0,Unknown
+TripAdvisor,KL,The Thai Authority,75,4.47,258.0,Thai
+TripAdvisor,KL,The Whisky Bar,1284,4.74,188.0,Cafe & bar
+TripAdvisor,KL,Ticklish Ribs & 'Wiches,30,4.9,200.0,Unknown
+TripAdvisor,KL,Tigerlily Thai Restaurant,30,3.67,260.0,Thai
+TripAdvisor,KL,Tiki Taka,29,4.0,385.0,Unknown
+TripAdvisor,KL,"Tokyo Kitchen, Berjaya Times Square",30,3.8,190.0,Japanese
+TripAdvisor,KL,Tokyo Teppan,30,4.0,359.5,Japanese
+TripAdvisor,KL,Tonka Bean Cafe,70,3.77,225.5,Cafe & bar
+TripAdvisor,KL,Tony Roma's,160,3.62,250.0,Unknown
+TripAdvisor,KL,Topshelf,37,4.16,414.0,Unknown
+TripAdvisor,KL,Trace Restaurant & Bar,98,4.42,290.5,Cafe & bar
+TripAdvisor,KL,Troika Sky Dinning,31,4.16,323.0,Unknown
+TripAdvisor,KL,Tujo,135,4.1,300.0,Unknown
+TripAdvisor,KL,Turkish Cafe Istanbul,48,4.19,306.5,Cafe & bar
+TripAdvisor,KL,U Cafe,30,3.73,308.0,Cafe & bar
+TripAdvisor,KL,UK Asia Pakistani,39,3.85,334.0,Unknown
+TripAdvisor,KL,Umai-Ya,68,3.57,311.5,Unknown
+TripAdvisor,KL,Uncle Don's Solaris Dutamas - Publika,30,3.73,223.5,Cafe & bar
+TripAdvisor,KL,Uokatsu,29,3.79,470.0,Unknown
+TripAdvisor,KL,Urbean,29,4.28,231.0,Unknown
+TripAdvisor,KL,Valentine Roti,48,4.42,308.0,Unknown
+TripAdvisor,KL,Vantador,30,4.3,375.0,Unknown
+TripAdvisor,KL,Vasco's,572,4.52,219.0,Unknown
+TripAdvisor,KL,Vertigo,101,4.36,285.0,Unknown
+TripAdvisor,KL,Village Roast Duck,110,4.13,332.5,Unknown
+TripAdvisor,KL,Vin's Restaurant and Bar,348,4.66,293.5,Cafe & bar
+TripAdvisor,KL,Vinh City Entertainment,29,4.66,227.0,Unknown
+TripAdvisor,KL,Vinni Jeyaa Banana Leaf Curry House,20,3.85,371.0,Indian
+TripAdvisor,KL,Vishal Food and Catering,84,3.86,318.0,Unknown
+TripAdvisor,KL,Vivo American Pizza & Panini,60,4.0,208.5,Western
+TripAdvisor,KL,W1 Dining & Cocktails,23,4.65,291.0,Unknown
+TripAdvisor,KL,"WET Deck, W Kuala Lumpur",125,4.47,232.0,Unknown
+TripAdvisor,KL,WIP,150,4.04,319.0,Unknown
+TripAdvisor,KL,WOW KL,96,3.6,308.0,Unknown
+TripAdvisor,KL,WTF - What Tasty Food,142,4.18,287.5,Unknown
+TripAdvisor,KL,WXYZ Bar,64,4.64,171.0,Cafe & bar
+TripAdvisor,KL,Wadi Hadramawt,93,4.17,270.0,Unknown
+TripAdvisor,KL,Warisan Cafe,79,4.08,244.0,Cafe & bar
+TripAdvisor,KL,Water Lily Vegetarian Restaurant,37,4.38,261.0,Unknown
+TripAdvisor,KL,Way Modern Chinois,59,4.37,375.0,Unknown
+TripAdvisor,KL,Weissbrau Bistro & Bar,60,3.67,295.0,Cafe & bar
+TripAdvisor,KL,Whimsy Malaysia,20,4.5,178.5,Unknown
+TripAdvisor,KL,White Horse Tavern,25,4.16,193.0,Unknown
+TripAdvisor,KL,Wild Honey Malaysia,80,3.38,342.5,Unknown
+TripAdvisor,KL,Wild Sheep Chase,20,3.4,244.5,Unknown
+TripAdvisor,KL,Wildflowers,20,4.55,336.0,Unknown
+TripAdvisor,KL,Wizards at Tribeca,58,4.5,210.5,Unknown
+TripAdvisor,KL,Wong Kee Hai Lam Chicken Rice & Roast Pork,40,4.25,331.5,Chinese
+TripAdvisor,KL,Wurst KL,31,4.77,333.0,Unknown
+TripAdvisor,KL,Xenri Japanese Cuisine,27,3.96,312.0,Japanese
+TripAdvisor,KL,Xin Cuisine,50,3.66,341.5,Unknown
+TripAdvisor,KL,"YEN, W Kuala Lumpur",93,4.78,299.0,Unknown
+TripAdvisor,KL,YUZU Japanese Restaurant,110,3.48,253.5,Japanese
+TripAdvisor,KL,Yeast,180,3.98,357.0,Unknown
+TripAdvisor,KL,Yellow Brick Road,112,3.62,362.0,Unknown
+TripAdvisor,KL,Yezi Steamboat,76,4.38,182.0,Chinese
+TripAdvisor,KL,Yun House,116,4.74,279.5,Unknown
+TripAdvisor,KL,Yut Kee,215,3.95,375.0,Unknown
+TripAdvisor,KL,Zende Restaurant,20,3.95,171.0,Unknown
+TripAdvisor,KL,Zenzero Restaurant & Wine Bar,500,4.68,188.0,Cafe & bar
+TripAdvisor,KL,Zipangu,149,4.06,331.0,Unknown
+TripAdvisor,KL,el iberico,186,4.66,193.0,Unknown
+TripAdvisor,KL,hokkaido seafood restaurant,87,4.3,264.0,Seafood
+TripAdvisor,KL,sarvana bhavan,60,4.17,268.5,Indian
+TripAdvisor,KL,twenty-one kitchen+bar,57,4.23,301.0,Unknown
+TripAdvisor,KL,Ăn Viet,77,3.64,394.0,Unknown
+TripAdvisor,Kuching,21 Bistro,64,4.03,321.5,Cafe & bar
+TripAdvisor,Kuching,5 Foot Way,34,4.44,192.5,Unknown
+TripAdvisor,Kuching,Aladdin Cafe,33,3.94,342.0,Cafe & bar
+TripAdvisor,Kuching,Annie Kolo mee,25,4.32,245.0,Unknown
+TripAdvisor,Kuching,Aroma Cafe,43,3.93,209.0,Cafe & bar
+TripAdvisor,Kuching,Balkanico,110,4.7,211.5,Unknown
+TripAdvisor,Kuching,Basaga,86,3.63,271.0,Unknown
+TripAdvisor,Kuching,Bear Garden,20,4.85,174.0,Unknown
+TripAdvisor,Kuching,Bella Italia,114,4.25,218.5,Unknown
+TripAdvisor,Kuching,Bla Bla Bla,592,4.26,306.0,Unknown
+TripAdvisor,Kuching,Borneo Delight,40,3.98,271.0,Unknown
+TripAdvisor,Kuching,Ceylonese Restaurant,171,4.47,239.0,Unknown
+TripAdvisor,Kuching,Cha Bo,25,4.12,228.0,Unknown
+TripAdvisor,Kuching,Choon Hui Cafe,90,4.3,264.5,Cafe & bar
+TripAdvisor,Kuching,Escobar Bar & Grill,70,2.84,286.5,Cafe & bar
+TripAdvisor,Kuching,Feast and Furious Cafe,107,4.16,267.0,Cafe & bar
+TripAdvisor,Kuching,Fig Tree Cafe,20,4.65,204.0,Cafe & bar
+TripAdvisor,Kuching,Green Hill Corner Hawker Centre,86,4.06,242.0,Unknown
+TripAdvisor,Kuching,Grill Wine Cafe,31,4.65,316.0,Cafe & bar
+TripAdvisor,Kuching,Hong Kong Noodle House,100,3.46,304.5,Unknown
+TripAdvisor,Kuching,Howdy Grillhouse,30,3.73,258.5,Unknown
+TripAdvisor,Kuching,Hui Sing Hawker Center,58,4.03,210.5,Unknown
+TripAdvisor,Kuching,Imperial Duck Restaurant,38,3.45,302.0,Unknown
+TripAdvisor,Kuching,Indah House Kuching,250,4.68,291.5,Unknown
+TripAdvisor,Kuching,Izakaya Kuching,82,4.35,242.0,Japanese
+TripAdvisor,Kuching,James Brooke Bistro,980,3.88,254.0,Cafe & bar
+TripAdvisor,Kuching,John's Place,53,3.87,249.0,Unknown
+TripAdvisor,Kuching,Keeper's Ground,25,4.28,315.0,Unknown
+TripAdvisor,Kuching,Kim Joo,68,4.12,211.5,Unknown
+TripAdvisor,Kuching,Kopi O Corner,63,3.79,200.0,Unknown
+TripAdvisor,Kuching,Lau Ya Keng Food Court,69,4.16,239.0,Unknown
+TripAdvisor,Kuching,Lepau Restaurant,236,4.48,281.5,Unknown
+TripAdvisor,Kuching,Life Cafe - Padungan,52,4.21,285.5,Cafe & bar
+TripAdvisor,Kuching,Lima.Tujoh Cafe,51,4.53,254.0,Cafe & bar
+TripAdvisor,Kuching,LimeLight Rooftop Lounge,75,4.01,237.0,Unknown
+TripAdvisor,Kuching,Lok Thian Restaurant,24,3.96,316.0,Unknown
+TripAdvisor,Kuching,Madam Tang's Café,22,3.41,252.0,Cafe & bar
+TripAdvisor,Kuching,Magenta Restaurant,53,3.79,351.0,Unknown
+TripAdvisor,Kuching,Magna Carta Cafe,30,3.73,284.5,Cafe & bar
+TripAdvisor,Kuching,Minoru,22,4.14,297.5,Unknown
+TripAdvisor,Kuching,Moms Laksa,60,4.12,183.0,Malay
+TripAdvisor,Kuching,Munch Cafe,58,4.47,251.0,Cafe & bar
+TripAdvisor,Kuching,My Village Barok,69,3.75,279.0,Cafe & bar
+TripAdvisor,Kuching,Peridot Kuching,28,4.61,244.5,Unknown
+TripAdvisor,Kuching,Pinggai Cafe,29,4.69,223.0,Cafe & bar
+TripAdvisor,Kuching,Pinoy Fiesta Ihaw Ihaw Restaurant,84,4.18,343.5,Unknown
+TripAdvisor,Kuching,Porkie's By Flavours,43,3.02,296.0,Unknown
+TripAdvisor,Kuching,RJ AYAM BAKAR kopitiam,92,3.85,209.5,Chinese
+TripAdvisor,Kuching,Razzmatazz Bistro & Bar,50,4.52,325.5,Cafe & bar
+TripAdvisor,Kuching,Rock Road Seafood Restaurant,97,3.86,324.0,Seafood
+TripAdvisor,Kuching,Roots Bistronomy,44,4.82,269.5,Cafe & bar
+TripAdvisor,Kuching,Sanga Japanese Food,54,4.04,237.5,Japanese
+TripAdvisor,Kuching,Scr,29,3.31,293.0,Unknown
+TripAdvisor,Kuching,See Good Food Centre,68,3.97,314.5,Unknown
+TripAdvisor,Kuching,Sepinang Sari Cafe & Restaurant,21,4.62,236.0,Cafe & bar
+TripAdvisor,Kuching,The Bikalan,84,4.98,403.5,Unknown
+TripAdvisor,Kuching,The Carvery Restaurant,46,3.98,298.0,Unknown
+TripAdvisor,Kuching,The Heritage,58,4.22,272.0,Unknown
+TripAdvisor,Kuching,The Junk,535,3.94,280.0,Unknown
+TripAdvisor,Kuching,The Kings Curry,49,4.02,204.0,Indian
+TripAdvisor,Kuching,The Round Tower 1886 Cafe & Restaurant,23,4.87,153.0,Cafe & bar
+TripAdvisor,Kuching,The.Dyak,130,3.93,373.5,Unknown
+TripAdvisor,Kuching,Toh Yuen,66,4.14,232.5,Unknown
+TripAdvisor,Kuching,Tom's,50,3.82,305.5,Unknown
+TripAdvisor,Kuching,Top Spot Ling Loong Seafood No.6 & 33,143,4.09,283.0,Seafood
+TripAdvisor,Kuching,Topspot Food Court,32,4.25,310.5,Unknown
+TripAdvisor,Kuching,Tribal Stove,120,4.0,393.5,Unknown
+TripAdvisor,Kuching,Warong Nusantara,54,3.33,218.5,Unknown
+TripAdvisor,Kuching,Zhun San Yen Vegetarian Food,20,4.65,267.0,Unknown
+TripAdvisor,Kuching,Zinc Restaurant and Bar,434,4.6,307.5,Cafe & bar
+TripAdvisor,Langkawi,Alhamdulillah Restaurant,436,4.9,241.5,Unknown
+TripAdvisor,Langkawi,Arang BBQ & Grill Langkawi,155,4.61,216.0,Unknown
+TripAdvisor,Langkawi,Arts Cafe Langkawi,386,4.46,253.0,Cafe & bar
+TripAdvisor,Langkawi,Breizh Up - CLOSED,222,4.65,195.0,Unknown
+TripAdvisor,Langkawi,Cba,415,4.48,230.0,Unknown
+TripAdvisor,Langkawi,Coco's Bistro,227,4.67,336.0,Cafe & bar
+TripAdvisor,Langkawi,El Toro Langkawi - Mexican Bar & Grill,100,4.5,206.0,Cafe & bar
+TripAdvisor,Langkawi,Gallo Nero Italian Restaurant,243,4.68,302.0,Western
+TripAdvisor,Langkawi,German Food Corner,167,4.57,243.0,Unknown
+TripAdvisor,Langkawi,Haroo Haroo Korean Restaurant,856,4.79,293.0,Korean
+TripAdvisor,Langkawi,Haroo+,216,4.66,266.5,Unknown
+TripAdvisor,Langkawi,Jala Restaurant,470,4.58,306.0,Unknown
+TripAdvisor,Langkawi,Kayuputi,286,4.79,379.5,Unknown
+TripAdvisor,Langkawi,La Sal at Casa Del Mar,1013,4.49,313.0,Unknown
+TripAdvisor,Langkawi,MY French Factory,492,4.64,241.0,Western
+TripAdvisor,Langkawi,Mangoes,446,4.66,349.0,Unknown
+TripAdvisor,Langkawi,"Nook, Aloft Langkawi Pantai Tengah",130,4.78,198.0,Unknown
+TripAdvisor,Langkawi,Pia's The Padi,100,4.37,351.5,Unknown
+TripAdvisor,Langkawi,Planter's at The Danna,308,4.66,253.0,Unknown
+TripAdvisor,Langkawi,Rimba at Ambong Pool Villas,180,4.82,302.0,Unknown
+TripAdvisor,Langkawi,Sun Cafe,652,4.44,250.0,Cafe & bar
+TripAdvisor,Langkawi,The Argan Trees Restaurant,60,4.72,349.5,Unknown
+TripAdvisor,Langkawi,The Beach Grill,72,4.82,219.0,Unknown
+TripAdvisor,Langkawi,The Gulai House,300,4.54,274.0,Unknown
+TripAdvisor,Langkawi,Thirstday Bar And Restaurant,330,4.54,243.0,Cafe & bar
+TripAdvisor,Langkawi,Unkaizan,449,4.48,295.0,Unknown
+TripAdvisor,Langkawi,Verandah Lounge,170,4.79,217.5,Unknown
+TripAdvisor,Langkawi,Wonderland Food Store,996,4.37,296.0,Unknown
+TripAdvisor,Langkawi,Yam Yam Cafe & Restaurant,179,4.59,242.0,Cafe & bar
+TripAdvisor,Langkawi,Yasmin Restaurant,250,4.7,204.5,Unknown
+TripAdvisor,Langkawi,fatCUPID,986,4.53,314.5,Unknown
+TripAdvisor,Melaka,486 Baba Low,61,3.49,291.0,Unknown
+TripAdvisor,Melaka,Ah Hui Bak Kut Teh,30,3.0,286.5,Chinese
+TripAdvisor,Melaka,Amy Heritage Nyonya Cuisine,344,3.73,419.0,Unknown
+TripAdvisor,Melaka,Asam Pedas Kota Laksamana,124,3.42,261.0,Malay
+TripAdvisor,Melaka,BEE BEE Pineapple Tart  House,20,3.5,251.0,Unknown
+TripAdvisor,Melaka,Baba Freds Nyonya Resturant,24,3.79,296.5,Unknown
+TripAdvisor,Melaka,Ban Lee Siang,174,3.66,311.0,Unknown
+TripAdvisor,Melaka,Bei Zhan Restaurant,180,3.94,304.0,Unknown
+TripAdvisor,Melaka,Bernie's Pub,26,4.96,376.0,Cafe & bar
+TripAdvisor,Melaka,Bert's Garden Seafood,82,4.06,303.5,Seafood
+TripAdvisor,Melaka,Bica & Co Courtyard Cafe,60,4.42,150.5,Cafe & bar
+TripAdvisor,Melaka,Bulldog,196,4.5,305.5,Unknown
+TripAdvisor,Melaka,Busdriver.Cafe,20,5.0,208.5,Cafe & bar
+TripAdvisor,Melaka,Caribbi Seafood Village,24,4.96,133.0,Seafood
+TripAdvisor,Melaka,Casa Cucina,20,4.05,531.0,Unknown
+TripAdvisor,Melaka,Chop Tiang Bee Cafe and Restaurant,21,4.71,286.0,Cafe & bar
+TripAdvisor,Melaka,Coconut Shake Batu Berendam,24,3.96,244.5,Unknown
+TripAdvisor,Melaka,Cottage Spices A Taste of Melaka,172,3.92,265.0,Unknown
+TripAdvisor,Melaka,Daorae Korean BBQ Restaurant,95,4.09,275.0,Korean
+TripAdvisor,Melaka,Dim Sum Garden Restaurant,33,4.09,296.0,Chinese
+TripAdvisor,Melaka,Dragon-i,22,3.82,299.5,Unknown
+TripAdvisor,Melaka,Dutch Harbour Cafe,173,3.65,275.0,Cafe & bar
+TripAdvisor,Melaka,Eat at 18,50,4.3,317.0,Unknown
+TripAdvisor,Melaka,EeJiBan Chicken Rice Ball Halal,282,3.7,286.5,Chinese
+TripAdvisor,Melaka,Fugo Ryori,34,4.06,334.0,Unknown
+TripAdvisor,Melaka,Geographer Cafe,1394,3.72,247.5,Cafe & bar
+TripAdvisor,Melaka,GravyBaby Melaka,28,4.04,240.0,Unknown
+TripAdvisor,Melaka,Hainamko Chicken Rice,23,3.48,307.0,Chinese
+TripAdvisor,Melaka,Hard Rock Cafe,847,3.84,274.0,Cafe & bar
+TripAdvisor,Melaka,Heng Hainanese Chicken Rice Ball,35,3.11,306.0,Chinese
+TripAdvisor,Melaka,Hoe Kee Chicken Rice Ball,358,3.68,309.5,Chinese
+TripAdvisor,Melaka,Ichi Zen Japanese Restaurant,30,3.8,315.5,Japanese
+TripAdvisor,Melaka,J&J Corner Portuguese Seafood,31,4.1,333.0,Seafood
+TripAdvisor,Melaka,Johnny's Restaurant,20,3.65,228.5,Unknown
+TripAdvisor,Melaka,Jonker 86 QQ Ice,30,3.87,224.5,Unknown
+TripAdvisor,Melaka,Kaya Kaya Cafe,152,4.26,234.5,Cafe & bar
+TripAdvisor,Melaka,Le QUE,122,4.54,328.5,Unknown
+TripAdvisor,Melaka,Low Yong Moh Restaurant,159,3.69,286.0,Unknown
+TripAdvisor,Melaka,Mama Taste,29,4.03,310.0,Unknown
+TripAdvisor,Melaka,Mamee Jonker House,108,3.54,276.5,Unknown
+TripAdvisor,Melaka,Manis J Nyonya,156,4.39,314.0,Unknown
+TripAdvisor,Melaka,Millers Kitchen Restaurant,44,4.64,221.5,Unknown
+TripAdvisor,Melaka,Molten Chocolate Cafe,23,4.48,164.0,Cafe & bar
+TripAdvisor,Melaka,Monterios Portuguese Seafood Restaurant,58,4.48,353.0,Seafood
+TripAdvisor,Melaka,Mori Vegetarian Tea House,91,4.64,206.0,Cafe & bar
+TripAdvisor,Melaka,Nancy's Kitchen Restaurant,756,3.64,309.0,Unknown
+TripAdvisor,Melaka,Noah Art Cafe,42,4.29,233.5,Cafe & bar
+TripAdvisor,Melaka,Nyonya 63,61,4.36,372.0,Unknown
+TripAdvisor,Melaka,Nyonya Delight - Homestyle Nyonya Food,24,4.38,243.5,Unknown
+TripAdvisor,Melaka,Nyonya Makko Restaurant,360,3.66,329.0,Unknown
+TripAdvisor,Melaka,Olio Italian Restaurant,30,3.67,408.0,Western
+TripAdvisor,Melaka,Oriental Cottage Cafe,72,4.18,286.5,Cafe & bar
+TripAdvisor,Melaka,Our Kitchen Nyonya Restaurant,44,4.39,305.0,Unknown
+TripAdvisor,Melaka,Pak Putra Tandoori & Naan Restaurant,40,4.15,246.0,Indian
+TripAdvisor,Melaka,Pampas Sky Dining Steakhouse,98,3.97,350.5,Western
+TripAdvisor,Melaka,Poh Piah Lwee,106,4.22,270.0,Unknown
+TripAdvisor,Melaka,Putu Piring Melaka,81,4.38,287.0,Unknown
+TripAdvisor,Melaka,Relish The Moment,110,4.5,170.5,Unknown
+TripAdvisor,Melaka,Restaurant D' Tandoori House,87,3.98,289.0,Indian
+TripAdvisor,Melaka,Restaurant Zhong Tai,59,3.61,344.0,Unknown
+TripAdvisor,Melaka,Restoran Aunty Lee,174,3.91,335.5,Unknown
+TripAdvisor,Melaka,Restoran De Lisbon,42,4.21,257.5,Unknown
+TripAdvisor,Melaka,Restoran Lee Swee Meng,51,4.24,215.0,Unknown
+TripAdvisor,Melaka,Restoran Nyonya Suan,153,3.51,305.0,Unknown
+TripAdvisor,Melaka,Restoran Tong Sheng,266,3.9,365.5,Unknown
+TripAdvisor,Melaka,River View Cafe Melaka,195,4.32,270.0,Cafe & bar
+TripAdvisor,Melaka,Rock Bottom Malacca,85,4.33,258.0,Unknown
+TripAdvisor,Melaka,Rong Mao Tea Restaurant,32,3.53,283.5,Unknown
+TripAdvisor,Melaka,S Sihat Kafe,40,4.68,382.0,Unknown
+TripAdvisor,Melaka,SALUD Tapas Bar & Restaurant,265,4.34,319.0,Cafe & bar
+TripAdvisor,Melaka,SamFu Nyonya Restaurant,113,4.08,328.0,Unknown
+TripAdvisor,Melaka,Sayyid Antique & Cafe,30,4.63,272.5,Cafe & bar
+TripAdvisor,Melaka,Selvam,283,4.09,252.0,Unknown
+TripAdvisor,Melaka,Shui Xian Su Shi Yuan Vegetarian Food,43,4.56,245.0,Unknown
+TripAdvisor,Melaka,Sid's Pub at Jonker's,289,4.05,282.0,Cafe & bar
+TripAdvisor,Melaka,Sirocco Restaurant,89,4.27,262.0,Unknown
+TripAdvisor,Melaka,Sun May Hiong Satay House,140,3.64,271.5,Malay
+TripAdvisor,Melaka,Suukee Satay Melaka,27,4.15,225.0,Malay
+TripAdvisor,Melaka,Taste Better,143,4.24,214.0,Unknown
+TripAdvisor,Melaka,Teo Chew Bak Kut Teh,60,4.05,273.0,Chinese
+TripAdvisor,Melaka,Teo Soon Loong Seafood Restaurant,110,3.75,319.0,Seafood
+TripAdvisor,Melaka,The Baboon House,320,4.43,276.5,Unknown
+TripAdvisor,Melaka,The Melting Pot,40,3.3,301.0,Unknown
+TripAdvisor,Melaka,The River Grill,38,3.66,459.5,Unknown
+TripAdvisor,Melaka,The Sky Deli,20,3.15,369.5,Unknown
+TripAdvisor,Melaka,"The Square, Novotel Melaka",20,3.25,217.5,Unknown
+TripAdvisor,Melaka,Unicorn Cafe,34,3.94,342.5,Cafe & bar
+TripAdvisor,Melaka,Wa Zen Japanese Restaurant,74,4.42,250.5,Japanese
+TripAdvisor,Melaka,Wild Coriander,423,4.38,280.0,Unknown
+TripAdvisor,Melaka,restoran saravanna,119,4.22,262.0,Unknown
+TripAdvisor,Miri,Apollo Seafood Centre,40,4.03,228.0,Seafood
+TripAdvisor,Miri,Biryani Art,20,4.15,246.0,Indian
+TripAdvisor,Miri,Bonzer Restaurant,60,4.58,246.0,Unknown
+TripAdvisor,Miri,Cafe Rosita Coffee House,24,3.67,231.5,Cafe & bar
+TripAdvisor,Miri,Central Market,27,4.07,214.0,Unknown
+TripAdvisor,Miri,Dragon Seafood Restaurant,30,3.77,320.0,Seafood
+TripAdvisor,Miri,Dynasty Chinese Restaurant,21,3.57,200.0,Chinese
+TripAdvisor,Miri,Excapade Sushi,20,3.65,252.5,Japanese
+TripAdvisor,Miri,FuduBa,20,4.5,149.0,Unknown
+TripAdvisor,Miri,Han Palace Restaurant,20,4.15,190.0,Unknown
+TripAdvisor,Miri,Imperial Restaurant,35,4.0,216.0,Unknown
+TripAdvisor,Miri,Khan's Islamic Restaurant,50,4.32,239.0,Unknown
+TripAdvisor,Miri,Khan's Taj Restaurant,29,4.62,222.0,Unknown
+TripAdvisor,Miri,Madli's,65,3.6,285.0,Unknown
+TripAdvisor,Miri,Meng Chai Seafood,42,3.52,238.0,Seafood
+TripAdvisor,Miri,Ming Cafe,239,3.98,212.0,Cafe & bar
+TripAdvisor,Miri,Pete's Deli,30,4.13,232.5,Unknown
+TripAdvisor,Miri,Piato Bistro,20,4.05,281.5,Cafe & bar
+TripAdvisor,Miri,Pullman Kitchen,20,3.65,269.0,Unknown
+TripAdvisor,Miri,Restoran muara lalapan,40,3.58,239.5,Unknown
+TripAdvisor,Miri,Tanjong Seafood Restaurant,27,4.0,180.0,Seafood
+TripAdvisor,Miri,The Workshop Grill,32,3.91,251.0,Unknown
+TripAdvisor,Miri,Zest,169,4.56,215.0,Unknown
+TripAdvisor,Penang,20 Chulia Lane Cafe,67,4.78,219.0,Cafe & bar
+TripAdvisor,Penang,Andrew's Kampung,710,4.58,317.0,Malay
+TripAdvisor,Penang,Awesome Canteen at Sekeping Victoria,92,4.07,274.5,Unknown
+TripAdvisor,Penang,Bistro Tang,120,4.53,246.0,Cafe & bar
+TripAdvisor,Penang,Bite N Eat Dindigul Biriyani,170,4.46,266.5,Unknown
+TripAdvisor,Penang,Boatman Restaurant,184,4.49,276.5,Unknown
+TripAdvisor,Penang,Cheang Kee,170,4.81,163.0,Unknown
+TripAdvisor,Penang,D'Loovi's,64,4.94,221.0,Unknown
+TripAdvisor,Penang,Edelweiss Cafe,110,4.5,314.0,Cafe & bar
+TripAdvisor,Penang,Enca Cafe & Restaurant,224,4.45,280.0,Cafe & bar
+TripAdvisor,Penang,Feringgi Grill,296,4.57,350.5,Unknown
+TripAdvisor,Penang,Healy Mac's Irish Bar & Restaurant,320,4.83,141.5,Cafe & bar
+TripAdvisor,Penang,Helena's Cafe,401,4.37,241.0,Cafe & bar
+TripAdvisor,Penang,Heritage Artisans,41,4.93,318.0,Unknown
+TripAdvisor,Penang,Holy Guacamole - Love Lane,366,4.58,213.0,Unknown
+TripAdvisor,Penang,Il Bacaro,283,4.3,366.0,Unknown
+TripAdvisor,Penang,Indigo Restaurant at The Blue Mansion,150,4.63,262.5,Unknown
+TripAdvisor,Penang,Ivy's Nyonya Cuisine,244,4.4,387.5,Unknown
+TripAdvisor,Penang,Jawi House Cafe Gallery,343,4.43,309.0,Cafe & bar
+TripAdvisor,Penang,Junk Cafe,161,4.6,255.0,Cafe & bar
+TripAdvisor,Penang,Kebaya Dining Room,990,4.62,420.0,Unknown
+TripAdvisor,Penang,Kimpo Famous Roasted,70,4.6,234.0,Unknown
+TripAdvisor,Penang,Knife and Fork Restaurant,118,4.81,366.5,Unknown
+TripAdvisor,Penang,Kota Dine & Coffee,259,4.52,214.0,Cafe & bar
+TripAdvisor,Penang,Lagenda Cafe,173,4.54,256.0,Cafe & bar
+TripAdvisor,Penang,Laksalicious,213,4.66,236.0,Malay
+TripAdvisor,Penang,Lavish,960,4.42,130.0,Unknown
+TripAdvisor,Penang,Living Room Cafe Bar & Gallery,1029,4.48,288.0,Cafe & bar
+TripAdvisor,Penang,Mews Cafe,640,4.44,275.5,Cafe & bar
+TripAdvisor,Penang,My Own Cafe,220,4.6,251.0,Cafe & bar
+TripAdvisor,Penang,Orinea by Farquhar Mansion,460,4.69,163.5,Unknown
+TripAdvisor,Penang,Pinxin Vegan Cuisine,76,4.53,278.0,Unknown
+TripAdvisor,Penang,Pit Stop no.12,120,4.54,209.5,Unknown
+TripAdvisor,Penang,Puree Juice,30,5.0,177.5,Unknown
+TripAdvisor,Penang,Rubin Mardini Cafe Restaurant,58,4.93,276.5,Cafe & bar
+TripAdvisor,Penang,SUPE - Georgetown Branch,130,4.61,283.0,Unknown
+TripAdvisor,Penang,Salsas Penang,120,4.67,139.0,Unknown
+TripAdvisor,Penang,Smokepapa BBQ,27,4.96,254.0,Unknown
+TripAdvisor,Penang,Sri Weld Food Court,51,4.18,218.0,Unknown
+TripAdvisor,Penang,Tek Sen Restaurant,865,4.43,304.0,Unknown
+TripAdvisor,Penang,The Book Sandwich Cafe,139,4.38,251.0,Cafe & bar
+TripAdvisor,Penang,The Brick Cafe,29,4.79,273.0,Cafe & bar
+TripAdvisor,Penang,The Jetty Food Court,73,4.27,341.0,Unknown
+TripAdvisor,Penang,The Loft - Love Lane,193,4.69,170.0,Unknown
+TripAdvisor,Penang,Two Frenchies Cafe Bistrot,160,4.79,272.5,Western
+TripAdvisor,Penang,US Pizza,111,4.79,123.0,Western
+TripAdvisor,Penang,Urban Daybreak,100,4.23,258.5,Unknown
+TripAdvisor,Penang,Viva Local Food Haven,70,4.09,276.0,Unknown
+TripAdvisor,Penang,WHEELER'S,324,4.39,218.5,Unknown
+TripAdvisor,Penang,What the Duck Restaurant Penang,132,4.44,306.5,Unknown
+TripAdvisor,Penang,Yeap Noodles,130,4.49,212.0,Unknown
+TripAdvisor,Penang,Yeng Keng Cafe,90,4.08,319.0,Cafe & bar
+TripAdvisor,Petaling Jaya,Bistro a Table,64,4.28,320.0,Cafe & bar
+TripAdvisor,Petaling Jaya,Ishin Japanese Dining,610,4.61,137.0,Japanese
+TripAdvisor,Petaling Jaya,Kampachi Plaza33,198,4.65,174.5,Unknown
+TripAdvisor,Petaling Jaya,Miyabi,124,4.82,188.5,Unknown
+TripAdvisor,Petaling Jaya,Paya Serai,242,4.52,218.0,Unknown
+TripAdvisor,Petaling Jaya,Yue,66,4.88,226.0,Unknown
+TripAdvisor,Shah Alam,Ah Sang Bak Kut Teh,56,4.3,349.5,Chinese
+TripAdvisor,Shah Alam,Al Rawsha Restaurant,30,4.03,172.0,Unknown
+TripAdvisor,Shah Alam,Antipodean Atria,156,4.54,173.0,Unknown
+TripAdvisor,Shah Alam,Betty's Midwest Kitchen,64,3.52,449.5,Unknown
+TripAdvisor,Shah Alam,Charcoal Grill Restaurant,47,4.06,232.0,Unknown
+TripAdvisor,Shah Alam,Elephant Rock Restro Bar,39,4.67,202.0,Cafe & bar
+TripAdvisor,Shah Alam,Fatty Mee Hoon Kuih,95,3.88,237.0,Unknown
+TripAdvisor,Shah Alam,Foodilicious Kitchen Shah Alam,24,4.04,163.0,Unknown
+TripAdvisor,Shah Alam,Foodsbury,39,2.79,286.0,Unknown
+TripAdvisor,Shah Alam,Fu-Rin,20,3.75,313.0,Unknown
+TripAdvisor,Shah Alam,Garam Masala North Indian Restaurant,119,4.41,229.0,Indian
+TripAdvisor,Shah Alam,Hadramawt Kitchen,55,4.51,184.0,Unknown
+TripAdvisor,Shah Alam,Hing Ket Grill House,25,3.68,240.0,Unknown
+TripAdvisor,Shah Alam,Jibby & Co,120,3.65,301.5,Unknown
+TripAdvisor,Shah Alam,Jojo Italian Restaurant,41,3.93,330.0,Western
+TripAdvisor,Shah Alam,Jyu Raku Japanese Restaurant,38,4.03,279.0,Japanese
+TripAdvisor,Shah Alam,Kafe Bawang Merah,21,4.33,310.0,Unknown
+TripAdvisor,Shah Alam,Kaki Lang Homes Kitchen 自家人私家菜,24,4.42,213.0,Unknown
+TripAdvisor,Shah Alam,Kampachi Plaza33,289,4.7,159.0,Unknown
+TripAdvisor,Shah Alam,Kee Heong Bak Kut Teh,23,4.13,230.0,Chinese
+TripAdvisor,Shah Alam,Kinpachi Japanese Restaurant,33,4.18,307.0,Japanese
+TripAdvisor,Shah Alam,Kites Restaurant at Holiday Inn Kuala Lumpur Glenmarie,29,3.69,202.0,Unknown
+TripAdvisor,Shah Alam,Klang Curry House/Mom's Love,63,4.03,234.0,Indian
+TripAdvisor,Shah Alam,Kogetsu Japanese Restaurant,20,3.6,411.5,Japanese
+TripAdvisor,Shah Alam,La Belle Saison,42,4.55,279.0,Unknown
+TripAdvisor,Shah Alam,La Cocina,67,3.72,253.0,Unknown
+TripAdvisor,Shah Alam,"Laman Grill steak n Bar B Que,",51,3.51,348.0,Western
+TripAdvisor,Shah Alam,Las Carretas Restaurant & Bar,54,3.91,328.0,Cafe & bar
+TripAdvisor,Shah Alam,Madam Kwan's Empire Shopping Gallery,72,3.17,254.0,Unknown
+TripAdvisor,Shah Alam,Melting Pot Café,25,4.56,255.0,Cafe & bar
+TripAdvisor,Shah Alam,Miyabi,154,4.79,188.5,Unknown
+TripAdvisor,Shah Alam,Mozer's,91,4.18,204.0,Unknown
+TripAdvisor,Shah Alam,Mr. & Ms. Cafe,20,3.25,248.5,Cafe & bar
+TripAdvisor,Shah Alam,Naj & Belle,24,3.79,307.5,Unknown
+TripAdvisor,Shah Alam,Nasi Kandar Pelita,20,3.45,174.0,Indian
+TripAdvisor,Shah Alam,Naughty Nuri's Subang The Courtyard,90,3.89,310.0,Unknown
+TripAdvisor,Shah Alam,Ole Ole Bali Balinese Specialties,109,4.06,221.0,Unknown
+TripAdvisor,Shah Alam,One Serambi Cafe,42,4.24,246.5,Cafe & bar
+TripAdvisor,Shah Alam,Paya Serai,462,4.49,218.0,Unknown
+TripAdvisor,Shah Alam,Peng Heong Hakka Paikut Restaurant,50,3.84,243.5,Unknown
+TripAdvisor,Shah Alam,Pho Vietz,26,3.85,331.5,Unknown
+TripAdvisor,Shah Alam,Rakuzen Japanese Restaurant,110,4.06,219.0,Japanese
+TripAdvisor,Shah Alam,Restaurant Taman Eng Ann,20,3.85,351.0,Unknown
+TripAdvisor,Shah Alam,Restoran Angcle Peoh,60,3.75,255.0,Unknown
+TripAdvisor,Shah Alam,Restoran Cili Merah,20,3.7,172.0,Unknown
+TripAdvisor,Shah Alam,Restoran Hatinie,38,3.84,279.0,Unknown
+TripAdvisor,Shah Alam,Restoran Orkid Thai,25,3.92,256.0,Thai
+TripAdvisor,Shah Alam,Restoran Seng Huat Bak Kut Teh,37,3.73,314.0,Chinese
+TripAdvisor,Shah Alam,Restoran Well Cook Gourmet,34,4.0,362.0,Unknown
+TripAdvisor,Shah Alam,Restoran Weng Heong,26,4.12,255.0,Unknown
+TripAdvisor,Shah Alam,Restourant Boston,60,3.73,238.5,Unknown
+TripAdvisor,Shah Alam,Sahara Tent Restoran,43,3.93,202.0,Unknown
+TripAdvisor,Shah Alam,Sakae Sushi,29,3.38,254.0,Japanese
+TripAdvisor,Shah Alam,Secret of Louisiana,47,3.7,365.0,Unknown
+TripAdvisor,Shah Alam,Senja Italian Restaurant,40,4.28,301.5,Western
+TripAdvisor,Shah Alam,Sheesh Mahal,52,4.04,289.0,Unknown
+TripAdvisor,Shah Alam,South Sea Seafood,110,3.87,332.0,Seafood
+TripAdvisor,Shah Alam,Subang Chili's Bar and Grill,46,3.78,282.0,Cafe & bar
+TripAdvisor,Shah Alam,TGI Fridays Sunway Pyramid,71,3.7,196.0,Unknown
+TripAdvisor,Shah Alam,Tanah Aina Cafe,28,3.57,291.0,Cafe & bar
+TripAdvisor,Shah Alam,Tek Kee Noodle House,22,3.68,258.5,Unknown
+TripAdvisor,Shah Alam,Teluk Pulai Bak Kut Teh,84,3.9,222.0,Chinese
+TripAdvisor,Shah Alam,The Resort Cafe,27,4.44,268.0,Cafe & bar
+TripAdvisor,Shah Alam,The Shepherdoo Restaurant & Lounge,33,3.97,272.0,Unknown
+TripAdvisor,Shah Alam,"The Social, Empire Subang",29,3.24,384.0,Unknown
+TripAdvisor,Shah Alam,The Sumbs Cafe,25,3.72,278.0,Cafe & bar
+TripAdvisor,Shah Alam,The Uma Bali,71,4.48,348.0,Unknown
+TripAdvisor,Shah Alam,Ti Chen Chinese Restaurant,20,4.65,313.0,Chinese
+TripAdvisor,Shah Alam,Ticklish Ribs & 'Wiches,433,4.33,179.0,Unknown
+TripAdvisor,Shah Alam,Tony Roma's,29,3.69,224.0,Unknown
+TripAdvisor,Shah Alam,Vin's Restaurant and Bar,488,4.66,268.5,Cafe & bar
+TripAdvisor,Shah Alam,WhupWhup,34,3.94,416.5,Unknown
+TripAdvisor,Shah Alam,Wong Solo,40,3.45,217.5,Unknown
+TripAdvisor,Shah Alam,Yat Pan Dim Sum,24,4.79,157.5,Chinese
+TripAdvisor,Shah Alam,Yue,126,4.9,209.0,Unknown
+TripAdvisor,Shah Alam,Zam Zam Arabic Restaurant & Grand Ballroom,29,3.55,177.0,Unknown

@@ -1,0 +1,21 @@
+source,Location,n_reviews,n_restaurants,avg_rating,pct_5star,pct_1_2star,median_review_len,city,state,lat,lon
+Google,Ipoh,24506,102,4.05,45.57,11.07,55.0,Ipoh,Perak,4.6,101.09
+Google,JB,27670,195,4.1,47.69,9.77,55.0,Johor Bahru,Johor,1.49,103.74
+Google,KL,27382,116,4.21,54.8,9.51,94.0,Kuala Lumpur,W.P. Kuala Lumpur,3.14,101.69
+Google,Kuching,21700,215,4.12,47.37,8.72,53.0,Kuching,Sarawak,1.55,110.36
+Google,Langkawi,18011,179,4.21,59.12,10.8,84.0,Langkawi,Kedah,6.35,99.8
+Google,Melaka,13682,65,4.09,48.74,11.0,90.0,Melaka,Melaka,2.19,102.25
+Google,Miri,6746,72,4.12,47.79,8.92,41.0,Miri,Sarawak,4.4,113.99
+Google,Penang,31826,184,4.22,53.05,8.25,84.0,George Town,Pulau Pinang,5.41,100.33
+Google,Petaling Jaya,48628,223,4.13,50.33,10.15,92.0,Petaling Jaya,Selangor,3.11,101.61
+Google,Shah Alam,1869,9,4.19,48.96,7.6,102.0,Shah Alam,Selangor,3.07,101.52
+TripAdvisor,Ipoh,6290,143,4.07,42.97,8.62,261.0,Ipoh,Perak,4.6,101.09
+TripAdvisor,JB,7568,471,4.11,46.42,8.89,265.0,Johor Bahru,Johor,1.49,103.74
+TripAdvisor,KL,71368,790,4.22,52.98,8.1,272.0,Kuala Lumpur,W.P. Kuala Lumpur,3.14,101.69
+TripAdvisor,Kuching,7903,266,4.08,42.95,8.83,271.0,Kuching,Sarawak,1.55,110.36
+TripAdvisor,Langkawi,11292,31,4.59,72.02,3.21,275.0,Langkawi,Kedah,6.35,99.8
+TripAdvisor,Melaka,13008,286,3.97,38.17,10.32,282.0,Melaka,Melaka,2.19,102.25
+TripAdvisor,Miri,1566,119,4.02,39.66,9.51,229.0,Miri,Sarawak,4.4,113.99
+TripAdvisor,Penang,12676,52,4.52,66.23,3.2,253.0,George Town,Pulau Pinang,5.41,100.33
+TripAdvisor,Petaling Jaya,1304,6,4.62,73.08,2.84,158.0,Petaling Jaya,Selangor,3.11,101.61
+TripAdvisor,Shah Alam,6789,429,4.11,45.47,8.07,244.0,Shah Alam,Selangor,3.07,101.52
