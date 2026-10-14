@@ -1,67 +1,257 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What makes a restaurant highly rated in Malaysia?</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <title>Is a 4.5-star restaurant really better than a 4.1?</title>
+
+    <!-- Vega libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>What makes a restaurant highly rated in Malaysia?</h1>
-        <p>Your name · date</p>
+
+    <!-- 0. HOOK -->
+    <header class="hook">
+        <p class="kicker">What separates highly rated restaurants in Malaysia from the rest?</p>
+        <h1>Is a 4.5-star restaurant really better than a 4.1?</h1>
+        <p class="answer">
+            Reviews of Langkawi restaurants average 4.2 stars on Google and 4.6 on TripAdvisor.
+            Same island, almost four-tenths of a star apart. So what does a star rating actually
+            tell you, and who is it measuring?
+        </p>
+        <p class="answer">
+            A restaurant's rating depends on where it is, which platform you check, and who is
+            reviewing. A 4.5 doesn't mean the same thing everywhere.
+        </p>
+        <p class="byline">Your name · October 2026 · 361,784 Google and TripAdvisor reviews from ten cities</p>
     </header>
 
+
     <main>
-        <!-- Section 1: Original choropleth map -->
+
+        <!-- 1. WHO GETS REVIEWED -->
         <section>
-            <h2>1. Where does money sit?</h2>
+            <p class="kicker">1 · Who gets reviewed</p>
+            <h2>Reviews come from a few places, not all of Malaysia</h2>
+
             <p>
-                This choropleth map explores the geographical distribution
-                of income across Malaysia. Differences in colour help
-                highlight variations between areas.
+                Behind every star rating are people who chose to write a review, and they are not
+                spread evenly. We looked at 361,784 reviews from ten cities in just 8 of Malaysia's
+                16 states and federal territories. Income differs sharply too: the median household in
+                Selangor, Kuala Lumpur and Putrajaya earns over RM10,000 a month, against RM4,083 in Kelantan.
             </p>
-            <div id="income_map"></div>
+
+            <figure class="chart">
+                <div id="income_map"></div>
+                <p class="how"><strong>How to read this:</strong> each state is shaded by its median household income. Darker means higher.</p>
+            </figure>
+
+            <figure class="chart">
+                <div id="restaurant_map"></div>
+                <p class="how"><strong>How to read this:</strong> this map shows Google reviews only. Circle size shows the number of reviews. Colour shows the share of 5-star reviews.</p>
+            </figure>
+
+            <!-- ADD LATER: tile-grid map
+            <figure class="chart"><div id="tile_map"></div><p class="how">...</p></figure>
+            -->
+
+            <p class="takeaway">Whatever the stars tell us, they mostly tell us about a handful of cities.</p>
         </section>
 
-        <!-- Section 2: Restaurant proportional symbol map -->
+
+        <!-- 2. DO STARS SEPARATE GOOD FROM BAD -->
         <section>
-            <h2>2. Restaurant Reviews Across Malaysian Cities</h2>
+            <p class="kicker">2 · Do stars separate good from bad</p>
+            <h2>Almost everyone gives four or five stars</h2>
+
             <p>
-                This proportional symbol map explores restaurant reviews
-                across Malaysian cities using Google review data.
-                Circle size represents the number of reviews, while
-                colour represents the percentage of five-star reviews.
-                Larger circles indicate more reviews, and darker blue
-                circles indicate a higher percentage of five-star reviews.
+                About 8 in 10 reviews on both platforms are 4 or 5 stars, and about half are a perfect 5.
+                In every 100 reviews, roughly 10 on <span class="g">Google</span> and 7 to 8 on
+                <span class="t">TripAdvisor</span> are 1 or 2 stars. So the scale is squashed at the top,
+                and small differences in the average can hide a lot.
             </p>
-            <div id="restaurant_map"></div>
+
+            <figure class="chart">
+                <div id="heatmap"></div>
+                <p class="how"><strong>How to read this:</strong> each row is one city. Darker squares mean a bigger share of that city's reviews.</p>
+            </figure>
+
+            <figure class="chart">
+                <div id="waffle"></div>
+                <p class="how"><strong>How to read this:</strong> each square is one review out of 100. Red squares are 1–2 star reviews.</p>
+            </figure>
+
+            <p class="takeaway">When almost everything scores high, the number you look at matters less than what sits behind it.</p>
         </section>
 
-        <!-- Add more sections for your other charts here -->
+
+        <!-- 3. THE SURPRISE -->
+        <section>
+            <p class="kicker">3 · The surprise</p>
+            <h2>Same city, different stars</h2>
+
+            <p>
+                <span class="g">Google</span> and <span class="t">TripAdvisor</span> rate the same cities
+                differently. Petaling Jaya scores 4.13 on Google and 4.62 on TripAdvisor, Langkawi 4.21
+                against 4.59, and Penang 4.22 against 4.52. Kuala Lumpur, Ipoh and Johor Bahru barely differ,
+                and Melaka and Miri go the other way (4.09 against 3.97, and 4.12 against 4.02).
+            </p>
+
+            <p>
+                Visitors alone are unlikely to explain this, because Kuala Lumpur and Melaka are busy with
+                visitors too, yet show no TripAdvisor bonus. One possible explanation is that the two
+                platforms attract different reviewers: TripAdvisor reviews are about three and a half times
+                longer (a median of 267 characters against 75).
+            </p>
+
+            <figure class="chart">
+                <div id="dumbbell"></div>
+                <p class="how"><strong>How to read this:</strong> each line connects one city's <span class="g">Google</span> score to its <span class="t">TripAdvisor</span> score. The numbers show the gap for the three biggest differences. The axis starts at 3.8, not 0, so the gaps are easier to see.</p>
+            </figure>
+
+            <p class="callout">Take care with Petaling Jaya: only 1,304 TripAdvisor reviews, from 6 restaurants.</p>
+
+            <p class="takeaway">The score depends partly on where you look, so one platform isn't the full picture.</p>
+        </section>
+
+
+        <!-- 4. INSIDE THE NUMBER -->
+        <section>
+            <p class="kicker">4 · Inside the number</p>
+            <h2>Two restaurants with the same average can be very different</h2>
+
+            <p>
+                On <span class="g">Google</span>, Langkawi, Kuala Lumpur and George Town all average about 4.2,
+                but 10.8%, 9.5% and 8.3% of their reviews are one or two stars. Langkawi's restaurants are also
+                the most spread out: the middle half of them covers about twice as many rating points as Kuala Lumpur's.
+                The tiny <span class="t">TripAdvisor</span> boxes for Langkawi and Petaling Jaya just reflect how
+                few restaurants it lists there.
+            </p>
+
+            <figure class="chart">
+                <div id="boxplot"></div>
+                <p class="how"><strong>How to read this:</strong> in a box plot, the box holds the middle half of restaurants and the line inside it marks the median. Dots are unusual ones.</p>
+            </figure>
+
+            <p>
+                Across all cities, about one in five <span class="t">TripAdvisor</span> restaurants averages
+                4.5 or higher, against about one in ten on <span class="g">Google</span>.
+            </p>
+
+            <figure class="chart">
+                <div id="ridgeline"></div>
+                <p class="how"><strong>How to read this:</strong> in a density plot, a taller hump means more restaurants at that rating. A hump further right means higher ratings, and a wider hump means more spread.</p>
+            </figure>
+
+            <p class="takeaway">An average hides the spread, so look at how many bad reviews are behind a good score.</p>
+        </section>
+
+
+        <!-- 5. WHAT PEOPLE SAY -->
+        <section>
+            <p class="kicker">5 · What people say</p>
+            <h2>Happy and unhappy reviews talk about different things</h2>
+
+            <p>
+                Happy reviews are full of praise words: "best", "great", "delicious", "friendly". Unhappy
+                reviews tell a story of what went wrong. On <span class="t">TripAdvisor</span> they say "ordered",
+                "asked", "told" and "after". On <span class="g">Google</span> they say "service", "slow", "poor"
+                and "expensive". These words go with high or low ratings, not proof of what caused them.
+            </p>
+
+            <figure class="chart">
+                <div id="words"></div>
+                <p class="how"><strong>How to read this:</strong> bars to the left are words in unhappy (1–2 star) reviews and bars to the right are words in happy (4–5 star) reviews. A longer bar means more of those reviews mention the word.</p>
+            </figure>
+
+            <p class="takeaway">Praise is about the food. Complaints are about what happened between ordering and eating.</p>
+        </section>
+
+
+        <!-- 6. DOES MONEY EXPLAIN IT -->
+        <section>
+            <p class="kicker">6 · Does money explain it</p>
+            <h2>Richer states don't rate higher</h2>
+
+            <p>
+                We compared each city's state income with its share of 5-star reviews. The <span class="g">Google</span>
+                trend line is flat, and the <span class="t">TripAdvisor</span> one rises only slightly. The highest scores,
+                in Petaling Jaya, Langkawi and George Town, rest on just 6, 31 and 52 TripAdvisor restaurants.
+                With only ten cities, treat this as a hint.
+            </p>
+
+            <figure class="chart">
+                <div id="scatter_income"></div>
+                <p class="how"><strong>How to read this:</strong> each dot is a city on one platform. Further right means a higher-income state, and higher up means more 5-star reviews. A bigger dot means more reviews.</p>
+            </figure>
+
+            <!-- ADD LATER: parallel coordinates
+            <figure class="chart"><div id="parallel"></div>
+            <p class="how"><strong>How to read this:</strong> each line is one city and the vertical axes are different measures.</p></figure>
+            -->
+
+            <p class="takeaway">Money doesn't explain the stars. The platform, and who is writing, matter more.</p>
+        </section>
+
+
+        <!-- 7. CONCLUSION
+        <section>
+            <p class="kicker">7 · What to do with this</p>
+            <h2>How to read a star rating</h2>
+
+            <ol class="tips">
+                <li><strong>Check how many people reviewed it.</strong> A 4.8 from a handful of reviewers means much less than a 4.2 from thousands.</li>
+                <li><strong>Check the share of 1–2 star reviews.</strong> Two places with the same average can have very different numbers of bad experiences.</li>
+                <li><strong>Compare two platforms.</strong> If a place is great on one and ordinary on the other, ask why.</li>
+            </ol>
+        </section> -->
+
     </main>
 
+
+    <!-- 8. LIMITS AND SOURCES -->
     <footer>
+        <!-- <h3>Limits</h3>
         <p>
-            Sources: OpenDOSM, geoBoundaries, and restaurant review datasets.
+            Cuisine is guessed from restaurant names, and about 60% of names don't reveal it, so we
+            don't rank cuisines. We can't know who wrote a review or why. The ten cities lean towards
+            tourist areas, and only restaurants listed on these two platforms are included.
         </p>
+
+        <h3>Sources</h3>
+        <p>
+            Google and TripAdvisor restaurant reviews: <span class="todo">dataset author, link and date</span>.
+            Household income and population: OpenDOSM. State boundaries: geoBoundaries.
+            Only totals are shown, not individual reviews.
+        </p>
+
+        <h3>AI use</h3>
+        <p><span class="todo">Add your AI acknowledgement here.</span></p> -->
     </footer>
 
-    <script>
-        // Section 1: Original choropleth map
-        vegaEmbed("#income_map", "js/choropleth_income.vl.json")
-            .catch(console.error);
 
-        // Section 2: Restaurant proportional symbol map
-        vegaEmbed("#restaurant_map", "js/restaurant_map.vl.json")
-            .catch(console.error);
+    <script>
+        vegaEmbed("#income_map", "js/choropleth_income.vl.json").catch(console.error);
+        vegaEmbed("#restaurant_map", "js/restaurant_map.vl.json").catch(console.error);
+        vegaEmbed("#heatmap", "js/heatmap_city_stars.vg.json").catch(console.error);
+        vegaEmbed("#waffle", "js/waffle_reviews.vl.json").catch(console.error);
+        vegaEmbed("#dumbbell", "js/dumbell_platform.vg.json").catch(console.error);
+        vegaEmbed("#boxplot", "js/boxplot_ratings.vl.json").catch(console.error);
+        vegaEmbed("#ridgeline", "js/ridgeline_ratings.vl.json").catch(console.error);
+        vegaEmbed("#words", "js/butterfly_words.vl.json").catch(console.error);
+        vegaEmbed("#scatter_income", "js/scatter_income_5star.vg.json").catch(console.error);
     </script>
+
 </body>
 </html>
