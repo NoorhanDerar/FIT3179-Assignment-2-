@@ -1,15 +1,13 @@
-/* ---------- Tokens ---------- */
 :root {
-    --cream: #FBF5EA;
-    --paper: #FFFDF8;
-    --ink: #2B2118;
-    --muted: #5F5242;        /* 7:1 contrast on cream */
-    --line: #E4DACB;
-    --chilli: #C8372D;       /* emphasis only */
+    --bg: #F4F6FA;
+    --card: #FFFFFF;
+    --ink: #0F1B2D;
+    --muted: #45526A;
+    --line: #DDE3EC;
+    --amber: #F2A900;
     --google: #2F6DB5;
     --trip: #C2417A;
-    --font-text: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-    --font-head: "Fraunces", Georgia, serif;
+    --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -17,144 +15,187 @@ html { scroll-behavior: smooth; }
 
 body {
     margin: 0;
-    background: var(--cream);
+    background-color: var(--bg);
+    background-image: radial-gradient(rgba(15, 27, 45, .07) 1px, transparent 1px);
+    background-size: 24px 24px;
     color: var(--ink);
-    font-family: var(--font-text);
-    font-size: 18px;
-    line-height: 1.65;
+    font-family: var(--font);
+    font-size: 16px;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
 }
 
-/* one left edge for everything (sight-line) */
-.wrap, header, main, footer { max-width: 1080px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+/* one left edge for everything */
+header, main, footer { max-width: 960px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
 
-a { color: var(--chilli); text-underline-offset: 3px; }
+a { color: var(--ink); text-underline-offset: 3px; }
 
-/* ---------- Hook: visual centre sits slightly above the middle ---------- */
-.hook {
-    min-height: 88vh;
+/* ---------- Hook ---------- */
+/* full-width decorated band */
+.hero {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 88% 18%, rgba(242, 169, 0, .20), transparent 38%),
+        radial-gradient(rgba(255, 255, 255, .07) 1px, transparent 1px),
+        var(--ink);
+    background-size: auto, 24px 24px, auto;
+}
+
+/* five stars, the fifth in amber, far from the text */
+.hero::after {
+    content: "";
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    width: 300px;
+    height: 60px;
+    opacity: .9;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 24'%3E%3Cg fill='%23ffffff' fill-opacity='.14'%3E%3Cpolygon points='12,2 15,9 22,9.3 16.5,14 18.5,21 12,17 5.5,21 7.5,14 2,9.3 9,9'/%3E%3Cpolygon transform='translate(24 0)' points='12,2 15,9 22,9.3 16.5,14 18.5,21 12,17 5.5,21 7.5,14 2,9.3 9,9'/%3E%3Cpolygon transform='translate(48 0)' points='12,2 15,9 22,9.3 16.5,14 18.5,21 12,17 5.5,21 7.5,14 2,9.3 9,9'/%3E%3Cpolygon transform='translate(72 0)' points='12,2 15,9 22,9.3 16.5,14 18.5,21 12,17 5.5,21 7.5,14 2,9.3 9,9'/%3E%3C/g%3E%3Cpolygon fill='%23F2A900' transform='translate(96 0)' points='12,2 15,9 22,9.3 16.5,14 18.5,21 12,17 5.5,21 7.5,14 2,9.3 9,9'/%3E%3C/svg%3E") no-repeat right bottom / contain;
+    pointer-events: none;
+}
+
+header.hook {
+    position: relative;
+    z-index: 1;
+    min-height: 68vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 12vh;
+    padding-top: 40px;
+    padding-bottom: 7vh;
+    color: #FFFFFF;
 }
 
-.hook .kicker { margin-bottom: 20px; }
+.hook .kicker { color: var(--amber); margin-bottom: 14px; }
 
 .hook h1 {
-    margin: 0 0 24px;
-    max-width: 16ch;
-    font-family: var(--font-head);
-    font-weight: 700;
-    font-size: clamp(44px, 8vw, 92px);
-    line-height: 1.02;
-    letter-spacing: -0.02em;
+    margin: 0 0 20px;
+    max-width: 18ch;
+    font-weight: 800;
+    font-size: clamp(32px, 5vw, 56px);
+    line-height: 1.06;
+    letter-spacing: -0.03em;
 }
 
 .hook .answer {
-    max-width: 38ch;
-    font-size: clamp(19px, 2.2vw, 24px);
-    line-height: 1.45;
-    color: var(--muted);
+    max-width: 48ch;
+    font-size: clamp(16px, 1.7vw, 18px);
+    line-height: 1.55;
+    color: #C9D3E3;
 }
 
-.hook .byline { margin: 28px 0 0; font-size: 14px; color: var(--muted); }
+.hook .byline { margin: 20px 0 0; font-size: 13px; color: #9FB0C8; }
 
-/* ---------- Typography hierarchy ---------- */
+/* ---------- Text ---------- */
 .kicker {
     margin: 0 0 8px;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: .12em;
     text-transform: uppercase;
     color: var(--muted);
+    font-variant-numeric: tabular-nums;
 }
 
 h2 {
-    margin: 0 0 20px;
-    max-width: 22ch;
-    font-family: var(--font-head);
-    font-weight: 700;
-    font-size: clamp(30px, 4.2vw, 46px);
-    line-height: 1.1;
-    letter-spacing: -0.01em;
+    margin: 0 0 14px;
+    max-width: 28ch;
+    font-weight: 800;
+    font-size: clamp(22px, 2.6vw, 30px);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
 }
 
-p { margin: 0 0 16px; max-width: 60ch; }       /* about 60 characters per line */
+p { margin: 0 0 12px; max-width: 62ch; }
 
-.g { color: var(--google); font-weight: 600; }  /* coloured words replace a legend */
+.g { color: var(--google); font-weight: 600; }
 .t { color: var(--trip); font-weight: 600; }
-.hot { color: var(--chilli); font-weight: 600; }
 
 strong { font-weight: 700; }
 
-/* ---------- Sections: lots of white space between, little inside ---------- */
-main > section {
-    padding: 96px 0 8px;
-    border-top: 1px solid var(--line);
+/* ---------- Sections ---------- */
+main > section { padding: 56px 0 4px; }
+
+main > section::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin-bottom: 14px;
+    background: var(--amber);
+    border-radius: 2px;
 }
 
+/* the card shrinks to fit the chart instead of stretching the full width */
 .chart {
-    margin: 32px 0 0;
-    padding: 20px 20px 12px;
-    background: var(--paper);
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 18px 0 0;
+    padding: 12px 14px 8px;
+    background: var(--card);
     border: 1px solid var(--line);
-    border-radius: 14px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(15, 27, 45, .05);
     overflow-x: auto;
 }
 
-.chart .vega-embed { width: 100%; }
+.chart .vega-embed { width: auto; }
 .chart .vega-embed.has-actions { padding-right: 0; }
+.chart .vega-embed summary { top: 0; right: 0; }
+
+/* tabular numbers inside every chart so digits line up */
+.vega-embed svg text { font-variant-numeric: tabular-nums; }
 
 .how {
-    margin: 0 0 12px;
+    margin: 8px 0 0;
     max-width: 70ch;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.5;
     color: var(--muted);
 }
 
 .how strong { color: var(--ink); }
 
-figcaption {
-    margin-top: 8px;
-    font-size: 13px;
-    line-height: 1.45;
-    color: var(--muted);
-}
-
-/* the "so what" sentence under a chart */
 .callout {
-    margin: 20px 0 0;
-    padding: 4px 0 4px 16px;
-    border-left: 4px solid var(--chilli);
-    max-width: 60ch;
+    margin: 14px 0 0;
+    padding: 2px 0 2px 12px;
+    border-left: 4px solid var(--amber);
+    max-width: 62ch;
+    font-size: 14.5px;
     font-weight: 500;
 }
 
-/* tips list in the conclusion */
-.tips { margin: 0; padding: 0; list-style: none; counter-reset: n; display: grid; gap: 20px; max-width: 60ch; }
-.tips li { counter-increment: n; position: relative; padding-left: 56px; }
-.tips li::before {
-    content: counter(n);
-    position: absolute; left: 0; top: -2px;
-    width: 38px; height: 38px;
-    border-radius: 50%;
-    background: var(--ink); color: var(--cream);
-    font-family: var(--font-head); font-weight: 700; font-size: 20px;
-    line-height: 38px; text-align: center;
+.takeaway {
+    margin: 20px 0 0;
+    max-width: 62ch;
+    padding: 10px 16px;
+    background: var(--ink);
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 15.5px;
+    line-height: 1.4;
 }
 
-/* ---------- Footer ---------- */
-footer { padding-top: 64px; padding-bottom: 64px; font-size: 14px; color: var(--muted); }
-footer h3 { margin: 0 0 6px; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; }
+.tips { margin: 0; padding: 0; list-style: none; counter-reset: n; display: grid; gap: 14px; max-width: 62ch; }
+.tips li { counter-increment: n; position: relative; padding-left: 42px; }
+.tips li::before {
+    content: counter(n);
+    position: absolute; left: 0; top: -1px;
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    background: var(--amber); color: var(--ink);
+    font-weight: 800; font-size: 14px;
+    line-height: 28px; text-align: center;
+}
+
+footer { padding-top: 48px; padding-bottom: 48px; font-size: 13px; color: var(--muted); }
+footer h3 { margin: 0 0 4px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
 footer p { max-width: 70ch; }
 .todo { background: #FFE9A8; padding: 0 4px; border-radius: 3px; }
 
 @media (max-width: 700px) {
-    body { font-size: 17px; }
-    main > section { padding-top: 64px; }
+    main > section { padding-top: 40px; }
 }
-
-.takeaway { margin: 28px 0 0; max-width: 60ch; font-weight: 700; }
-.chart .how { margin: 12px 0 0; }
