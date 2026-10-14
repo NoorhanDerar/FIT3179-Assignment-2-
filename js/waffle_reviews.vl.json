@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Out of every 100 reviews, how many are bad?",
+  "data": {"url": "data/city_by_source.csv"},
+  "transform": [
+    {"calculate": "datum.pct_1_2star * datum.n_reviews", "as": "w_bad"},
+    {"calculate": "datum.pct_5star * datum.n_reviews", "as": "w_five"},
+    {
+      "aggregate": [
+        {"op": "sum", "field": "w_bad", "as": "s_bad"},
+        {"op": "sum", "field": "w_five", "as": "s_five"},
+        {"op": "sum", "field": "n_reviews", "as": "s_n"}
+      ],
+      "groupby": ["source"]
+    },
+    {"calculate": "round(datum.s_bad / datum.s_n)", "as": "bad"},
+    {"calculate": "round(datum.s_five / datum.s_n)", "as": "five"},
+    {"calculate": "100 - datum.bad - datum.five", "as": "mid"},
+    {"calculate": "sequence(0, 100)", "as": "idx"},
+    {"flatten": ["idx"]},
+    {"calculate": "datum.idx % 10", "as": "col"},
+    {"calculate": "floor(datum.idx / 10)", "as": "row"},
+    {
+      "calculate": "datum.idx < datum.bad ? '1-2 stars' : (datum.idx < datum.bad + datum.mid ? '3-4 stars' : '5 stars')",
+      "as": "group"
+    }
+  ],
+  "facet": {"column": {"field": "source", "type": "nominal", "title": null}},
+  "spec": {
+    "width": 220,
+    "height": 220,
+    "mark": {"type": "square", "size": 380},
+    "encoding": {
+      "x": {"field": "col", "type": "ordinal", "axis": null},
+      "y": {"field": "row", "type": "ordinal", "axis": null, "sort": "descending"},
+      "color": {
+        "field": "group",
+        "type": "nominal",
+        "title": "Review type",
+        "scale": {
+          "domain": ["1-2 stars", "3-4 stars", "5 stars"],
+          "range": ["#d73027", "#cfd8dc", "#2171b5"]
+        }
+      },
+      "tooltip": [
+        {"field": "source", "title": "Platform"},
+        {"field": "group", "title": "Review type"}
+      ]
+    }
+  }
+}
