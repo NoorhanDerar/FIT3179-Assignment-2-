@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "How much do restaurant ratings vary within each city?",
+  "width": 700,
+  "height": 350,
+  "data": {"url": "data/out/restaurant_summary.csv"},
+  "transform": [
+    {
+      "calculate": "{'Ipoh':'Ipoh','JB':'Johor Bahru','KL':'Kuala Lumpur','Kuching':'Kuching','Langkawi':'Langkawi','Melaka':'Melaka','Miri':'Miri','Penang':'George Town','Petaling Jaya':'Petaling Jaya','Shah Alam':'Shah Alam'}[datum.Location]",
+      "as": "city"
+    }
+  ],
+  "mark": {"type": "boxplot", "extent": 1.5},
+  "encoding": {
+    "x": {
+      "field": "city",
+      "type": "nominal",
+      "title": null,
+      "sort": ["George Town", "Kuala Lumpur", "Langkawi", "Shah Alam", "Petaling Jaya", "Kuching", "Miri", "Johor Bahru", "Melaka", "Ipoh"],
+      "axis": {"labelAngle": -30}
+    },
+    "xOffset": {"field": "source", "type": "nominal"},
+    "y": {
+      "field": "avg_rating",
+      "type": "quantitative",
+      "title": "Average rating per restaurant",
+      "scale": {"domain": [1, 5]}
+    },
+    "color": {
+      "field": "source",
+      "type": "nominal",
+      "title": "Platform",
+      "scale": {"domain": ["Google", "TripAdvisor"], "range": ["#2F6DB5", "#C2417A"]}
+    }
+  },
+  "config": {"font": "DM Sans", "view": {"stroke": null}}
+}
