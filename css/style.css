@@ -1,3 +1,160 @@
-body { font-family: Roboto, Arial, sans-serif; margin: 0; line-height: 1.6; color: #222; }
-header, main, footer { max-width: 900px; margin: 0 auto; padding: 0 20px; }
-section { margin: 48px 0; }
+/* ---------- Tokens ---------- */
+:root {
+    --cream: #FBF5EA;
+    --paper: #FFFDF8;
+    --ink: #2B2118;
+    --muted: #5F5242;        /* 7:1 contrast on cream */
+    --line: #E4DACB;
+    --chilli: #C8372D;       /* emphasis only */
+    --google: #2F6DB5;
+    --trip: #C2417A;
+    --font-text: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-head: "Fraunces", Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: var(--font-text);
+    font-size: 18px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* one left edge for everything (sight-line) */
+.wrap, header, main, footer { max-width: 1080px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+
+a { color: var(--chilli); text-underline-offset: 3px; }
+
+/* ---------- Hook: visual centre sits slightly above the middle ---------- */
+.hook {
+    min-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 12vh;
+}
+
+.hook .kicker { margin-bottom: 20px; }
+
+.hook h1 {
+    margin: 0 0 24px;
+    max-width: 16ch;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: clamp(44px, 8vw, 92px);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+}
+
+.hook .answer {
+    max-width: 38ch;
+    font-size: clamp(19px, 2.2vw, 24px);
+    line-height: 1.45;
+    color: var(--muted);
+}
+
+.hook .byline { margin: 28px 0 0; font-size: 14px; color: var(--muted); }
+
+/* ---------- Typography hierarchy ---------- */
+.kicker {
+    margin: 0 0 8px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+h2 {
+    margin: 0 0 20px;
+    max-width: 22ch;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: clamp(30px, 4.2vw, 46px);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+}
+
+p { margin: 0 0 16px; max-width: 60ch; }       /* about 60 characters per line */
+
+.g { color: var(--google); font-weight: 600; }  /* coloured words replace a legend */
+.t { color: var(--trip); font-weight: 600; }
+.hot { color: var(--chilli); font-weight: 600; }
+
+strong { font-weight: 700; }
+
+/* ---------- Sections: lots of white space between, little inside ---------- */
+main > section {
+    padding: 96px 0 8px;
+    border-top: 1px solid var(--line);
+}
+
+.chart {
+    margin: 32px 0 0;
+    padding: 20px 20px 12px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow-x: auto;
+}
+
+.chart .vega-embed { width: 100%; }
+.chart .vega-embed.has-actions { padding-right: 0; }
+
+.how {
+    margin: 0 0 12px;
+    max-width: 70ch;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--muted);
+}
+
+.how strong { color: var(--ink); }
+
+figcaption {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--muted);
+}
+
+/* the "so what" sentence under a chart */
+.callout {
+    margin: 20px 0 0;
+    padding: 4px 0 4px 16px;
+    border-left: 4px solid var(--chilli);
+    max-width: 60ch;
+    font-weight: 500;
+}
+
+/* tips list in the conclusion */
+.tips { margin: 0; padding: 0; list-style: none; counter-reset: n; display: grid; gap: 20px; max-width: 60ch; }
+.tips li { counter-increment: n; position: relative; padding-left: 56px; }
+.tips li::before {
+    content: counter(n);
+    position: absolute; left: 0; top: -2px;
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    background: var(--ink); color: var(--cream);
+    font-family: var(--font-head); font-weight: 700; font-size: 20px;
+    line-height: 38px; text-align: center;
+}
+
+/* ---------- Footer ---------- */
+footer { padding-top: 64px; padding-bottom: 64px; font-size: 14px; color: var(--muted); }
+footer h3 { margin: 0 0 6px; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; }
+footer p { max-width: 70ch; }
+.todo { background: #FFE9A8; padding: 0 4px; border-radius: 3px; }
+
+@media (max-width: 700px) {
+    body { font-size: 17px; }
+    main > section { padding-top: 64px; }
+}
+
+.takeaway { margin: 28px 0 0; max-width: 60ch; font-weight: 700; }
+.chart .how { margin: 12px 0 0; }
