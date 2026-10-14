@@ -14,7 +14,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -22,7 +22,8 @@
 <body>
 
     <!-- 0. HOOK -->
-    <header class="hook">
+    <div class="hero">
+        <header class="hook">
         <p class="kicker">What separates highly rated restaurants in Malaysia from the rest?</p>
         <h1>Is a 4.5-star restaurant really better than a 4.1?</h1>
         <p class="answer">
@@ -34,8 +35,9 @@
             A restaurant's rating depends on where it is, which platform you check, and who is
             reviewing. A 4.5 doesn't mean the same thing everywhere.
         </p>
-        <p class="byline">Your name · October 2026 · 361,784 Google and TripAdvisor reviews from ten cities</p>
-    </header>
+        <p class="byline">361,784 Google and TripAdvisor reviews from ten cities</p>
+        </header>
+    </div>
 
 
     <main>
@@ -54,12 +56,12 @@
 
             <figure class="chart">
                 <div id="income_map"></div>
-                <p class="how"><strong>How to read this:</strong> each state is shaded by its median household income. Darker means higher.</p>
+                <!-- <p class="how"><strong>How to read this:</strong> each state is shaded by its median household income. Darker means higher.</p> -->
             </figure>
 
             <figure class="chart">
                 <div id="restaurant_map"></div>
-                <p class="how"><strong>How to read this:</strong> this map shows Google reviews only. Circle size shows the number of reviews. Colour shows the share of 5-star reviews.</p>
+                <p class="how"></strong> this map shows Google reviews only.</p>
             </figure>
 
             <!-- ADD LATER: tile-grid map
@@ -84,12 +86,12 @@
 
             <figure class="chart">
                 <div id="heatmap"></div>
-                <p class="how"><strong>How to read this:</strong> each row is one city. Darker squares mean a bigger share of that city's reviews.</p>
+                <!-- <p class="how"><strong>How to read this:</strong> each row is one city. Darker squares mean a bigger share of that city's reviews.</p> -->
             </figure>
 
             <figure class="chart">
                 <div id="waffle"></div>
-                <p class="how"><strong>How to read this:</strong> each square is one review out of 100. Red squares are 1–2 star reviews.</p>
+                <!-- <p class="how"><strong>How to read this:</strong> each square is one review out of 100. Red squares are 1–2 star reviews.</p> -->
             </figure>
 
             <p class="takeaway">When almost everything scores high, the number you look at matters less than what sits behind it.</p>
@@ -98,7 +100,7 @@
 
         <!-- 3. THE SURPRISE -->
         <section>
-            <p class="kicker">3 · The surprise</p>
+            <!-- <p class="kicker">3 · The surprise</p> -->
             <h2>Same city, different stars</h2>
 
             <p>
@@ -117,10 +119,10 @@
 
             <figure class="chart">
                 <div id="dumbbell"></div>
-                <p class="how"><strong>How to read this:</strong> each line connects one city's <span class="g">Google</span> score to its <span class="t">TripAdvisor</span> score. The numbers show the gap for the three biggest differences. The axis starts at 3.8, not 0, so the gaps are easier to see.</p>
+                <!-- <p class="how"><strong>How to read this:</strong> each line connects one city's <span class="g">Google</span> score to its <span class="t">TripAdvisor</span> score. The numbers show the gap for the three biggest differences. The axis starts at 3.8, not 0, so the gaps are easier to see.</p> -->
             </figure>
 
-            <p class="callout">Take care with Petaling Jaya: only 1,304 TripAdvisor reviews, from 6 restaurants.</p>
+            <!-- <p class="callout">Take care with Petaling Jaya: only 1,304 TripAdvisor reviews, from 6 restaurants.</p> -->
 
             <p class="takeaway">The score depends partly on where you look, so one platform isn't the full picture.</p>
         </section>
@@ -141,7 +143,7 @@
 
             <figure class="chart">
                 <div id="boxplot"></div>
-                <p class="how"><strong>How to read this:</strong> in a box plot, the box holds the middle half of restaurants and the line inside it marks the median. Dots are unusual ones.</p>
+                <!-- <p class="how"><strong>How to read this:</strong> in a box plot, the box holds the middle half of restaurants and the line inside it marks the median. Dots are unusual ones.</p> -->
             </figure>
 
             <p>
@@ -151,7 +153,7 @@
 
             <figure class="chart">
                 <div id="ridgeline"></div>
-                <p class="how"><strong>How to read this:</strong> in a density plot, a taller hump means more restaurants at that rating. A hump further right means higher ratings, and a wider hump means more spread.</p>
+                <!-- <p class="how"><strong>How to read this:</strong> in a density plot, a taller hump means more restaurants at that rating. A hump further right means higher ratings, and a wider hump means more spread.</p> -->
             </figure>
 
             <p class="takeaway">An average hides the spread, so look at how many bad reviews are behind a good score.</p>
@@ -163,16 +165,16 @@
             <p class="kicker">5 · What people say</p>
             <h2>Happy and unhappy reviews talk about different things</h2>
 
-            <p>
+            <!-- <p>
                 Happy reviews are full of praise words: "best", "great", "delicious", "friendly". Unhappy
                 reviews tell a story of what went wrong. On <span class="t">TripAdvisor</span> they say "ordered",
                 "asked", "told" and "after". On <span class="g">Google</span> they say "service", "slow", "poor"
                 and "expensive". These words go with high or low ratings, not proof of what caused them.
-            </p>
+            </p> -->
 
             <figure class="chart">
                 <div id="words"></div>
-                <p class="how"><strong>How to read this:</strong> bars to the left are words in unhappy (1–2 star) reviews and bars to the right are words in happy (4–5 star) reviews. A longer bar means more of those reviews mention the word.</p>
+                <!-- <p class="how"><strong>How to read this:</strong> bars to the left are words in unhappy (1–2 star) reviews and bars to the right are words in happy (4–5 star) reviews. A longer bar means more of those reviews mention the word.</p> -->
             </figure>
 
             <p class="takeaway">Praise is about the food. Complaints are about what happened between ordering and eating.</p>
@@ -193,7 +195,7 @@
 
             <figure class="chart">
                 <div id="scatter_income"></div>
-                <p class="how"><strong>How to read this:</strong> each dot is a city on one platform. Further right means a higher-income state, and higher up means more 5-star reviews. A bigger dot means more reviews.</p>
+                <!-- <p class="how"><strong>How to read this:</strong> each dot is a city on one platform. Further right means a higher-income state, and higher up means more 5-star reviews. A bigger dot means more reviews.</p> -->
             </figure>
 
             <!-- ADD LATER: parallel coordinates
@@ -201,7 +203,7 @@
             <p class="how"><strong>How to read this:</strong> each line is one city and the vertical axes are different measures.</p></figure>
             -->
 
-            <p class="takeaway">Money doesn't explain the stars. The platform, and who is writing, matter more.</p>
+            <!-- <p class="takeaway">Money doesn't explain the stars. The platform and who is writing, matter more.</p> -->
         </section>
 
 
@@ -242,15 +244,49 @@
 
 
     <script>
-        vegaEmbed("#income_map", "js/choropleth_income.vl.json").catch(console.error);
-        vegaEmbed("#restaurant_map", "js/restaurant_map.vl.json").catch(console.error);
-        vegaEmbed("#heatmap", "js/heatmap_city_stars.vg.json").catch(console.error);
-        vegaEmbed("#waffle", "js/waffle_reviews.vl.json").catch(console.error);
-        vegaEmbed("#dumbbell", "js/dumbell_platform.vg.json").catch(console.error);
-        vegaEmbed("#boxplot", "js/boxplot_ratings.vl.json").catch(console.error);
-        vegaEmbed("#ridgeline", "js/ridgeline_ratings.vl.json").catch(console.error);
-        vegaEmbed("#words", "js/butterfly_words.vl.json").catch(console.error);
-        vegaEmbed("#scatter_income", "js/scatter_income_5star.vg.json").catch(console.error);
+        var embedOptions = {
+            renderer: "svg",
+            actions: { export: true, source: true, compiled: false, editor: false },
+            config: {
+                font: "Inter",
+                view: { stroke: null },
+                title: {
+                    font: "Inter", fontSize: 15, fontWeight: 700, color: "#0F1B2D",
+                    anchor: "start", frame: "bounds", offset: 12,
+                    subtitleFont: "Inter", subtitleColor: "#45526A", subtitleFontSize: 12
+                },
+                axis: {
+                    labelFont: "Inter", titleFont: "Inter",
+                    labelColor: "#45526A", titleColor: "#45526A",
+                    labelFontSize: 12, titleFontSize: 12, titleFontWeight: 500,
+                    domainColor: "#C5CEDC", tickColor: "#C5CEDC", gridColor: "#E3E8F0"
+                },
+                legend: {
+                    orient: "top", direction: "horizontal",
+                    labelFont: "Inter", titleFont: "Inter",
+                    labelColor: "#0F1B2D", titleColor: "#45526A",
+                    labelFontSize: 12, titleFontSize: 12,
+                    padding: 4, columnPadding: 16, gradientLength: 140, gradientThickness: 10
+                },
+                header: { labelFont: "Inter", titleFont: "Inter", labelColor: "#0F1B2D" }
+            }
+        };
+
+        var charts = [
+            ["#income_map", "js/choropleth_income.vl.json"],
+            ["#restaurant_map", "js/restaurant_map.vl.json"],
+            ["#heatmap", "js/heatmap_city_stars.vg.json"],
+            ["#waffle", "js/waffle_reviews.vl.json"],
+            ["#dumbbell", "js/dumbell_platform.vg.json"],
+            ["#boxplot", "js/boxplot_ratings.vl.json"],
+            ["#ridgeline", "js/ridgeline_ratings.vl.json"],
+            ["#words", "js/butterfly_words.vl.json"],
+            ["#scatter_income", "js/scatter_income_5star.vg.json"]
+        ];
+
+        charts.forEach(function (c) {
+            vegaEmbed(c[0], c[1], embedOptions).catch(console.error);
+        });
     </script>
 
 </body>
