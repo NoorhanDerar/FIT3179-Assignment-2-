@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "TripAdvisor has more restaurants at the very top",
+  "width": 600,
+  "height": 60,
+  "data": {"url": "data/out/restaurant_summary.csv"},
+  "transform": [
+    {"filter": "datum.n_reviews >= 10"},
+    {
+      "density": "avg_rating",
+      "groupby": ["source"],
+      "extent": [1, 5],
+      "steps": 100,
+      "as": ["rating", "density"]
+    }
+  ],
+  "mark": {"type": "area", "interpolate": "monotone", "fillOpacity": 0.7, "stroke": "white", "strokeWidth": 1},
+  "encoding": {
+    "x": {
+      "field": "rating",
+      "type": "quantitative",
+      "title": "Average rating per restaurant",
+      "axis": {"values": [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5], "format": ".1f"}
+    },
+    "y": {"field": "density", "type": "quantitative", "axis": null, "scale": {"range": [60, -40]}},
+    "color": {
+      "field": "source",
+      "type": "nominal",
+      "legend": null,
+      "scale": {"domain": ["Google", "TripAdvisor"], "range": ["#2F6DB5", "#C2417A"]}
+    },
+    "row": {"field": "source", "type": "nominal", "title": null, "header": {"labelAngle": 0, "labelAlign": "left"}}
+  },
+  "config": {"font": "DM Sans", "facet": {"spacing": -20}, "view": {"stroke": null}}
+}
