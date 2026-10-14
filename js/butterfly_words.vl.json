@@ -49,7 +49,7 @@
               "domain": ["Happy reviews (4-5 stars)", "Unhappy reviews (1-2 stars)"],
               "range": ["#2c7fb8", "#e6550d"]
             },
-            "legend": {"orient": "bottom"}
+            "legend": {"orient": "top"}
           },
           "tooltip": [
             {"field": "word", "type": "nominal", "title": "Word"},

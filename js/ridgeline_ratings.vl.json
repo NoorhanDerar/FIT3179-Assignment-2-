@@ -9,7 +9,7 @@
     {
       "density": "avg_rating",
       "groupby": ["source"],
-      "extent": [1, 5],
+      "extent": [2, 5],
       "steps": 100,
       "as": ["rating", "density"]
     }
@@ -20,7 +20,8 @@
       "field": "rating",
       "type": "quantitative",
       "title": "Average rating per restaurant",
-      "axis": {"values": [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5], "format": ".1f"}
+      "scale": {"domain": [2, 5]},
+      "axis": {"values": [2, 2.5, 3, 3.5, 4, 4.5, 5], "format": ".1f", "titlePadding": 14, "grid": false}
     },
     "y": {"field": "density", "type": "quantitative", "axis": null, "scale": {"range": [60, -40]}},
     "color": {

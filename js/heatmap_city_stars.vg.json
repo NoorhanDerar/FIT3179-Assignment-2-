@@ -26,7 +26,7 @@
           "color": {
             "field": "pct", "type": "quantitative", "title": "% of the city's reviews",
             "scale": { "domain": [0, 70], "range": ["#FBF1DC", "#A63D0F"], "clamp": true },
-            "legend": { "format": ".0f", "orient": "bottom", "direction": "horizontal" }
+            "legend": { "format": ".0f", "orient": "top", "direction": "horizontal" }
           },
           "tooltip": [
             { "field": "platform", "title": "Platform" },
