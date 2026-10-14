@@ -1,0 +1,101 @@
+platform,city,stars,reviews
+Google,Ipoh,1,1566
+Google,Ipoh,2,1147
+Google,Ipoh,3,3055
+Google,Ipoh,4,7571
+Google,Ipoh,5,11167
+Google,Johor Bahru,1,1603
+Google,Johor Bahru,2,1099
+Google,Johor Bahru,3,3391
+Google,Johor Bahru,4,8382
+Google,Johor Bahru,5,13195
+Google,Kuala Lumpur,1,1512
+Google,Kuala Lumpur,2,1092
+Google,Kuala Lumpur,3,2656
+Google,Kuala Lumpur,4,7117
+Google,Kuala Lumpur,5,15005
+Google,Kuching,1,1103
+Google,Kuching,2,790
+Google,Kuching,3,2722
+Google,Kuching,4,6806
+Google,Kuching,5,10279
+Google,Langkawi,1,1209
+Google,Langkawi,2,736
+Google,Langkawi,3,1690
+Google,Langkawi,4,3728
+Google,Langkawi,5,10648
+Google,Melaka,1,903
+Google,Melaka,2,602
+Google,Melaka,3,1573
+Google,Melaka,4,3935
+Google,Melaka,5,6669
+Google,Miri,1,325
+Google,Miri,2,277
+Google,Miri,3,897
+Google,Miri,4,2023
+Google,Miri,5,3224
+Google,George Town,1,1494
+Google,George Town,2,1132
+Google,George Town,3,3285
+Google,George Town,4,9031
+Google,George Town,5,16884
+Google,Petaling Jaya,1,2854
+Google,Petaling Jaya,2,2081
+Google,Petaling Jaya,3,5247
+Google,Petaling Jaya,4,13971
+Google,Petaling Jaya,5,24475
+Google,Shah Alam,1,81
+Google,Shah Alam,2,61
+Google,Shah Alam,3,204
+Google,Shah Alam,4,608
+Google,Shah Alam,5,915
+TripAdvisor,Ipoh,1,262
+TripAdvisor,Ipoh,2,280
+TripAdvisor,Ipoh,3,900
+TripAdvisor,Ipoh,4,2145
+TripAdvisor,Ipoh,5,2703
+TripAdvisor,Johor Bahru,1,367
+TripAdvisor,Johor Bahru,2,306
+TripAdvisor,Johor Bahru,3,950
+TripAdvisor,Johor Bahru,4,2432
+TripAdvisor,Johor Bahru,5,3513
+TripAdvisor,Kuala Lumpur,1,2836
+TripAdvisor,Kuala Lumpur,2,2944
+TripAdvisor,Kuala Lumpur,3,7547
+TripAdvisor,Kuala Lumpur,4,20227
+TripAdvisor,Kuala Lumpur,5,37814
+TripAdvisor,Kuching,1,321
+TripAdvisor,Kuching,2,377
+TripAdvisor,Kuching,3,1071
+TripAdvisor,Kuching,4,2740
+TripAdvisor,Kuching,5,3394
+TripAdvisor,Langkawi,1,150
+TripAdvisor,Langkawi,2,213
+TripAdvisor,Langkawi,3,619
+TripAdvisor,Langkawi,4,2178
+TripAdvisor,Langkawi,5,8132
+TripAdvisor,Melaka,1,646
+TripAdvisor,Melaka,2,696
+TripAdvisor,Melaka,3,2028
+TripAdvisor,Melaka,4,4673
+TripAdvisor,Melaka,5,4965
+TripAdvisor,Miri,1,66
+TripAdvisor,Miri,2,83
+TripAdvisor,Miri,3,233
+TripAdvisor,Miri,4,563
+TripAdvisor,Miri,5,621
+TripAdvisor,George Town,1,156
+TripAdvisor,George Town,2,249
+TripAdvisor,George Town,3,791
+TripAdvisor,George Town,4,3085
+TripAdvisor,George Town,5,8395
+TripAdvisor,Petaling Jaya,1,19
+TripAdvisor,Petaling Jaya,2,18
+TripAdvisor,Petaling Jaya,3,55
+TripAdvisor,Petaling Jaya,4,259
+TripAdvisor,Petaling Jaya,5,953
+TripAdvisor,Shah Alam,1,297
+TripAdvisor,Shah Alam,2,251
+TripAdvisor,Shah Alam,3,921
+TripAdvisor,Shah Alam,4,2233
+TripAdvisor,Shah Alam,5,3087

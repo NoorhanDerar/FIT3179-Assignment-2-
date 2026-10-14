@@ -93,6 +93,13 @@ city["lon"] = city["Location"].map(lambda c: CITIES.get(c, (0, 0, None, None))[3
 city = city.round(2)
 city.to_csv(out / "city_summary.csv", index=False)
 
+# how many reviews gave 1-5 stars, per platform and city (heatmap chart)
+df["stars"] = df["Rating"].round().clip(1, 5).astype(int)
+dist = df.groupby(["source", "Location", "stars"]).size().reset_index(name="reviews")
+dist["city"] = dist["Location"].map(lambda c: CITIES.get(c, (c,))[0])
+dist = dist.rename(columns={"source": "platform"})
+dist[["platform", "city", "stars", "reviews"]].to_csv(out / "rating_by_city.csv", index=False)
+
 # ---------- restaurant summary (only restaurants with enough reviews) ----------
 rest = (
     df.groupby(["source", "Location", "Restaurant"])

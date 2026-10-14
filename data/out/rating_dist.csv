@@ -1,0 +1,101 @@
+source,city,rating,n,n_total,pct,pct5_city
+Google,George Town,1,1494,31826,4.7,56.8
+Google,George Town,2,1132,31826,3.6,56.8
+Google,George Town,3,3285,31826,10.3,56.8
+Google,George Town,4,9031,31826,28.4,56.8
+Google,George Town,5,16884,31826,53.1,56.8
+Google,Ipoh,1,1566,24506,6.4,45.0
+Google,Ipoh,2,1147,24506,4.7,45.0
+Google,Ipoh,3,3055,24506,12.5,45.0
+Google,Ipoh,4,7571,24506,30.9,45.0
+Google,Ipoh,5,11167,24506,45.6,45.0
+Google,Johor Bahru,1,1603,27670,5.8,47.4
+Google,Johor Bahru,2,1099,27670,4.0,47.4
+Google,Johor Bahru,3,3391,27670,12.3,47.4
+Google,Johor Bahru,4,8382,27670,30.3,47.4
+Google,Johor Bahru,5,13195,27670,47.7,47.4
+Google,Kuala Lumpur,1,1512,27382,5.5,53.5
+Google,Kuala Lumpur,2,1092,27382,4.0,53.5
+Google,Kuala Lumpur,3,2656,27382,9.7,53.5
+Google,Kuala Lumpur,4,7117,27382,26.0,53.5
+Google,Kuala Lumpur,5,15005,27382,54.8,53.5
+Google,Kuching,1,1103,21700,5.1,46.2
+Google,Kuching,2,790,21700,3.6,46.2
+Google,Kuching,3,2722,21700,12.5,46.2
+Google,Kuching,4,6806,21700,31.4,46.2
+Google,Kuching,5,10279,21700,47.4,46.2
+Google,Langkawi,1,1209,18011,6.7,64.1
+Google,Langkawi,2,736,18011,4.1,64.1
+Google,Langkawi,3,1690,18011,9.4,64.1
+Google,Langkawi,4,3728,18011,20.7,64.1
+Google,Langkawi,5,10648,18011,59.1,64.1
+Google,Melaka,1,903,13682,6.6,43.6
+Google,Melaka,2,602,13682,4.4,43.6
+Google,Melaka,3,1573,13682,11.5,43.6
+Google,Melaka,4,3935,13682,28.8,43.6
+Google,Melaka,5,6669,13682,48.7,43.6
+Google,Miri,1,325,6746,4.8,46.3
+Google,Miri,2,277,6746,4.1,46.3
+Google,Miri,3,897,6746,13.3,46.3
+Google,Miri,4,2023,6746,30.0,46.3
+Google,Miri,5,3224,6746,47.8,46.3
+Google,Petaling Jaya,1,2854,48628,5.9,50.9
+Google,Petaling Jaya,2,2081,48628,4.3,50.9
+Google,Petaling Jaya,3,5247,48628,10.8,50.9
+Google,Petaling Jaya,4,13971,48628,28.7,50.9
+Google,Petaling Jaya,5,24475,48628,50.3,50.9
+Google,Shah Alam,1,81,1869,4.3,46.2
+Google,Shah Alam,2,61,1869,3.3,46.2
+Google,Shah Alam,3,204,1869,10.9,46.2
+Google,Shah Alam,4,608,1869,32.5,46.2
+Google,Shah Alam,5,915,1869,49.0,46.2
+TripAdvisor,George Town,1,156,12676,1.2,56.8
+TripAdvisor,George Town,2,249,12676,2.0,56.8
+TripAdvisor,George Town,3,791,12676,6.2,56.8
+TripAdvisor,George Town,4,3085,12676,24.3,56.8
+TripAdvisor,George Town,5,8395,12676,66.2,56.8
+TripAdvisor,Ipoh,1,262,6290,4.2,45.0
+TripAdvisor,Ipoh,2,280,6290,4.5,45.0
+TripAdvisor,Ipoh,3,900,6290,14.3,45.0
+TripAdvisor,Ipoh,4,2145,6290,34.1,45.0
+TripAdvisor,Ipoh,5,2703,6290,43.0,45.0
+TripAdvisor,Johor Bahru,1,367,7568,4.8,47.4
+TripAdvisor,Johor Bahru,2,306,7568,4.0,47.4
+TripAdvisor,Johor Bahru,3,950,7568,12.6,47.4
+TripAdvisor,Johor Bahru,4,2432,7568,32.1,47.4
+TripAdvisor,Johor Bahru,5,3513,7568,46.4,47.4
+TripAdvisor,Kuala Lumpur,1,2836,71368,4.0,53.5
+TripAdvisor,Kuala Lumpur,2,2944,71368,4.1,53.5
+TripAdvisor,Kuala Lumpur,3,7547,71368,10.6,53.5
+TripAdvisor,Kuala Lumpur,4,20227,71368,28.3,53.5
+TripAdvisor,Kuala Lumpur,5,37814,71368,53.0,53.5
+TripAdvisor,Kuching,1,321,7903,4.1,46.2
+TripAdvisor,Kuching,2,377,7903,4.8,46.2
+TripAdvisor,Kuching,3,1071,7903,13.6,46.2
+TripAdvisor,Kuching,4,2740,7903,34.7,46.2
+TripAdvisor,Kuching,5,3394,7903,42.9,46.2
+TripAdvisor,Langkawi,1,150,11292,1.3,64.1
+TripAdvisor,Langkawi,2,213,11292,1.9,64.1
+TripAdvisor,Langkawi,3,619,11292,5.5,64.1
+TripAdvisor,Langkawi,4,2178,11292,19.3,64.1
+TripAdvisor,Langkawi,5,8132,11292,72.0,64.1
+TripAdvisor,Melaka,1,646,13008,5.0,43.6
+TripAdvisor,Melaka,2,696,13008,5.4,43.6
+TripAdvisor,Melaka,3,2028,13008,15.6,43.6
+TripAdvisor,Melaka,4,4673,13008,35.9,43.6
+TripAdvisor,Melaka,5,4965,13008,38.2,43.6
+TripAdvisor,Miri,1,66,1566,4.2,46.3
+TripAdvisor,Miri,2,83,1566,5.3,46.3
+TripAdvisor,Miri,3,233,1566,14.9,46.3
+TripAdvisor,Miri,4,563,1566,36.0,46.3
+TripAdvisor,Miri,5,621,1566,39.7,46.3
+TripAdvisor,Petaling Jaya,1,19,1304,1.5,50.9
+TripAdvisor,Petaling Jaya,2,18,1304,1.4,50.9
+TripAdvisor,Petaling Jaya,3,55,1304,4.2,50.9
+TripAdvisor,Petaling Jaya,4,259,1304,19.9,50.9
+TripAdvisor,Petaling Jaya,5,953,1304,73.1,50.9
+TripAdvisor,Shah Alam,1,297,6789,4.4,46.2
+TripAdvisor,Shah Alam,2,251,6789,3.7,46.2
+TripAdvisor,Shah Alam,3,921,6789,13.6,46.2
+TripAdvisor,Shah Alam,4,2233,6789,32.9,46.2
+TripAdvisor,Shah Alam,5,3087,6789,45.5,46.2
