@@ -22,7 +22,7 @@
           "x": {"field": "signed", "type": "quantitative", "title": "% of reviews that mention the word",
                 "scale": {"domain": [-40, 50]}, "axis": {"labelExpr": "abs(datum.value) + '%'"}},
           "color": {"field": "group", "type": "nominal", "title": null,
-                    "scale": {"domain": ["Happy reviews (4-5 stars)", "Unhappy reviews (1-2 stars)"], "range": ["#0F8B80", "#E5484D"]},
+                    "scale": {"domain": ["Happy reviews (4-5 stars)", "Unhappy reviews (1-2 stars)"], "range": ["#1B2A49", "#E5484D"]},
                     "legend": {}},
           "tooltip": [
             {"field": "word", "type": "nominal", "title": "Word"},
