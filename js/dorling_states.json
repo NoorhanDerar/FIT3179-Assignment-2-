@@ -18,7 +18,7 @@
         },
         "color": {
           "field": "income_median_2024", "type": "quantitative",
-          "title": "Median household income (RM per month)",
+          "title": "Median income (RM/month)",
           "scale": {"type": "threshold", "domain": [5000, 7000, 10000], "range": ["#E6E4F8", "#B3AEEA", "#7366CF", "#33237F"]},
           "legend": {"format": ","}
         },
