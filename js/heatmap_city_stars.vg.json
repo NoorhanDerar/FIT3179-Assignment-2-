@@ -20,10 +20,11 @@
           "x": {"field": "stars", "type": "ordinal", "title": "Stars given", "axis": {"labelAngle": 0, "orient": "top"}},
           "y": {"field": "city", "type": "nominal", "title": null,
                 "sort": ["George Town","Kuala Lumpur","Langkawi","Shah Alam","Petaling Jaya","Kuching","Miri","Johor Bahru","Melaka","Ipoh"]},
-          "color": {
-            "field": "pct", "type": "quantitative", "title": "% of the city's reviews",
-            "scale": {"domain": [0, 70], "range": ["#EAF6F4", "#6FBFB5", "#0B6E69"], "clamp": true},
-            "legend": {"format": ".0f"}
+"color": {
+  "field": "pct", "type": "quantitative", "title": "% of the city's reviews",
+  "scale": {"domain": [0, 75], "range": ["#FFF4D6", "#F2B632", "#8A5A00"], "clamp": true},
+  "legend": {"format": ".0f", "values": [0, 25, 50, 75]}
+
           },
           "tooltip": [
             {"field": "platform", "title": "Platform"}, {"field": "city", "title": "City"},
@@ -39,7 +40,7 @@
           "y": {"field": "city", "type": "nominal",
                 "sort": ["George Town","Kuala Lumpur","Langkawi","Shah Alam","Petaling Jaya","Kuching","Miri","Johor Bahru","Melaka","Ipoh"]},
           "text": {"field": "pct", "type": "quantitative", "format": ".0f"},
-          "color": {"condition": {"test": "datum.pct > 38", "value": "white"}, "value": "#0F1B2D"}
+          "color": {"condition": {"test": "datum.pct > 60", "value": "white"}, "value": "#0F1B2D"}
         }
       }
     ]
