@@ -1,13 +1,24 @@
 :root {
-    --bg: #F4F6FA;
+    --bg: #FAF7F2;
     --card: #FFFFFF;
     --ink: #0F1B2D;
     --muted: #45526A;
-    --line: #DDE3EC;
+    --line: #E6DFD3;
     --amber: #F2A900;
-    --google: #2F6DB5;
-    --trip: #C2417A;
+    --google: #2563EB;
+    --trip: #C2410C;
     --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+    --s1: 8px;
+    --s2: 16px;
+    --s3: 24px;
+    --s4: 32px;
+    --s5: 48px;
+    --s6: 72px;
+
+    --col: 880px;
+    /* every chart card has exactly this shape */
+    --chart-ratio: 16 / 10;
 }
 
 * { box-sizing: border-box; }
@@ -16,22 +27,27 @@ html { scroll-behavior: smooth; }
 body {
     margin: 0;
     background-color: var(--bg);
-    background-image: radial-gradient(rgba(15, 27, 45, .07) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(80, 55, 25, .07) 1px, transparent 1px);
     background-size: 24px 24px;
     color: var(--ink);
     font-family: var(--font);
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.65;
     -webkit-font-smoothing: antialiased;
+    overflow-x: clip;
 }
 
-/* one left edge for everything */
-header, main, footer { max-width: 960px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+/* one left edge and one right edge for everything */
+header, main, footer {
+    max-width: calc(var(--col) + 2 * var(--s3));
+    margin: 0 auto;
+    padding-left: var(--s3);
+    padding-right: var(--s3);
+}
 
 a { color: var(--ink); text-underline-offset: 3px; }
 
 /* ---------- Hook ---------- */
-/* full-width decorated band */
 .hero {
     position: relative;
     overflow: hidden;
@@ -40,19 +56,6 @@ a { color: var(--ink); text-underline-offset: 3px; }
         radial-gradient(rgba(255, 255, 255, .07) 1px, transparent 1px),
         var(--ink);
     background-size: auto, 24px 24px, auto;
-}
-
-/* five stars, the fifth in amber, far from the text */
-.hero::after {
-    content: "";
-    position: absolute;
-    right: 5%;
-    bottom: 10%;
-    width: 300px;
-    height: 60px;
-    opacity: .9;
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 24'%3E%3Cg fill='%23ffffff' fill-opacity='.14'%3E%3Cpolygon points='12,2 15,9 22,9.3 16.5,14 18.5,21 12,17 5.5,21 7.5,14 2,9.3 9,9'/%3E%3Cpolygon transform='translate(24 0)' points='12,2 15,9 22,9.3 16.5,14 18.5,21 12,17 5.5,21 7.5,14 2,9.3 9,9'/%3E%3Cpolygon transform='translate(48 0)' points='12,2 15,9 22,9.3 16.5,14 18.5,21 12,17 5.5,21 7.5,14 2,9.3 9,9'/%3E%3Cpolygon transform='translate(72 0)' points='12,2 15,9 22,9.3 16.5,14 18.5,21 12,17 5.5,21 7.5,14 2,9.3 9,9'/%3E%3C/g%3E%3Cpolygon fill='%23F2A900' transform='translate(96 0)' points='12,2 15,9 22,9.3 16.5,14 18.5,21 12,17 5.5,21 7.5,14 2,9.3 9,9'/%3E%3C/svg%3E") no-repeat right bottom / contain;
-    pointer-events: none;
 }
 
 header.hook {
@@ -67,30 +70,37 @@ header.hook {
     color: #FFFFFF;
 }
 
-.hook .kicker { color: var(--amber); margin-bottom: 14px; }
+
+.hook .kicker {
+    color: var(--amber);
+    margin-bottom: 14px;
+    font-size: 15px;
+    letter-spacing: 0;
+    text-transform: none;   /* a full sentence reads better in normal case */
+}
 
 .hook h1 {
-    margin: 0 0 20px;
-    max-width: 18ch;
+    margin: 0 0 24px;
+    max-width: 16ch;
     font-weight: 800;
-    font-size: clamp(32px, 5vw, 56px);
-    line-height: 1.06;
+    font-size: clamp(34px, 5.4vw, 60px);
+    line-height: 1.05;
     letter-spacing: -0.03em;
 }
 
 .hook .answer {
-    max-width: 48ch;
-    font-size: clamp(16px, 1.7vw, 18px);
-    line-height: 1.55;
+    max-width: 52ch;
+    font-size: clamp(16px, 1.7vw, 19px);
+    line-height: 1.6;
     color: #C9D3E3;
 }
 
-.hook .byline { margin: 20px 0 0; font-size: 13px; color: #9FB0C8; }
+.hook .byline { margin: 24px 0 0; font-size: 13px; color: #9FB0C8; }
 
 /* ---------- Text ---------- */
 .kicker {
-    margin: 0 0 8px;
-    font-size: 12px;
+    margin: 0 0 var(--s1);
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: .12em;
     text-transform: uppercase;
@@ -99,103 +109,164 @@ header.hook {
 }
 
 h2 {
-    margin: 0 0 14px;
-    max-width: 28ch;
-    font-weight: 800;
-    font-size: clamp(22px, 2.6vw, 30px);
-    line-height: 1.15;
-    letter-spacing: -0.02em;
+    margin: 0 0 var(--s3);
+    max-width: 22ch;
+    font-weight: 700;
+    font-size: clamp(26px, 3.2vw, 36px);
+    line-height: 1.12;
+    letter-spacing: -0.025em;
 }
 
-p { margin: 0 0 12px; max-width: 62ch; }
+/* body text: about 60 characters per line, same left edge as everything else */
+p { margin: 0 0 var(--s2); max-width: 62ch; }
 
 .g { color: var(--google); font-weight: 600; }
 .t { color: var(--trip); font-weight: 600; }
-
 strong { font-weight: 700; }
 
 /* ---------- Sections ---------- */
-main > section { padding: 56px 0 4px; }
+main > section {
+    padding: var(--s6) 0 var(--s2);
+    border-top: 1px solid var(--line);
+}
+main > section:first-child { border-top: 0; }
 
 main > section::before {
     content: "";
     display: block;
     width: 40px;
     height: 4px;
-    margin-bottom: 14px;
-    background: var(--amber);
+    margin-bottom: var(--s3);
+    background: var(--ink);
     border-radius: 2px;
 }
 
-/* the card shrinks to fit the chart instead of stretching the full width */
+/* ---------- Charts ---------- */
 .chart {
     display: block;
-    width: fit-content;
-    max-width: 100%;
-    margin: 18px 0 0;
-    padding: 12px 14px 8px;
+    width: 100%;
+    margin: var(--s4) 0;
+    padding: 0;
+}
+
+/* THE WHITE CARD: same width AND same shape for every chart. */
+.chart > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: var(--chart-ratio);
+    padding: var(--s3);
     background: var(--card);
     border: 1px solid var(--line);
-    border-radius: 8px;
-    box-shadow: 0 1px 2px rgba(15, 27, 45, .05);
-    overflow-x: auto;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(15, 27, 45, .05), 0 8px 24px rgba(15, 27, 45, .04);
+    overflow: visible;
 }
 
-.chart .vega-embed { width: auto; }
-.chart .vega-embed.has-actions { padding-right: 0; }
+.chart > div.has-actions { padding-right: var(--s3); }
+
+/* charts.js sizes each chart to fill the card exactly; this only guards against rounding */
+.chart > div svg.marks {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .chart .vega-embed summary { top: 0; right: 0; }
 
-/* tabular numbers inside every chart so digits line up */
 .vega-embed svg text { font-variant-numeric: tabular-nums; }
 
+/* caption sits directly under its card */
 .how {
-    margin: 8px 0 0;
-    max-width: 70ch;
-    font-size: 13px;
-    line-height: 1.5;
+    margin: calc(-1 * var(--s1)) 0 var(--s2);
+    max-width: 65ch;
+    font-size: 15px;
+    line-height: 1.6;
     color: var(--muted);
 }
-
+.chart > .how { margin: var(--s2) 0 0; }
 .how strong { color: var(--ink); }
 
+/* notes and takeaways span the whole column so edges line up with the charts */
 .callout {
-    margin: 14px 0 0;
-    padding: 2px 0 2px 12px;
-    border-left: 4px solid var(--amber);
-    max-width: 62ch;
-    font-size: 14.5px;
+    margin: var(--s3) 0;
+    padding: var(--s2) var(--s3);
+    background: #F1EBDF;
+    border-left: 4px solid var(--ink);
+    border-radius: 0 8px 8px 0;
+    max-width: none;
+    font-size: 15px;
     font-weight: 500;
 }
 
 .takeaway {
-    margin: 20px 0 0;
-    max-width: 62ch;
-    padding: 10px 16px;
+    margin: var(--s4) 0 0;
+    max-width: none;
+    padding: var(--s3);
     background: var(--ink);
     color: #FFFFFF;
-    border-radius: 6px;
+    border-radius: 12px;
+    border-left: 6px solid var(--amber);
     font-weight: 700;
-    font-size: 15.5px;
+    font-size: 19px;
     line-height: 1.4;
+    letter-spacing: -0.01em;
 }
 
-.tips { margin: 0; padding: 0; list-style: none; counter-reset: n; display: grid; gap: 14px; max-width: 62ch; }
-.tips li { counter-increment: n; position: relative; padding-left: 42px; }
+.tips {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: n;
+    display: grid;
+    gap: var(--s2);
+    max-width: 62ch;
+}
+.tips li { counter-increment: n; position: relative; padding-left: 48px; }
 .tips li::before {
     content: counter(n);
     position: absolute; left: 0; top: -1px;
-    width: 28px; height: 28px;
+    width: 32px; height: 32px;
     border-radius: 50%;
-    background: var(--amber); color: var(--ink);
-    font-weight: 800; font-size: 14px;
-    line-height: 28px; text-align: center;
+    background: var(--ink); color: #FFFFFF;
+    font-weight: 800; font-size: 15px;
+    line-height: 32px; text-align: center;
 }
 
-footer { padding-top: 48px; padding-bottom: 48px; font-size: 13px; color: var(--muted); }
-footer h3 { margin: 0 0 4px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
-footer p { max-width: 70ch; }
+/* ---------- Footer ---------- */
+footer {
+    margin-top: var(--s5);
+    padding-top: var(--s5);
+    padding-bottom: var(--s5);
+    border-top: 1px solid var(--line);
+    font-size: 15px;
+    color: var(--muted);
+}
+footer h3 {
+    margin: var(--s3) 0 var(--s1);
+    font-size: 12px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink);
+}
+footer h3:first-child { margin-top: 0; }
+footer p { max-width: 65ch; }
 .todo { background: #FFE9A8; padding: 0 4px; border-radius: 3px; }
 
+/* ---------- Small screens ---------- */
 @media (max-width: 700px) {
-    main > section { padding-top: 40px; }
+    body { font-size: 16px; }
+    main > section { padding-top: var(--s5); }
+    .takeaway { font-size: 17px; padding: var(--s2); }
+    /* on phones let the card hug the chart instead of forcing a shape */
+    .chart > div {
+        aspect-ratio: auto;
+        min-height: 240px;
+        padding: var(--s2) 12px;
+    }
+    .chart > div.has-actions { padding-right: 12px; }
+    /* phones: the chart keeps a readable size and scrolls sideways inside its card */
+    .chart > div { display: block; overflow-x: auto; }
+    .chart > div svg.marks { max-width: none; max-height: none; }
 }
