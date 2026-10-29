@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Half of Malaysia's states have no restaurant reviews in this data"},
+  "width": 600,
+  "height": 390,
+  "data": {"url": "data/out/state_dorling.csv"},
+  "layer": [
+    {
+      "mark": {"type": "circle", "opacity": 0.95},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 600]}, "axis": null},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 390], "reverse": true}, "axis": null},
+        "size": {
+          "field": "population_2026_thousands", "type": "quantitative",
+          "title": "Population, 2026 (thousands)",
+          "scale": {"domain": [0, 8000], "range": [0, 6527]},
+          "legend": {"values": [500, 2000, 6000], "format": ",.0f", "symbolFillColor": "#EEF0F8", "symbolStrokeColor": "#8A93A8"}
+        },
+        "color": {
+          "field": "income_median_2024", "type": "quantitative",
+          "title": "Median household income (RM per month)",
+          "scale": {"type": "threshold", "domain": [5000, 7000, 10000], "range": ["#E6E4F8", "#B3AEEA", "#7366CF", "#33237F"]},
+          "legend": {"format": ","}
+        },
+        "stroke": {"condition": {"test": "datum.has_reviews === 'Yes'", "value": "#0F1B2D"}, "value": "#B9C3D3"},
+        "strokeWidth": {"condition": {"test": "datum.has_reviews === 'Yes'", "value": 3.5}, "value": 1},
+        "tooltip": [
+          {"field": "state_dosm", "type": "nominal", "title": "State"},
+          {"field": "population_2026_thousands", "type": "quantitative", "title": "Population (thousands)", "format": ",.0f"},
+          {"field": "income_median_2024", "type": "quantitative", "title": "Median income (RM)", "format": ","},
+          {"field": "has_reviews", "type": "nominal", "title": "Has restaurant reviews?"}
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.label_pos !== 'right'"}],
+      "mark": {"type": "text", "fontSize": 9, "align": "center", "baseline": "middle"},
+      "encoding": {
+        "x": {"field": "label_x", "type": "quantitative", "scale": {"domain": [0, 600]}},
+        "y": {"field": "label_y", "type": "quantitative", "scale": {"domain": [0, 390], "reverse": true}},
+        "text": {"field": "label"},
+        "color": {"field": "label_color", "type": "nominal", "scale": null}
+      }
+    },
+    {
+      "transform": [{"filter": "datum.label_pos === 'right'"}],
+      "mark": {"type": "text", "fontSize": 9, "align": "left", "baseline": "middle"},
+      "encoding": {
+        "x": {"field": "label_x", "type": "quantitative", "scale": {"domain": [0, 600]}},
+        "y": {"field": "label_y", "type": "quantitative", "scale": {"domain": [0, 390], "reverse": true}},
+        "text": {"field": "label"},
+        "color": {"field": "label_color", "type": "nominal", "scale": null}
+      }
+    },
+    {
+      "data": {"values": [
+        {"x": 418, "y": 338, "w": 3.5, "c": "#0F1B2D"},
+        {"x": 418, "y": 362, "w": 1, "c": "#B9C3D3"}
+      ]},
+      "mark": {"type": "circle", "size": 160, "fill": "#F4F6FA"},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 600]}},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 390], "reverse": true}},
+        "stroke": {"field": "c", "type": "nominal", "scale": null},
+        "strokeWidth": {"field": "w", "type": "quantitative", "scale": null}
+      }
+    },
+    {
+      "data": {"values": [
+        {"x": 432, "y": 338, "t": "Has restaurant reviews"},
+        {"x": 432, "y": 362, "t": "No review data"}
+      ]},
+      "mark": {"type": "text", "fontSize": 11, "align": "left", "baseline": "middle", "color": "#0F1B2D"},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 600]}},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 390], "reverse": true}},
+        "text": {"field": "t"}
+      }
+    }
+  ]
+}
