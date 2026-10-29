@@ -1,36 +1,24 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "TripAdvisor has more restaurants at the very top",
+  "title": {"text": "A bigger share of TripAdvisor restaurants rate 4.5 or higher"},
   "width": 600,
   "height": 60,
+  "padding": {"top": 10, "left": 10, "right": 10, "bottom": 10},
   "data": {"url": "data/out/restaurant_summary.csv"},
   "transform": [
-    {"filter": "datum.n_reviews >= 10"},
-    {
-      "density": "avg_rating",
-      "groupby": ["source"],
-      "extent": [2, 5],
-      "steps": 100,
-      "as": ["rating", "density"]
-    }
+    {"filter": "datum.n_reviews >= 30"},
+    {"density": "avg_rating", "groupby": ["source"], "extent": [2, 5], "steps": 100, "as": ["rating", "density"]}
   ],
-  "mark": {"type": "area", "interpolate": "monotone", "fillOpacity": 0.7, "stroke": "white", "strokeWidth": 1},
+  "mark": {"type": "area", "interpolate": "monotone", "fillOpacity": 0.75, "stroke": "white", "strokeWidth": 1.5},
   "encoding": {
-    "x": {
-      "field": "rating",
-      "type": "quantitative",
-      "title": "Average rating per restaurant",
-      "scale": {"domain": [2, 5]},
-      "axis": {"values": [2, 2.5, 3, 3.5, 4, 4.5, 5], "format": ".1f", "titlePadding": 14, "grid": false}
-    },
-    "y": {"field": "density", "type": "quantitative", "axis": null, "scale": {"range": [60, -40]}},
-    "color": {
-      "field": "source",
-      "type": "nominal",
-      "legend": null,
-      "scale": {"domain": ["Google", "TripAdvisor"], "range": ["#2F6DB5", "#C2417A"]}
-    },
-    "row": {"field": "source", "type": "nominal", "title": null, "header": {"labelAngle": 0, "labelAlign": "left"}}
+    "x": {"field": "rating", "type": "quantitative", "title": "Average rating per restaurant (stars)", "scale": {"domain": [2, 5]},
+          "axis": {"values": [2, 2.5, 3, 3.5, 4, 4.5, 5], "format": ".1f", "titlePadding": 14, "grid": false}},
+    "y": {"field": "density", "type": "quantitative", "axis": null, "scale": {"range": [60, -30]}},
+    "color": {"field": "source", "type": "nominal", "legend": null,
+              "scale": {"domain": ["Google", "TripAdvisor"], "range": ["#2563EB", "#D9480F"]}},
+    "row": {"field": "source", "type": "nominal", "title": null,
+            "header": {"labelAngle": 0, "labelAlign": "left", "labelFontSize": 13, "labelFontWeight": 700}}
   },
-  "config": {"font": "DM Sans", "facet": {"spacing": -20}, "view": {"stroke": null}}
+  "resolve": {"axis": {"x": "shared"}},
+  "config": {"facet": {"spacing": -20}}
 }

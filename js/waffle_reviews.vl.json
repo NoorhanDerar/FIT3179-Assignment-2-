@@ -5,14 +5,11 @@
   "transform": [
     {"calculate": "datum.pct_1_2star * datum.n_reviews", "as": "w_bad"},
     {"calculate": "datum.pct_5star * datum.n_reviews", "as": "w_five"},
-    {
-      "aggregate": [
-        {"op": "sum", "field": "w_bad", "as": "s_bad"},
-        {"op": "sum", "field": "w_five", "as": "s_five"},
-        {"op": "sum", "field": "n_reviews", "as": "s_n"}
-      ],
-      "groupby": ["source"]
-    },
+    {"aggregate": [
+      {"op": "sum", "field": "w_bad", "as": "s_bad"},
+      {"op": "sum", "field": "w_five", "as": "s_five"},
+      {"op": "sum", "field": "n_reviews", "as": "s_n"}
+    ], "groupby": ["source"]},
     {"calculate": "round(datum.s_bad / datum.s_n)", "as": "bad"},
     {"calculate": "round(datum.s_five / datum.s_n)", "as": "five"},
     {"calculate": "100 - datum.bad - datum.five", "as": "mid"},
@@ -20,32 +17,21 @@
     {"flatten": ["idx"]},
     {"calculate": "datum.idx % 10", "as": "col"},
     {"calculate": "floor(datum.idx / 10)", "as": "row"},
-    {
-      "calculate": "datum.idx < datum.bad ? '1-2 stars' : (datum.idx < datum.bad + datum.mid ? '3-4 stars' : '5 stars')",
-      "as": "group"
-    }
+    {"calculate": "datum.idx < datum.bad ? '1-2 stars' : (datum.idx < datum.bad + datum.mid ? '3-4 stars' : '5 stars')", "as": "group"}
   ],
-  "facet": {"column": {"field": "source", "type": "nominal", "title": null}},
+  "facet": {"column": {"field": "source", "type": "nominal", "title": null, "header": {"labelFontSize": 14, "labelFontWeight": 700}}},
   "spec": {
     "width": 220,
     "height": 220,
-    "mark": {"type": "square", "size": 380},
+    "mark": {"type": "rect", "cornerRadius": 3},
     "encoding": {
-      "x": {"field": "col", "type": "ordinal", "axis": null},
-      "y": {"field": "row", "type": "ordinal", "axis": null, "sort": "descending"},
+      "x": {"field": "col", "type": "ordinal", "axis": null, "scale": {"paddingInner": 0.12, "paddingOuter": 0}},
+      "y": {"field": "row", "type": "ordinal", "axis": null, "sort": "descending", "scale": {"paddingInner": 0.12, "paddingOuter": 0}},
       "color": {
-        "field": "group",
-        "type": "nominal",
-        "title": "Review type",
-        "scale": {
-          "domain": ["1-2 stars", "3-4 stars", "5 stars"],
-          "range": ["#d73027", "#cfd8dc", "#2171b5"]
-        }
+        "field": "group", "type": "nominal", "title": "Review type",
+        "scale": {"domain": ["1-2 stars", "3-4 stars", "5 stars"], "range": ["#E5484D", "#D7DEE9", "#0F8B80"]}
       },
-      "tooltip": [
-        {"field": "source", "title": "Platform"},
-        {"field": "group", "title": "Review type"}
-      ]
+      "tooltip": [{"field": "source", "title": "Platform"}, {"field": "group", "title": "Review type"}]
     }
   }
 }

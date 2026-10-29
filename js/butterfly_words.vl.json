@@ -1,56 +1,29 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "What do happy and unhappy reviewers write about?",
-    "subtitle": "Share of reviews that mention each word. The 8 words that differ most in each direction."
-  },
+  "title": {"text": "What do happy and unhappy reviewers write about?"},
   "data": {"url": "data/out/word_contrast.csv"},
   "transform": [
     {"filter": "datum.pct >= 0.5"},
     {"calculate": "format(datum.pct, '.0f') + '%'", "as": "label"}
   ],
-  "facet": {
-    "column": {
-      "field": "source",
-      "type": "nominal",
-      "title": null,
-      "header": {"labelFontSize": 14, "labelFontWeight": "bold"}
-    }
-  },
+  "facet": {"column": {"field": "source", "type": "nominal", "title": null, "header": {"labelFontSize": 14, "labelFontWeight": 700}}},
   "resolve": {"scale": {"y": "independent"}},
   "spec": {
     "width": 340,
     "height": 380,
     "encoding": {
-      "y": {
-        "field": "word",
-        "type": "nominal",
-        "title": null,
-        "sort": {"field": "diff", "op": "max", "order": "descending"},
-        "axis": {"labelFontSize": 12}
-      }
+      "y": {"field": "word", "type": "nominal", "title": null,
+            "sort": {"field": "diff", "op": "max", "order": "descending"}, "axis": {"labelFontSize": 12}}
     },
     "layer": [
       {
-        "mark": {"type": "bar", "height": {"band": 0.7}},
+        "mark": {"type": "bar", "height": {"band": 0.7}, "cornerRadiusEnd": 3},
         "encoding": {
-"x": {
-  "field": "signed",
-  "type": "quantitative",
-  "title": "% of reviews that mention the word",
-  "scale": {"domain": [-40, 50]},
-  "axis": {"labelExpr": "abs(datum.value) + '%'"}
-},
-          "color": {
-            "field": "group",
-            "type": "nominal",
-            "title": null,
-            "scale": {
-              "domain": ["Happy reviews (4-5 stars)", "Unhappy reviews (1-2 stars)"],
-              "range": ["#2c7fb8", "#e6550d"]
-            },
-            "legend": {"orient": "top"}
-          },
+          "x": {"field": "signed", "type": "quantitative", "title": "% of reviews that mention the word",
+                "scale": {"domain": [-40, 50]}, "axis": {"labelExpr": "abs(datum.value) + '%'"}},
+          "color": {"field": "group", "type": "nominal", "title": null,
+                    "scale": {"domain": ["Happy reviews (4-5 stars)", "Unhappy reviews (1-2 stars)"], "range": ["#0F8B80", "#E5484D"]},
+                    "legend": {}},
           "tooltip": [
             {"field": "word", "type": "nominal", "title": "Word"},
             {"field": "group", "type": "nominal", "title": "Reviews"},
@@ -59,16 +32,10 @@
         }
       },
       {
-        "mark": {
-          "type": "text",
-          "fontSize": 10,
-          "align": {"expr": "datum.signed < 0 ? 'right' : 'left'"},
-          "dx": {"expr": "datum.signed < 0 ? -3 : 3"}
-        },
-        "encoding": {
-          "x": {"field": "signed", "type": "quantitative"},
-          "text": {"field": "label", "type": "nominal"}
-        }
+        "mark": {"type": "text", "fontSize": 10, "color": "#0F1B2D",
+                 "align": {"expr": "datum.signed < 0 ? 'right' : 'left'"},
+                 "dx": {"expr": "datum.signed < 0 ? -3 : 3"}},
+        "encoding": {"x": {"field": "signed", "type": "quantitative"}, "text": {"field": "label", "type": "nominal"}}
       }
     ]
   }

@@ -1,82 +1,58 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Scatterplot: state median household income (2024) vs share of 5-star reviews, one dot per city and platform.",
+  "title": {"text": "Richer states don't have noticeably more five-star reviews"},
   "width": 640,
   "height": 420,
-  "data": { "url": "data/city_by_source.csv" },
+  "data": {"url": "data/city_by_source.csv"},
   "transform": [
-    {
-      "lookup": "state",
-      "from": { "data": { "url": "data/state_income.csv" }, "key": "state", "fields": ["income_median_2024"] }
-    },
-    { "filter": "isValid(datum.income_median_2024)" },
-    { "calculate": "toNumber(datum.income_median_2024)", "as": "income_median_2024" }
+    {"lookup": "state", "from": {"data": {"url": "data/state_income.csv"}, "key": "state", "fields": ["income_median_2024"]}},
+    {"filter": "isValid(datum.income_median_2024)"},
+    {"calculate": "toNumber(datum.income_median_2024)", "as": "income_median_2024"},
+    {"filter": "datum.n_restaurants >= 20"}
   ],
   "layer": [
     {
-      "transform": [{ "regression": "pct_5star", "on": "income_median_2024", "groupby": ["source"] }],
-      "mark": { "type": "line", "strokeDash": [5, 4], "strokeWidth": 2, "opacity": 0.7 },
+      "transform": [{"regression": "pct_5star", "on": "income_median_2024", "groupby": ["source"]}],
+      "mark": {"type": "line", "strokeDash": [5, 4], "strokeWidth": 2, "opacity": 0.8},
       "encoding": {
-        "x": { "field": "income_median_2024", "type": "quantitative" },
-        "y": { "field": "pct_5star", "type": "quantitative" },
-        "color": {
-          "field": "source", "type": "nominal", "title": "Platform",
-          "scale": { "domain": ["Google", "TripAdvisor"], "range": ["#2F6DB5", "#C2417A"] }
-        }
+        "x": {"field": "income_median_2024", "type": "quantitative"},
+        "y": {"field": "pct_5star", "type": "quantitative"},
+        "color": {"field": "source", "type": "nominal", "title": "Platform",
+                  "scale": {"domain": ["Google", "TripAdvisor"], "range": ["#2563EB", "#D9480F"]}}
       }
     },
     {
-      "mark": { "type": "circle", "opacity": 0.8, "stroke": "#FFFDF8", "strokeWidth": 1.5 },
+      "mark": {"type": "circle", "opacity": 0.8, "stroke": "white", "strokeWidth": 1.5},
       "encoding": {
-        "x": {
-          "field": "income_median_2024", "type": "quantitative",
-          "title": "Median household income of the state, 2024 (RM per month)",
-          "scale": { "zero": false, "domain": [4500, 11500] },
-          "axis": { "format": ",.0f" }
-        },
-        "y": {
-          "field": "pct_5star", "type": "quantitative",
-          "title": "Share of reviews that give 5 stars (%)",
-          "scale": { "zero": false, "domain": [35, 75] }
-        },
-        "size": {
-          "field": "n_reviews", "type": "quantitative", "title": "Number of reviews",
-          "scale": { "range": [60, 1400] },
-          "legend": { "format": ",.0f" }
-        },
-        "color": {
-          "field": "source", "type": "nominal", "title": "Platform",
-          "scale": { "domain": ["Google", "TripAdvisor"], "range": ["#2F6DB5", "#C2417A"] }
-        },
+        "x": {"field": "income_median_2024", "type": "quantitative",
+              "title": "Median household income of the state, 2024 (RM per month)",
+              "scale": {"zero": false, "domain": [4500, 11500]}, "axis": {"format": ",.0f"}},
+        "y": {"field": "pct_5star", "type": "quantitative", "title": "Share of reviews that give 5 stars (%)",
+              "scale": {"zero": false, "domain": [35, 75]}},
+        "size": {"field": "n_reviews", "type": "quantitative", "title": "Number of reviews",
+                 "scale": {"range": [60, 1400]}, "legend": {"format": ",.0f"}},
+        "color": {"field": "source", "type": "nominal", "title": "Platform",
+                  "scale": {"domain": ["Google", "TripAdvisor"], "range": ["#2563EB", "#D9480F"]}},
         "tooltip": [
-          { "field": "city", "title": "City" },
-          { "field": "source", "title": "Platform" },
-          { "field": "state", "title": "State" },
-          { "field": "income_median_2024", "title": "State median income (RM)", "format": ",.0f" },
-          { "field": "pct_5star", "title": "% 5-star", "format": ".1f" },
-          { "field": "n_reviews", "title": "Reviews", "format": "," }
+          {"field": "city", "title": "City"}, {"field": "source", "title": "Platform"}, {"field": "state", "title": "State"},
+          {"field": "income_median_2024", "title": "State median income (RM)", "format": ",.0f"},
+          {"field": "pct_5star", "title": "% 5-star", "format": ".1f"},
+          {"field": "n_reviews", "title": "Reviews", "format": ","}
         ]
       }
     },
     {
-      "mark": { "type": "text", "align": "left", "dx": 12, "dy": -8, "fontSize": 11, "color": "#2B2118" },
+      "transform": [
+        {"joinaggregate": [{"op": "max", "field": "n_reviews", "as": "max_n"}], "groupby": ["city"]},
+        {"filter": "datum.n_reviews === datum.max_n"}
+      ],
+      "mark": {"type": "text", "align": "left", "dx": 12, "dy": -8, "fontSize": 11, "color": "#0F1B2D"},
       "encoding": {
-        "x": { "field": "income_median_2024", "type": "quantitative" },
-        "y": { "field": "pct_5star", "type": "quantitative" },
-        "text": { "field": "city" }
+        "x": {"field": "income_median_2024", "type": "quantitative"},
+        "y": {"field": "pct_5star", "type": "quantitative"},
+        "text": {"field": "city"}
       }
     }
-  ],
-  "config": {
-    "background": "transparent",
-    "font": "DM Sans",
-    "view": { "stroke": null },
-    "axis": {
-      "labelFont": "DM Sans", "titleFont": "DM Sans",
-      "labelColor": "#2B2118", "titleColor": "#7A6B58",
-      "labelFontSize": 12, "titleFontSize": 12, "titleFontWeight": 500,
-      "domainColor": "#D9CBB5", "tickColor": "#D9CBB5", "gridColor": "#EFE4D2"
-    },
-    "legend": { "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 12, "titleFontSize": 12, "titleFontWeight": 500 }
-  }
+  ]
 }

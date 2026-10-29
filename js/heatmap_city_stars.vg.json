@@ -1,71 +1,49 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Heatmap small multiples (Google, TripAdvisor): share of each city's reviews that gave 1 to 5 stars.",
-  "data": { "url": "data/out/rating_by_city.csv" },
+  "data": {"url": "data/out/rating_by_city.csv"},
   "transform": [
-    { "joinaggregate": [{ "op": "sum", "field": "reviews", "as": "city_total" }], "groupby": ["platform", "city"] },
-    { "calculate": "datum.reviews / datum.city_total * 100", "as": "pct" }
+    {"joinaggregate": [{"op": "sum", "field": "reviews", "as": "city_total"}], "groupby": ["platform", "city"]},
+    {"calculate": "datum.reviews / datum.city_total * 100", "as": "pct"}
   ],
   "facet": {
-    "column": {
-      "field": "platform", "type": "nominal", "title": null,
-      "header": { "labelFontSize": 14, "labelFontWeight": 600, "labelOrient": "top" }
-    }
+    "column": {"field": "platform", "type": "nominal", "title": null,
+               "header": {"labelFontSize": 14, "labelFontWeight": 700, "labelOrient": "top"}}
   },
   "spec": {
     "width": 250,
     "height": 330,
     "layer": [
       {
-        "mark": { "type": "rect", "stroke": "#FBF5EA", "strokeWidth": 2 },
+        "mark": {"type": "rect", "stroke": "white", "strokeWidth": 2, "cornerRadius": 3},
         "encoding": {
-          "x": { "field": "stars", "type": "ordinal", "title": "Stars given",
-                 "axis": { "labelAngle": 0, "orient": "top" } },
-          "y": { "field": "city", "type": "nominal", "title": null,
-                 "sort": ["George Town","Kuala Lumpur","Langkawi","Shah Alam","Petaling Jaya","Kuching","Miri","Johor Bahru","Melaka","Ipoh"] },
+          "x": {"field": "stars", "type": "ordinal", "title": "Stars given", "axis": {"labelAngle": 0, "orient": "top"}},
+          "y": {"field": "city", "type": "nominal", "title": null,
+                "sort": ["George Town","Kuala Lumpur","Langkawi","Shah Alam","Petaling Jaya","Kuching","Miri","Johor Bahru","Melaka","Ipoh"]},
           "color": {
             "field": "pct", "type": "quantitative", "title": "% of the city's reviews",
-            "scale": { "domain": [0, 70], "range": ["#FBF1DC", "#A63D0F"], "clamp": true },
-            "legend": { "format": ".0f", "orient": "top", "direction": "horizontal" }
+            "scale": {"domain": [0, 70], "range": ["#EAF6F4", "#6FBFB5", "#0B6E69"], "clamp": true},
+            "legend": {"format": ".0f"}
           },
           "tooltip": [
-            { "field": "platform", "title": "Platform" },
-            { "field": "city", "title": "City" },
-            { "field": "stars", "title": "Stars" },
-            { "field": "pct", "title": "% of reviews", "format": ".1f" },
-            { "field": "reviews", "title": "Number of reviews", "format": "," }
+            {"field": "platform", "title": "Platform"}, {"field": "city", "title": "City"},
+            {"field": "stars", "title": "Stars"}, {"field": "pct", "title": "% of reviews", "format": ".1f"},
+            {"field": "reviews", "title": "Number of reviews", "format": ","}
           ]
         }
       },
       {
-        "mark": { "type": "text", "fontSize": 11 },
+        "mark": {"type": "text", "fontSize": 11},
         "encoding": {
-          "x": { "field": "stars", "type": "ordinal" },
-          "y": { "field": "city", "type": "nominal",
-                 "sort": ["George Town","Kuala Lumpur","Langkawi","Shah Alam","Petaling Jaya","Kuching","Miri","Johor Bahru","Melaka","Ipoh"] },
-          "text": { "field": "pct", "type": "quantitative", "format": ".0f" },
-          "color": { "condition": { "test": "datum.pct > 38", "value": "white" }, "value": "#2B2118" }
+          "x": {"field": "stars", "type": "ordinal"},
+          "y": {"field": "city", "type": "nominal",
+                "sort": ["George Town","Kuala Lumpur","Langkawi","Shah Alam","Petaling Jaya","Kuching","Miri","Johor Bahru","Melaka","Ipoh"]},
+          "text": {"field": "pct", "type": "quantitative", "format": ".0f"},
+          "color": {"condition": {"test": "datum.pct > 38", "value": "white"}, "value": "#0F1B2D"}
         }
       }
     ]
   },
-  "resolve": { "axis": { "y": "shared" } },
-  "spacing": 24,
-  "config": {
-    "background": "transparent",
-    "font": "DM Sans",
-    "view": { "stroke": null },
-    "axis": {
-      "labelFont": "DM Sans", "titleFont": "DM Sans",
-      "labelColor": "#2B2118", "titleColor": "#7A6B58",
-      "labelFontSize": 12, "titleFontSize": 12, "titleFontWeight": 500,
-      "domainColor": "#D9CBB5", "tickColor": "#D9CBB5", "gridColor": "#EFE4D2"
-    },
-    "legend": {
-      "labelFont": "DM Sans", "titleFont": "DM Sans",
-      "labelColor": "#2B2118", "titleColor": "#7A6B58",
-      "labelFontSize": 12, "titleFontSize": 12, "titleFontWeight": 500
-    },
-    "header": { "labelFont": "DM Sans", "titleFont": "DM Sans", "labelColor": "#2B2118", "labelFontSize": 12 }
-  }
+  "resolve": {"axis": {"y": "shared"}},
+  "spacing": 24
 }

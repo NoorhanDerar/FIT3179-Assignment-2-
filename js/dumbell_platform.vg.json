@@ -1,42 +1,34 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Do Google and TripAdvisor agree on each city?",
+  "title": {"text": "Do Google and TripAdvisor agree on each city?"},
   "width": 600,
-  "height": 320,
+  "height": 340,
   "data": {"url": "data/city_by_source.csv"},
   "transform": [
-    {"pivot": "source", "value": "avg_rating", "groupby": ["city"]}
+    {"joinaggregate": [{"op": "min", "field": "n_restaurants", "as": "min_rest"}], "groupby": ["city"]},
+    {"calculate": "datum.min_rest < 20 ? datum.city + ' *' : datum.city", "as": "label"},
+    {"pivot": "source", "value": "avg_rating", "groupby": ["label"]}
   ],
   "layer": [
     {
-      "mark": {"type": "rule", "color": "#999", "strokeWidth": 3},
+      "mark": {"type": "rule", "color": "#B8C2D3", "strokeWidth": 4, "strokeCap": "round"},
       "encoding": {
-        "y": {"field": "city", "type": "nominal", "sort": {"field": "TripAdvisor", "order": "descending"}, "title": null},
-        "x": {
-          "field": "Google",
-          "type": "quantitative",
-          "scale": {"domain": [3.8, 4.8]},
-          "title": "Average star rating",
-          "axis": {"values": [3.8, 4.0, 4.2, 4.4, 4.6, 4.8], "format": ".1f"}
-        },
+        "y": {"field": "label", "type": "nominal", "sort": {"field": "TripAdvisor", "order": "descending"}, "title": null},
+        "x": {"field": "Google", "type": "quantitative", "scale": {"domain": [3.8, 4.8]}, "title": "Average star rating",
+              "axis": {"values": [3.8, 4.0, 4.2, 4.4, 4.6, 4.8], "format": ".1f"}},
         "x2": {"field": "TripAdvisor"}
       }
     },
     {
       "transform": [{"fold": ["Google", "TripAdvisor"], "as": ["platform", "rating"]}],
-      "mark": {"type": "point", "filled": true, "size": 140, "opacity": 1},
+      "mark": {"type": "point", "filled": true, "size": 160, "opacity": 1, "stroke": "white", "strokeWidth": 1.5},
       "encoding": {
-        "y": {"field": "city", "type": "nominal", "sort": {"field": "TripAdvisor", "order": "descending"}},
+        "y": {"field": "label", "type": "nominal", "sort": {"field": "TripAdvisor", "order": "descending"}},
         "x": {"field": "rating", "type": "quantitative"},
-        "color": {
-          "field": "platform",
-          "type": "nominal",
-          "title": "Platform",
-          "scale": {"domain": ["Google", "TripAdvisor"], "range": ["#2F6DB5", "#C2417A"]}
-        },
+        "color": {"field": "platform", "type": "nominal", "title": "Platform",
+                  "scale": {"domain": ["Google", "TripAdvisor"], "range": ["#2563EB", "#D9480F"]}},
         "tooltip": [
-          {"field": "city", "title": "City"},
-          {"field": "platform", "title": "Platform"},
+          {"field": "label", "title": "City"}, {"field": "platform", "title": "Platform"},
           {"field": "rating", "type": "quantitative", "format": ".2f", "title": "Average stars"}
         ]
       }
@@ -46,13 +38,12 @@
         {"calculate": "datum.TripAdvisor - datum.Google", "as": "gap"},
         {"filter": "abs(datum.gap) >= 0.3"}
       ],
-      "mark": {"type": "text", "align": "left", "dx": 12, "fontSize": 12, "fontWeight": 600, "color": "#2B2118"},
+      "mark": {"type": "text", "align": "left", "dx": 12, "fontSize": 12, "fontWeight": 700, "color": "#0F1B2D"},
       "encoding": {
-        "y": {"field": "city", "type": "nominal", "sort": {"field": "TripAdvisor", "order": "descending"}},
+        "y": {"field": "label", "type": "nominal", "sort": {"field": "TripAdvisor", "order": "descending"}},
         "x": {"field": "TripAdvisor", "type": "quantitative"},
         "text": {"field": "gap", "type": "quantitative", "format": "+.2f"}
       }
     }
-  ],
-  "config": {"font": "DM Sans", "view": {"stroke": null}}
+  ]
 }
