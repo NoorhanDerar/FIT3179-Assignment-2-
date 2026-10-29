@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Does the type of food change the rating?",
+    "subtitle": "Average rating of each cuisine compared with that platform's overall average. Restaurants with 30+ reviews; cuisines with 20+ restaurants."
+  },
+  "data": {"url": "data/out/restaurant_summary.csv"},
+  "transform": [
+    {"calculate": "datum.cuisine_guess", "as": "cuisine"},
+    {"filter": "datum.n_reviews >= 30"},
+    {"joinaggregate": [{"op": "mean", "field": "avg_rating", "as": "plat_mean"}], "groupby": ["source"]},
+    {"filter": "isValid(datum.cuisine) && datum.cuisine !== 'Unknown'"},
+    {"aggregate": [
+      {"op": "mean", "field": "avg_rating", "as": "mean_rating"},
+      {"op": "mean", "field": "plat_mean", "as": "plat_mean"},
+      {"op": "count", "as": "n"}
+    ], "groupby": ["cuisine", "source"]},
+    {"filter": "datum.n >= 20"},
+    {"calculate": "datum.mean_rating - datum.plat_mean", "as": "diff"},
+    {"calculate": "0", "as": "zero"}
+  ],
+  "facet": {"column": {"field": "source", "type": "nominal", "title": null, "sort": ["Google", "TripAdvisor"],
+                       "header": {"labelFontSize": 14, "labelFontWeight": 700}}},
+  "resolve": {"scale": {"y": "independent"}},
+  "spec": {
+    "width": 340,
+    "height": 260,
+    "layer": [
+      {"mark": {"type": "rule", "color": "#8A93A8", "strokeDash": [4, 3]},
+       "encoding": {"x": {"datum": 0, "type": "quantitative"}}},
+      {"mark": {"type": "rule", "strokeWidth": 3, "strokeCap": "round"},
+       "encoding": {
+         "y": {"field": "cuisine", "type": "nominal", "title": null},
+         "x": {"field": "zero", "type": "quantitative"},
+         "x2": {"field": "diff"},
+         "color": {"field": "source", "type": "nominal", "legend": null,
+                   "scale": {"domain": ["Google", "TripAdvisor"], "range": ["#2563EB", "#D9480F"]}}}},
+      {"mark": {"type": "circle", "size": 170, "opacity": 1, "stroke": "white", "strokeWidth": 1.5},
+       "encoding": {
+         "y": {"field": "cuisine", "type": "nominal", "title": null, "sort": {"field": "diff", "op": "mean", "order": "descending"}},
+         "x": {"field": "diff", "type": "quantitative", "title": "Stars above or below the platform average",
+               "scale": {"domain": [-0.4, 0.4]}, "axis": {"format": "+.1f"}},
+         "color": {"field": "source", "type": "nominal", "legend": null,
+                   "scale": {"domain": ["Google", "TripAdvisor"], "range": ["#2563EB", "#D9480F"]}},
+         "tooltip": [
+           {"field": "cuisine", "title": "Cuisine"}, {"field": "source", "title": "Platform"},
+           {"field": "mean_rating", "title": "Average rating", "type": "quantitative", "format": ".2f"},
+           {"field": "diff", "title": "Vs platform average", "type": "quantitative", "format": "+.2f"},
+           {"field": "n", "title": "Restaurants", "type": "quantitative"}]}}
+    ]
+  }
+}
