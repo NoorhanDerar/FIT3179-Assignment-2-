@@ -2,10 +2,6 @@
 Shrinks the 75 MB review archive into a few small CSVs for the Vega-Lite site,
 and prints a data-quality report so you can judge if the data is good enough.
 
-Usage (run on your computer, needs pandas):
-    pip install pandas
-    python make_aggregates.py "<path to>/data_cleaned" out
-
 Reads  : GoogleReview_data_cleaned.csv, TripAdvisor_data_cleaned.csv
 Writes : out/city_summary.csv, out/restaurant_summary.csv, out/word_freq.csv
 """
@@ -34,7 +30,7 @@ CITIES = {
     "Shah Alam":     ("Shah Alam",     "Selangor",          3.0738, 101.5183),
 }
 
-# rough keyword guess of cuisine from the restaurant NAME (approximate!)
+# rough keyword guess of cuisine from the restaurant NAME (approximate)
 CUISINE_KEYWORDS = {
     "Japanese": ["sushi", "ramen", "izakaya", "japan", "tokyo", "teppanyaki", "udon", "sashimi", "omakase"],
     "Korean": ["korea", "kbbq", "seoul", "kimchi", "bibimbap", "k-pot"],
