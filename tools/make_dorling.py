@@ -1,8 +1,6 @@
 """Make circle positions for a Dorling cartogram of Malaysian states.
 Circle area is proportional to population; circles start at each state's
 centre and are pushed apart until they stop overlapping.
-Usage (repo root):
-  python tools/make_dorling.py <geoBoundaries ADM1 geojson> <state_context.csv>
 Output: data/out/state_dorling.csv
 """
 import sys, json, math
