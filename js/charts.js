@@ -44,7 +44,7 @@ var embedOptions = {
 };
 
 var charts = [
-    ["#restaurant_map", "js/restaurant_map.vl.json"],
+    ["#restaurant_map", "js/proportional_symbol_restaurant_map.vl.json"],
     ["#map-dorling", "js/dorling_states.json"],
     ["#waffle", "js/waffle_reviews.vl.json"],
     ["#heatmap", "js/heatmap_city_stars.vg.json"],

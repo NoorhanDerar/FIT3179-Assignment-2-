@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Restaurant reviews across Malaysian cities",
+  "vconcat": [
+    {
+      "title": {"text": "Google", "color": "#2563EB"},
+      "width": 700, "height": 200,
+      "projection": {"type": "equalEarth"},
+      "layer": [
+        {"data": {"url": "js/geoBoundaries-MYS-ADM1_simplified.json", "format": {"type": "topojson", "feature": "geoBoundaries-MYS-ADM1_simplified"}},
+         "mark": {"type": "geoshape", "fill": "#E3E8F0", "stroke": "white"}},
+        {"data": {"url": "data/out/city_summary.csv"},
+         "transform": [{"filter": "datum.source === 'Google'"}],
+         "mark": {"type": "circle", "opacity": 0.9, "stroke": "white", "strokeWidth": 1.5},
+         "encoding": {
+           "longitude": {"field": "lon", "type": "quantitative"},
+           "latitude": {"field": "lat", "type": "quantitative"},
+           "size": {"field": "n_reviews", "type": "quantitative", "title": "Number of reviews", "scale": {"range": [30, 1200]}},
+           "color": {"field": "pct_5star", "type": "quantitative", "title": "Five-star reviews (%)", "scale": {"domain": [35, 75], "range": ["#E6F4F1", "#5FB8AD", "#0B6E69"]}},
+           "tooltip": [{"field": "city", "title": "City"}, {"field": "n_reviews", "title": "Reviews", "format": ","}, {"field": "pct_5star", "title": "5-star (%)", "format": ".1f"}]
+         }}
+      ]
+    },
+    {
+      "title": {"text": "TripAdvisor", "color": "#D9480F"},
+      "width": 700, "height": 200,
+      "projection": {"type": "equalEarth"},
+      "layer": [
+        {"data": {"url": "js/geoBoundaries-MYS-ADM1_simplified.json", "format": {"type": "topojson", "feature": "geoBoundaries-MYS-ADM1_simplified"}},
+         "mark": {"type": "geoshape", "fill": "#E3E8F0", "stroke": "white"}},
+        {"data": {"url": "data/out/city_summary.csv"},
+         "transform": [{"filter": "datum.source === 'TripAdvisor'"}],
+         "mark": {"type": "circle", "opacity": 0.9, "stroke": "white", "strokeWidth": 1.5},
+         "encoding": {
+           "longitude": {"field": "lon", "type": "quantitative"},
+           "latitude": {"field": "lat", "type": "quantitative"},
+           "size": {"field": "n_reviews", "type": "quantitative", "title": "Number of reviews", "scale": {"range": [30, 1200]}},
+           "color": {"field": "pct_5star", "type": "quantitative", "title": "Five-star reviews (%)", "scale": {"domain": [35, 75], "range": ["#E6F4F1", "#5FB8AD", "#0B6E69"]}},
+           "tooltip": [{"field": "city", "title": "City"}, {"field": "n_reviews", "title": "Reviews", "format": ","}, {"field": "pct_5star", "title": "5-star (%)", "format": ".1f"}]
+         }}
+      ]
+    }
+  ],
+  "resolve": {"scale": {"size": "shared", "color": "shared"}},
+  "spacing": 8
+}
