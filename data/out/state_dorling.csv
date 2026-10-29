@@ -1,0 +1,17 @@
+state_geo,state_dosm,population_2026_thousands,income_median_2024,has_reviews,x,y,r,label,label_pos,label_x,label_y,label_color
+Selangor,Selangor,7454.2,10726.0,Yes,98.8,249.8,44.0,Selangor,inside,98.8,249.8,white
+Johor,Johor,4224.3,7712.0,Yes,238.9,304.1,33.1,Johor,inside,238.9,304.1,white
+Kuala Lumpur,W.P. Kuala Lumpur,2082.3,10802.0,Yes,161.8,224.7,23.3,KL,inside,161.8,224.7,white
+Malacca,Melaka,1057.4,6891.0,Yes,179.8,300.6,16.6,Melaka,inside,179.8,300.6,#2B2118
+Negeri Sembilan,Negeri Sembilan,1248.5,5591.0,No,177.8,264.3,18.0,N. Sembilan,right,199.8,264.3,#2B2118
+Sabah,Sabah,3767.0,4890.0,No,504.6,122.7,31.3,Sabah,inside,504.6,122.7,#2B2118
+Sarawak,Sarawak,2539.8,5504.0,Yes,293.9,274.6,25.7,Sarawak,inside,293.9,274.6,#2B2118
+Kelantan,Kelantan,1925.3,4083.0,No,164.0,126.2,22.4,Kelantan,inside,164.0,126.2,#2B2118
+Putrajaya,W.P. Putrajaya,121.4,10769.0,No,149.2,256.1,5.6,Putrajaya,below,141.2,292.1,#2B2118
+Terengganu,Terengganu,1260.9,6627.0,No,214.6,145.3,18.1,Terengganu,above,214.6,120.2,#2B2118
+Pahang,Pahang,1686.2,4975.0,No,204.2,206.0,20.9,Pahang,inside,204.2,206.0,#2B2118
+Kedah,Kedah,2237.4,4895.0,Yes,89.4,84.0,24.1,Kedah,inside,89.4,84.0,#2B2118
+Perlis,Perlis,297.3,4950.0,No,65.4,58.8,8.8,Perlis,above,65.4,43.0,#2B2118
+Perak,Perak,2577.9,4687.0,Yes,113.6,154.5,25.9,Perak,inside,113.6,154.5,#2B2118
+Penang,Pulau Pinang,1808.3,7386.0,Yes,71.7,128.1,21.7,Penang,inside,71.7,128.1,white
+Labuan,W.P. Labuan,101.1,7383.0,No,399.7,125.0,5.1,Labuan,above,399.7,112.9,#2B2118
