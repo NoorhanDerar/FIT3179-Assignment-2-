@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "Langkawi and Penang stay near the top; Melaka stays near the bottom"},
+  "width": 520,
+  "height": 380,
+  "padding": {"left": 90, "right": 110, "top": 10, "bottom": 10},
+  "data": {"url": "data/city_year_rank.csv"},
+  "transform": [
+    {"calculate": "indexof(['Langkawi','Penang','KL','Petaling Jaya'], datum.Location) >= 0 ? datum.Location : 'Other'", "as": "hl"}
+  ],
+  "encoding": {
+    "x": {"field": "year", "type": "ordinal", "title": null, "axis": {"labelAngle": 0, "grid": false}},
+    "y": {"field": "rank", "type": "quantitative", "title": "Rank (1 = highest average rating)",
+          "scale": {"reverse": true, "domain": [0.5, 10.5]},
+          "axis": {"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "grid": false}},
+    "color": {"field": "hl", "type": "nominal", "legend": null,
+              "scale": {"domain": ["Langkawi", "Penang", "KL", "Petaling Jaya", "Other"],
+                        "range": ["#0F1B2D", "#0F8B80", "#7C5CD6", "#F2A900", "#CBD3E1"]}}
+  },
+  "layer": [
+    {"mark": {"type": "line", "strokeWidth": 3, "interpolate": "linear", "strokeCap": "round"}, "encoding": {"detail": {"field": "Location"}}},
+    {"mark": {"type": "circle", "size": 100, "opacity": 1, "stroke": "white", "strokeWidth": 1.5},
+     "encoding": {"tooltip": [
+       {"field": "Location", "title": "City"}, {"field": "year", "title": "Year"},
+       {"field": "rank", "title": "Rank"}, {"field": "avg_rating", "title": "Average rating", "format": ".2f"},
+       {"field": "n_reviews", "title": "Reviews", "format": ","}]}},
+    {"transform": [{"filter": "datum.year === 2015"}],
+     "mark": {"type": "text", "align": "right", "dx": -10, "fontSize": 11, "color": "#45526A"},
+     "encoding": {"text": {"field": "Location"}}},
+    {"transform": [{"filter": "datum.year === 2020"}],
+     "mark": {"type": "text", "align": "left", "dx": 10, "fontSize": 11, "color": "#45526A"},
+     "encoding": {"text": {"field": "Location"}}}
+  ]
+}
